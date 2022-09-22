@@ -13,7 +13,7 @@
                     "showTitle": true,
                     "titleText": "",
                     "labelColor": { "solid": { "color": "#7f35b2" } },
-                    "fontFamily": "Courier New",
+                    "fontFamily": "Graphik, Arial",
                     "fontSize": 10
                 }],
                 "categoryAxis": [{
@@ -21,7 +21,7 @@
                     "position": "Right",
                     "labelColor": { "solid": { "color": "#7f35b2" } },
                     "fontSize": 14,
-                    "fontFamily": "Courier New",
+                    "fontFamily": "Graphik, Arial",
                     "preferredCategoryWidth": 30,
                     "maxMarginFactor": 28,
                     "innerPadding": 22,
@@ -31,7 +31,7 @@
                     "titleColor": { "solid": { "color": "#7f35b2" } },
                     "titleText": "asdf",
                     "titleFontSize": 12,
-                    "titleFontFamily": "Segoe UI"
+                    "titleFontFamily": "Graphik, Arial"
                 }],
                 "valueAxis": [{
                     "show": true,
@@ -41,7 +41,7 @@
                     "end": 10,
                     "labelColor": { "solid": { "color": "#7f35b2" } },
                     "fontSize": 14,
-                    "fontFamily": "Courier New",
+                    "fontFamily": "Graphik, Arial",
                     "labelDisplayUnits": "0",
                     "labelPrecision": "Auto",
                     "showAxisTitle": true,
@@ -49,7 +49,7 @@
                     "color": { "solid": { "color": "7f35b2" } },
                     "titleText": "asdf",
                     "titleFontSize": 12,
-                    "titleFontFamily": "Courier New",
+                    "titleFontFamily": "Graphik, Arial",
                     "gridlineShow": true,
                     "gridlineColor": { "solid": { "color": "#7f35b2" } },
                     "gridlineThickness": 2,
@@ -65,7 +65,7 @@
                     "labelPrecision": 1,
                     "labelPosition": "OutsideEnd",
                     "fontSize": 11,
-                    "fontFamily": "Courier New",
+                    "fontFamily": "Graphik, Arial",
                     "enableBackground": true,
                     "backgroundColor": { "solid": { "color": "#0928DD" } },
                     "backgroundTransparency": 30
