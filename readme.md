@@ -1,4 +1,8 @@
-estimate for Mike
+# Public Repo
+
+https://github.com/Artchibald/WTW-Microsoft-Power-BI-templates
+
+# Notes first call
 
 style content for branding
 
@@ -46,6 +50,7 @@ no hard deadline
 
 deliverable is a json file that they pull into Power BI
 
+# Estimate for Mike
 
 Power BI theme estimate.
 
