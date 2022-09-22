@@ -56,18 +56,18 @@
                     "gridlineStyle": "dashed"
                 }],
                 "dataPoint": [{
-                    "defaultColor": { "solid": { "color": "#448822" } }
+                    "defaultColor": { "solid": { "color": "#7f35b2" } }
                 }],
                 "labels": [{
                     "show": true,
-                    "color": { "solid": { "color": "#EEEEEE" } },
+                    "color": { "solid": { "color": "#7f35b2" } },
                     "labelDisplayUnits": "0",
                     "labelPrecision": 1,
                     "labelPosition": "OutsideEnd",
                     "fontSize": 11,
                     "fontFamily": "Graphik, Arial",
                     "enableBackground": true,
-                    "backgroundColor": { "solid": { "color": "#0928DD" } },
+                    "backgroundColor": { "solid": { "color": "#7f35b2" } },
                     "backgroundTransparency": 30
                 }],
                 "plotArea": [{
