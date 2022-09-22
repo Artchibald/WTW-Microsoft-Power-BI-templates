@@ -18,29 +18,6 @@
     "good": "#007d61",
     "neutral": "#ffb92a",
     "bad": "#b1232d",
-    "textClasses": {
-        "___COMMENT": "All text stuff",
-        "callout": {
-            "fontSize": 45,
-            "fontFace": "Graphik, Arial",
-            "color": "#252423"
-        },
-        "title": {
-            "fontSize": 18,
-            "fontFace": "Graphik, Arial",
-            "color": "#252423"
-        },
-        "header": {
-            "fontSize": 12,
-            "fontFace": "Graphik, Arial",
-            "color": "#252423"
-        },
-        "label": {
-            "fontSize": 10,
-            "fontFace": "Graphik, Arial",
-            "color": "#252423"
-        }
-    },
     "visualStyles": {
         "*": {
             "*": {
