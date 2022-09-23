@@ -2,6 +2,12 @@
 
 https://github.com/Artchibald/WTW-Microsoft-Power-BI-templates
 
+# Points for first call
+
+Power Bi doesn't support strokes in visuals
+
+
+
 # Notes first call
 
 style content for branding
