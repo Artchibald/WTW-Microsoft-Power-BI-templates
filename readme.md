@@ -10,23 +10,39 @@ https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
 
 https://wtwbrandcentral.com/content/charts-and-graphs
 
+# Brand guidelines for Power BI
+
+https://ux.wtwco.com
+
 # Points for first call
+
+
+USE SEGOE UI
+
+see onyx separate branding uxco website
+
 
 Power Bi doesn't support strokes in visuals
 
 Power Bi doesn't support custom padding/margin
 
+Do we have templates to work from
+
+
+
 # Cool options:
 
 Background image creation?
 
-HELP Foreground image creation
+HELP Foreground image creation - send examples
 
 Tooltips
  
 Drill through maybe
 
 add buttons
+
+
 
 # Notes first call
 
@@ -293,3 +309,7 @@ _Contribution list made with [contrib.rocks](https://contrib.rocks)._
 [Microsoft's official themes gallery]: https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery
 [mattrudy/PowerBIThemeSolutions]: https://github.com/MattRudy/PowerBIThemeSolutions
 [JSON Generator from PowerBI.Tips]: https://themes.powerbi.tips/properties
+
+
+
+
