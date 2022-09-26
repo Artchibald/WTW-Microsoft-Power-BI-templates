@@ -33,23 +33,23 @@
     "null": "#f6517f",
     "textClasses": {
         "callout": {
-            "fontSize": 45,
-            "fontFace": "Graphik, Arial",
+            "fontSize": 45, 
+            "fontFace": "Arial",
             "color": "#000000"
         },
         "title": {
             "fontSize": 24,
-            "fontFace": "Graphik, Arial",
+            "fontFace": "Arial",
             "color": "#000000"
         },
         "header": {
             "fontSize": 12,
-            "fontFace": "Graphik, Arial",
+            "fontFace": "Arial", 
             "color": "#000000"
         },
         "label": {
             "fontSize": 10,
-            "fontFace": "Graphik, Arial",
+            "fontFace": "Arial",
             "color": "#000000" 
         }
     },
@@ -107,6 +107,7 @@
                 ]
             }
         },
+        
         "card": {
             "*": {
                 "labels": [
@@ -145,52 +146,6 @@
                 ]
             }
         },
-		"donutChart": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"background": [{
-					"show": true,
-					"color": { "solid": { "color": "#FFFFFF"}},
-					"transparency": 0
-				}],
-				"border": [{
-					"color": { "solid": { "color": "#808080"}},
-					"show": true,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"fontColor": { "solid": { "color": "#000000" } },
-					"background": { "solid": { "color": "#FFFFFF" } },
-					"alignment": "center"
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "",
-					"labelColor": { "solid": { "color": "#000000"}},
-					"fontFamily": "Segoe UI",
-					"fontSize": 12
-				}],
-				"labels": [{
-					"show": true,
-					"labelStyle": "Data",
-					"color": { "solid": { "color": "#000000"}},
-					"labelDisplayUnits": "0",
-					"labelPrecision": 0,
-					"fontSize": 10,
-					"fontFamily": "Verdana",
-					"position": "inside"
-				}],
-				"slices": [{
-					"innerRadiusRatio": 90
-				}]
-			}
-		},
         "pieChart": {
             "*": {
                 "legend": [

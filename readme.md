@@ -2,11 +2,31 @@
 
 https://github.com/Artchibald/WTW-Microsoft-Power-BI-templates
 
+# Power bi docs
+
+https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
+
+# WTW brand identity
+
+https://wtwbrandcentral.com/content/charts-and-graphs
+
 # Points for first call
 
 Power Bi doesn't support strokes in visuals
 
+Power Bi doesn't support custom padding/margin
 
+# Cool options:
+
+Background image creation?
+
+HELP Foreground image creation
+
+Tooltips
+ 
+Drill through maybe
+
+add buttons
 
 # Notes first call
 
@@ -139,6 +159,14 @@ Adding 25% more time only to the estimate for blockers as this is quite a straig
 Initial development estimate:
 
 14 to 18 working days for full project completion.
+
+# Timescale breakdown
+
+Hardware compatibility issues, 1/2 day no charge
+
+Day 1 : Set up repo, research, experiment with Power Bi, tutorials and docs on theming
+
+Day 2: Strategy in place, more experimmentation, created a global theme json file and 2 modules.
 
 # Power BI Theme Templates
 [![Validate JSONs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml/badge.svg?branch=master)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml)

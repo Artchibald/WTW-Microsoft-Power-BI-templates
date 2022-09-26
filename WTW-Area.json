@@ -1,0 +1,97 @@
+{
+	"name": "WTWAreaTemplate",
+    "dataColors": [
+        "#48086f",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
+	"visualStyles": {
+		"areaChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW template information goes in here",
+					"labelColor": { "solid": { "color": "#000000"}},
+					"fontFamily": "Arial",
+					"fontSize": 21,
+					"legendMarkerRendering": "markerOnly",
+					"matchLineColor": false
+				}],
+				"categoryAxis": [{
+					"show": true,
+					"axisType": "categorical",
+					"labelColor": { "solid": { "color": "#000000"}},
+					"fontSize": 21,
+					"fontFamily": "Arial",
+					"concatenateLabels": false,
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleColor": { "solid": { "color": "#000000"}},
+					"titleText": "WTW template information goes in here",
+					"titleFontSize": 21,
+					"titleFontFamily": "Arial"
+				}],
+				"valueAxis": [{
+					"show": true,
+					"position": "Right",
+					"axisScale": "Linear",
+					"labelColor": { "solid": { "color": "#000000"}},
+					"fontSize": 21,
+					"fontFamily": "Arial",
+					"labelPrecision": "Auto",
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"color": { "solid": { "color": "000000"}},
+					"titleText": "WTW template information goes in here",
+					"titleFontSize": 21,
+					"titleFontFamily": "Arial",
+					"gridlineColor": { "solid": { "color": "#000000"}},
+					"gridlineThickness": 2,
+					"gridlineStyle": "solid"
+				}],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#000000"}},
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1,
+					"fontSize": 11,
+					"fontFamily": "Arial",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#ffffff"}},
+					"backgroundTransparency": 100
+				}],	
+				"lineStyles": [{  
+					"strokeWidth": 2,
+					"strokeLineJoin": "bevel",
+					"lineStyle": "solid",
+					"showMarker": true,
+					"markerShape": "circle",
+					"markerSize": 5,
+					"markerColor": { "solid": { "color": "#48086f"}}
+				}], 
+				"plotArea": [{
+					"transparency": 100 
+				}]
+			}
+		}
+	}
+}
