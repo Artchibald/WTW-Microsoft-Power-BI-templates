@@ -409,6 +409,118 @@
 				  }]
 			}
 		},
+        "clusteredBarChart": {
+            "*": {
+                "general": [{
+                    "responsive": true,
+                    "keepLayerOrder": true
+                }],
+                "legend": [{
+                    "show": true,
+                    "position": "Top",
+                    "showTitle": true,
+                    "titleText": "WTW Clustered Bar chart legend goes here"
+                }],
+                "categoryAxis": [{
+                    "show": true,
+                    "position": "Right",
+                    "concatenateLabels": false,
+                    "showAxisTitle": true,
+                    "axisStyle": "showTitleOnly",
+                    "titleText": "WTW Clustered Bar chart category Axis info goes here"
+                }],
+                "valueAxis": [{
+                    "show": true,
+                    "position": "Right",
+                    "showAxisTitle": true,
+                    "axisStyle": "showTitleOnly",
+                    "titleText": "WTW Clustered Bar chart value axis info goes here"
+ 
+                }]
+            }
+        },
+        "clusteredColumnChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW Clustered Column Chart Category Axis"
+				}],
+				"categoryAxis": [{
+					"show": true,
+					"concatenateLabels": true,
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "WTW Clustered Column Chart Category Axis"
+				}],
+				"valueAxis": [{
+					"show": true,
+					"position": "Right",
+					"axisScale": "Linear",
+					"labelDisplayUnits": "0",
+					"labelPrecision": "Auto",
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "WTW Clustered Column Chart Value Axis",
+					"gridlineShow": true,
+					"gridlineThickness": 2,
+					"gridlineStyle": "solid"
+				}],
+				"dataPoint": [{
+				}],
+				"labels": [{
+					"show": false,
+					"labelDisplayUnits": "0",
+					"labelOrientation": "vertical",
+					"labelPosition": "OutsideEnd",
+					"enableBackground": false,
+					"backgroundTransparency": 0
+				}],		
+				"plotArea": [{
+					"transparency": 0
+				}]
+			}
+		},
+        "decompositionTreeVisual": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"transparency": 0
+				}],
+				"border": [{
+					"show": true,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"alignment": "center"
+				}],
+				"analysis": [{
+					"aiEnabled": true,
+					"aiMode": "relative"
+				}],
+				"tree": [{
+					"connectorType": "round",
+					"density": "sparse"
+				}],
+				"dataBars": [{
+					"dataBarScalingType": "parentNode"
+				}],
+				"dataLabels": [{
+					"dataLabelDisplayUnits": "0"
+				}]
+			
+			}
+		},
         "page": {
             "*": {
                 "background": [

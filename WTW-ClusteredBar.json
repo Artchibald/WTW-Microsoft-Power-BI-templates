@@ -1,7 +1,7 @@
 {
     "name": "ClusteredBarTemplate",
-	"dataColors": [
-        "#48086f",
+    "dataColors": [
+        "#d124b8",
         "#c900ac",
         "#f6517f",
         "#ff8204",
@@ -18,7 +18,7 @@
     "good": "#007d61",
     "neutral": "#ffb92a",
     "bad": "#b1232d",
-	"visualStyles": {
+    "visualStyles": {
         "clusteredBarChart": {
             "*": {
                 "general": [{
