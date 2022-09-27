@@ -14,6 +14,20 @@ https://wtwbrandcentral.com/content/charts-and-graphs
 
 https://ux.wtwco.com
 
+# About amending this repo
+
+Tricky Tricky Tricky! Power Bi desktop only works on Windows.
+
+To amend a theme file:
+
+Look at the module or global theme file with all options included. The ones without the WTW prefix.
+
+Compare that to the WTW prefixed equivalent. 
+
+Once you are happy with your amends on the individual WTW prefixed module (we don't want to edit the originals that don't have prefixes), you should copy the module across from the individual json file into the correct position in WTW-theme.json and test it in Power Bi.
+
+It is a little fiddly but not too complex!
+
 
 # To do
  
