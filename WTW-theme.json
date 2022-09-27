@@ -779,6 +779,154 @@
             }
         },
         "gauge": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true
+                    }
+                ],
+                "target": [
+                    {
+                        "show": false
+                    }
+                ],
+                "calloutValue": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "hundredPercentStackedBarChart": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW 100% Stacked Bar Chart Legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW 100% Stacked Bar Chart Legend"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW 100% Stacked Bar Chart Value Axis",
+                        "gridlineShow": true,
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "dataPoint": [
+                    {}
+                ],
+                "labels": [
+                    {
+                        "show": false,
+                        "labelOrientation": "vertical",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": false,
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "plotArea": [
+                    {
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "hundredPercentStackedColumnChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "Hundred percent stacked column legend"
+					}],
+				"categoryAxis": [{
+					"show": true,
+					"position": "Right",
+					"concatenateLabels": true,
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "Hundred percent stacked column category axis"
+					}],
+				"valueAxis": [{
+					"show": true,
+					"position": "Right",
+					"axisScale": "Linear",
+					"labelPrecision": "Auto",
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "Hundred percent stacked column value axis",
+					"gridlineShow": true,
+					"gridlineThickness": 2,
+					"gridlineStyle": "solid"
+				}],
+				"dataPoint": [{
+				}],
+				"labels": [{
+					"show": true,
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1,
+					"labelOrientation": "vertical",
+					"labelPosition": "OutsideEnd",
+					"enableBackground": false,
+					"backgroundTransparency": 0
+				}],		
+				"plotArea": [{
+					"transparency": 0
+				}]
+			}
+		},
+        "image": {
 			"*": {
 				"general": [{
 					"responsive": true,
@@ -796,21 +944,9 @@
 					"show": true,
 					"alignment": "left"
 				}],
-				"labels": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1
-				}],	
-				"target": [{
-					"show": false,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1
-				}],
-				"calloutValue": [{
-					"show": false,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1
-				}]					
+				"imageScaling": [{
+					"imageScalingType": "Normal"
+				}]
 			}
 		},
         "page": {

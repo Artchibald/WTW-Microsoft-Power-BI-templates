@@ -1,0 +1,28 @@
+{
+	"name": "ImageTemplate",
+	"visualStyles": {
+		"image": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"transparency": 0
+				}],
+				"border": [{
+					"show": false,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"alignment": "left"
+				}],
+				"imageScaling": [{
+					"imageScalingType": "Normal"
+				}]
+			}
+		}
+	}
+}
