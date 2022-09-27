@@ -1,0 +1,62 @@
+{
+	"name": "FilledMapTemplate",
+    "dataColors": [
+        "#d124b8",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
+	"visualStyles": {
+		"filledMap": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"transparency": 0
+				}],
+				"border": [{
+					"show": true,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"alignment": "center"
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW Filled Map legend"
+				}],
+				"dataPoint": [{
+					"showAllDataPoints": true
+					
+				}],
+				"mapControls": [{
+					"autoZoom": true,
+					"zoomLevel": 4,
+					"centerLatitude": 43,
+					"centerLongitude": -83
+				}],
+				"mapStyles": [{
+					"mapTheme": "road"
+				}]
+			}
+		}
+	}
+}

@@ -497,7 +497,7 @@
 					"transparency": 0
 				}],
 				"border": [{
-					"show": true,
+					"show": false,
 					"radius": 0
 				}],
 				"title": [{
@@ -519,6 +519,102 @@
 					"dataLabelDisplayUnits": "0"
 				}]
 			
+			}
+		},
+        "donutChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"transparency": 0
+				}],
+				"border": [{
+					"show": false,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"alignment": "left"
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW Donut Chart legend"
+				}],
+				"labels": [{
+					"show": true,
+					"labelStyle": "Data",
+					"position": "inside"
+				}]
+			}
+		},
+        "esriVisual": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"transparency": 0
+				}],
+				"border": [{
+					"show": false,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"alignment": "center"
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW esri Visual Legend"
+				}]
+            }
+        },
+        "filledMap": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"transparency": 0
+				}],
+				"border": [{
+					"show": true,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"alignment": "center"
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW Filled Map legend"
+				}],
+				"dataPoint": [{
+					"showAllDataPoints": true
+					
+				}],
+				"mapControls": [{
+					"autoZoom": true,
+					"zoomLevel": 4,
+					"centerLatitude": 43,
+					"centerLongitude": -83
+				}],
+				"mapStyles": [{
+					"mapTheme": "road"
+				}]
 			}
 		},
         "page": {
