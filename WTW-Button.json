@@ -1,0 +1,220 @@
+{
+    "name": "ButtonTemplate",
+    "dataColors": [
+        "#d124b8",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
+    "visualStyles": {
+        "visualStyles": {
+            "actionButton": {
+                "*": {
+                    "general": [
+                        {
+                            "responsive": true,
+                            "keepLayerOrder": true
+                        }
+                    ],
+                    "background": [
+                        {
+                            "show": true,
+                            "color": {
+                                "solid": {
+                                    "color": "#d124b8"
+                                }
+                            },
+                            "transparency": 0
+                        }
+                    ],
+                    "border": [
+                        {
+                            "color": {
+                                "solid": {
+                                    "color": "#d124b8"
+                                }
+                            },
+                            "show": true,
+                            "radius": 30
+                        }
+                    ],
+                    "title": [
+                        {
+                            "fontSize": 21,
+                            "weight": 30,
+                            "show": true,
+                            "fontColor": {
+                                "solid": {
+                                    "color": "#FFFFFF"
+                                }
+                            },
+                            "background": {
+                                "solid": {
+                                    "color": "#d124b8"
+                                }
+                            },
+                            "alignment": "center"
+                        }
+                    ],
+                    "visualHeader": [
+                        {
+                            "show": false
+                        }
+                    ],
+                    "outline": [
+                        {
+                            "show": false
+                        },
+                        {
+                            "$id": "default",
+                            "weight": 5
+                        },
+                        {
+                            "$id": "hover",
+                            "weight": 5
+                        },
+                        {
+                            "$id": "selected",
+                            "weight": 5
+                        },
+                        {
+                            "$id": "disabled",
+                            "weight": 5
+                        }
+                    ],
+                    "fill": [
+                        {
+                            "show": true
+                        },
+                        {
+                            "$id": "default",
+                            "transparency": 0,
+                            "fillColor": {
+                                "solid": {
+                                    "color": "#d124b8"
+                                }
+                            }
+                        },
+                        {
+                            "$id": "hover",
+                            "transparency": 0,
+                            "fillColor": {
+                                "solid": {
+                                    "color": "#bc20a6"
+                                }
+                            }
+                        },
+                        {
+                            "$id": "selected",
+                            "transparency": 0,
+                            "fillColor": {
+                                "solid": {
+                                    "color": "#d124b8"
+                                }
+                            }
+                        },
+                        {
+                            "$id": "disabled",
+                            "transparency": 0,
+                            "fillColor": {
+                                "solid": {
+                                    "color": "#A71D93"
+                                }
+                            }
+                        }
+                    ],
+                    "icon": [
+                        {
+                            "show": false
+                        },
+                        {
+                            "$id": "default",
+                            "lineColor": {
+                                "solid": {
+                                    "color": "#d124b8"
+                                }
+                            }
+                        },
+                        {
+                            "$id": "hover",
+                            "lineColor": {
+                                "solid": {
+                                    "color": "#bc20a6"
+                                }
+                            }
+                        },
+                        {
+                            "$id": "selected",
+                            "lineColor": {
+                                "solid": {
+                                    "color": "#d124b8"
+                                }
+                            }
+                        },
+                        {
+                            "$id": "disabled",
+                            "lineColor": {
+                                "solid": {
+                                    "color": "#A71D93"
+                                }
+                            }
+                        }
+                    ],
+                    "text": [
+                        {
+                            "show": true
+                        },
+                        {
+                            "$id": "default",
+                            "fontColor": {
+                                "solid": {
+                                    "color": "#d124b8"
+                                }
+                            },
+                            "horizontalAlignment": "center"
+                        },
+                        {
+                            "$id": "hover",
+                            "fontColor": {
+                                "solid": {
+                                    "color": "#bc20a6"
+                                }
+                            },
+                            "horizontalAlignment": "center"
+                        },
+                        {
+                            "$id": "selected",
+                            "fontColor": {
+                                "solid": {
+                                    "color": "#d124b8"
+                                }
+                            },
+                            "horizontalAlignment": "center"
+                        },
+                        {
+                            "$id": "disabled",
+                            "fontColor": {
+                                "solid": {
+                                    "color": "#A71D93"
+                                }
+                            },
+                            "horizontalAlignment": "center"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -29,46 +29,45 @@
 					"show": true,
 					"position": "Top",
 					"showTitle": true,
-					"titleText": "WTW area chart legend template information goes in here",
+					"titleText": "WTW legend",
 					"legendMarkerRendering": "markerOnly",
 					"matchLineColor": false
 				}],
 				"categoryAxis": [{
 					"show": true,
 					"axisType": "categorical",
-					"concatenateLabels": false,
+					"concatenateLabels": true,
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
-					"titleText": "WTW area chart category Axis template information goes in here",
+					"titleText": "WTW Cat Ax"
 				}],
 				"valueAxis": [{
 					"show": true,
 					"position": "Right",
 					"axisScale": "Linear",
+					"labelDisplayUnits": "0",
 					"labelPrecision": "Auto",
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
-					"titleText": "WTW Area Chart Value axis template information goes in here",
+					"titleText": "WTW Val Ax",
+					"gridlineShow": true,
 					"gridlineThickness": 2,
 					"gridlineStyle": "solid"
 				}],
+				"dataPoint": [{
+				}],
 				"labels": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1,
-					"enableBackground": true,
-					"backgroundTransparency": 0
+					"show": true
 				}],	
-				"lineStyles": [{  
-					"strokeWidth": 2,
+				"lineStyles": [{
+					"strokeWidth": 4,
 					"strokeLineJoin": "bevel",
 					"lineStyle": "solid",
 					"showMarker": true,
-					"markerShape": "circle",
-					"markerSize": 5
-				}], 
+					"markerShape": "square",
+					"markerSize": 10
+				}],
 				"plotArea": [{
-					"transparency": 0
 				}]
 			}
 		}

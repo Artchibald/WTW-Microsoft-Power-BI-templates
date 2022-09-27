@@ -22,10 +22,10 @@
     "fourthLevelElements": "#2f2c31",
     "background": "#FFFFFF",
     "foreground": "#3adcc9",
-    "secondaryBackground": "#e2e2e2",
+    "secondaryBackground": "#e2e2e2", 
     "tableAccent": "#327fef",
     "good": "#007d61",
-    "neutral": "#ffb92a", 
+    "neutral": "#ffb92a",
     "bad": "#b1232d",
     "maximum": "#327fef",
     "center": "#48086f",
@@ -33,7 +33,7 @@
     "null": "#f6517f",
     "textClasses": {
         "callout": {
-            "fontSize": 40, 
+            "fontSize": 40,
             "fontFace": "Segoe UI",
             "color": "#2f2c31"
         },
@@ -44,13 +44,13 @@
         },
         "header": {
             "fontSize": 14,
-            "fontFace": "Segoe UI", 
+            "fontFace": "Segoe UI",
             "color": "#2f2c31"
         },
         "label": {
             "fontSize": 10,
             "fontFace": "Segoe UI",
-            "color": "#2f2c31" 
+            "color": "#2f2c31"
         }
     },
     "visualStyles": {
@@ -107,22 +107,202 @@
                 ]
             }
         },
-        
-        "card": {
+        "actionButton": {
             "*": {
-                "labels": [
+                "general": [
                     {
-                        "fontSize": 27
+                        "responsive": true,
+                        "keepLayerOrder": true
                     }
                 ],
-                "categoryLabels": [
+                "background": [
                     {
-                        "fontSize": 12
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        },
+                        "show": true,
+                        "radius": 30
+                    }
+                ],
+                "title": [
+                    {
+                        "fontSize": 21,
+                        "weight": 30,
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        },
+                        "alignment": "center"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "weight": 5
+                    },
+                    {
+                        "$id": "hover",
+                        "weight": 5
+                    },
+                    {
+                        "$id": "selected",
+                        "weight": 5
+                    },
+                    {
+                        "$id": "disabled",
+                        "weight": 5
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#bc20a6"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "selected",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "disabled",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#A71D93"
+                            }
+                        }
+                    }
+                ],
+                "icon": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#bc20a6"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "selected",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "disabled",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#A71D93"
+                            }
+                        }
+                    }
+                ],
+                "text": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "$id": "hover",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#bc20a6"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "$id": "selected",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "$id": "disabled",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#A71D93"
+                            }
+                        },
+                        "horizontalAlignment": "center"
                     }
                 ]
             }
         },
-        "clusteredBarChart": {
+        "areaChart": {
 			"*": {
 				"general": [{
 					"responsive": true,
@@ -132,29 +312,27 @@
 					"show": true,
 					"position": "Top",
 					"showTitle": true,
-					"titleText": "Comments go here for legend"
+					"titleText": "WTW legend",
+					"legendMarkerRendering": "markerOnly",
+					"matchLineColor": false
 				}],
 				"categoryAxis": [{
 					"show": true,
-					"position": "Right",
-					"preferredCategoryWidth": 30,
-					"maxMarginFactor": 28,
-					"innerPadding": 22,
+					"axisType": "categorical",
 					"concatenateLabels": true,
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
-					"titleText": "Category axis title goes here"
+					"titleText": "WTW Cat Ax"
 				}],
 				"valueAxis": [{
 					"show": true,
 					"position": "Right",
 					"axisScale": "Linear",
-					"start": 0,
-					"end": 10,
 					"labelDisplayUnits": "0",
 					"labelPrecision": "Auto",
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
+					"titleText": "WTW Val Ax",
 					"gridlineShow": true,
 					"gridlineThickness": 2,
 					"gridlineStyle": "solid"
@@ -162,54 +340,20 @@
 				"dataPoint": [{
 				}],
 				"labels": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1,
-					"labelPosition": "OutsideEnd",
-					"enableBackground": true
-				}],		
+					"show": true
+				}],	
+				"lineStyles": [{
+					"strokeWidth": 4,
+					"strokeLineJoin": "bevel",
+					"lineStyle": "solid",
+					"showMarker": true,
+					"markerShape": "square",
+					"markerSize": 10
+				}],
 				"plotArea": [{
 				}]
 			}
 		},
-        "scatterChart": {
-            "*": {
-                "fillPoint": [
-                    {
-                        "show": true
-                    }
-                ]
-            }
-        },
-        "lineChart": {
-            "*": {
-                "legend": [
-                    {
-                        "legendMarkerRendering": "lineAndMarker"
-                    }
-                ],
-                "lineStyles": [
-                    {
-                        "showMarker": true,
-                        "showSeries": true
-                    }
-                ]
-            }
-        },
-        "pieChart": {
-            "*": {
-                "legend": [
-                    {
-                        "show": true
-                    }
-                ],
-                "labels": [
-                    {
-                        "labelStyle": "Percent of total"
-                    }
-                ]
-            }
-        },
         "page": {
             "*": {
                 "background": [
