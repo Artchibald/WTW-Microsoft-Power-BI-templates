@@ -16,10 +16,10 @@
         "#007d61",
         "#b1232d"
     ],
-    "firstLevelElements": "#000000",
-    "secondLevelElements": "#000000",
-    "thirdLevelElements": "#000000",
-    "fourthLevelElements": "#000000",
+    "firstLevelElements": "#2f2c31",
+    "secondLevelElements": "#2f2c31",
+    "thirdLevelElements": "#2f2c31",
+    "fourthLevelElements": "#2f2c31",
     "background": "#FFFFFF",
     "foreground": "#3adcc9",
     "secondaryBackground": "#e2e2e2",
@@ -33,24 +33,24 @@
     "null": "#f6517f",
     "textClasses": {
         "callout": {
-            "fontSize": 45, 
-            "fontFace": "Arial",
-            "color": "#000000"
+            "fontSize": 40, 
+            "fontFace": "Segoe UI",
+            "color": "#2f2c31"
         },
         "title": {
-            "fontSize": 24,
-            "fontFace": "Arial",
-            "color": "#000000"
+            "fontSize": 36,
+            "fontFace": "Segoe UI",
+            "color": "#2f2c31"
         },
         "header": {
-            "fontSize": 12,
-            "fontFace": "Arial", 
-            "color": "#000000"
+            "fontSize": 14,
+            "fontFace": "Segoe UI", 
+            "color": "#2f2c31"
         },
         "label": {
             "fontSize": 10,
-            "fontFace": "Arial",
-            "color": "#000000" 
+            "fontFace": "Segoe UI",
+            "color": "#2f2c31" 
         }
     },
     "visualStyles": {
@@ -122,6 +122,56 @@
                 ]
             }
         },
+        "clusteredBarChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "Comments go here for legend"
+				}],
+				"categoryAxis": [{
+					"show": true,
+					"position": "Right",
+					"preferredCategoryWidth": 30,
+					"maxMarginFactor": 28,
+					"innerPadding": 22,
+					"concatenateLabels": true,
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "Category axis title goes here"
+				}],
+				"valueAxis": [{
+					"show": true,
+					"position": "Right",
+					"axisScale": "Linear",
+					"start": 0,
+					"end": 10,
+					"labelDisplayUnits": "0",
+					"labelPrecision": "Auto",
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"gridlineShow": true,
+					"gridlineThickness": 2,
+					"gridlineStyle": "solid"
+				}],
+				"dataPoint": [{
+				}],
+				"labels": [{
+					"show": true,
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1,
+					"labelPosition": "OutsideEnd",
+					"enableBackground": true
+				}],		
+				"plotArea": [{
+				}]
+			}
+		},
         "scatterChart": {
             "*": {
                 "fillPoint": [

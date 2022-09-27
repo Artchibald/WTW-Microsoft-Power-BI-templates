@@ -29,55 +29,35 @@
 					"show": true,
 					"position": "Top",
 					"showTitle": true,
-					"titleText": "WTW legend template information goes in here",
-					"labelColor": { "solid": { "color": "#000000"}},
-					"fontFamily": "Arial",
-					"fontSize": 21,
+					"titleText": "WTW area chart legend template information goes in here",
 					"legendMarkerRendering": "markerOnly",
 					"matchLineColor": false
 				}],
 				"categoryAxis": [{
 					"show": true,
 					"axisType": "categorical",
-					"labelColor": { "solid": { "color": "#000000"}},
-					"fontSize": 21,
-					"fontFamily": "Arial",
 					"concatenateLabels": false,
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
-					"titleColor": { "solid": { "color": "#000000"}},
-					"titleText": "WTW category Axis template information goes in here",
-					"titleFontSize": 21,
-					"titleFontFamily": "Arial"
+					"titleText": "WTW area chart category Axis template information goes in here",
 				}],
 				"valueAxis": [{
 					"show": true,
 					"position": "Right",
 					"axisScale": "Linear",
-					"labelColor": { "solid": { "color": "#000000"}},
-					"fontSize": 21,
-					"fontFamily": "Arial",
 					"labelPrecision": "Auto",
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
-					"color": { "solid": { "color": "000000"}},
-					"titleText": "WTW Value axis template information goes in here",
-					"titleFontSize": 21,
-					"titleFontFamily": "Arial",
-					"gridlineColor": { "solid": { "color": "#000000"}},
+					"titleText": "WTW Area Chart Value axis template information goes in here",
 					"gridlineThickness": 2,
 					"gridlineStyle": "solid"
 				}],
 				"labels": [{
 					"show": true,
-					"color": { "solid": { "color": "#000000"}},
 					"labelDisplayUnits": "0",
 					"labelPrecision": 1,
-					"fontSize": 11,
-					"fontFamily": "Arial",
 					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#ffffff"}},
-					"backgroundTransparency": 100
+					"backgroundTransparency": 0
 				}],	
 				"lineStyles": [{  
 					"strokeWidth": 2,
@@ -85,11 +65,10 @@
 					"lineStyle": "solid",
 					"showMarker": true,
 					"markerShape": "circle",
-					"markerSize": 5,
-					"markerColor": { "solid": { "color": "#48086f"}}
+					"markerSize": 5
 				}], 
 				"plotArea": [{
-					"transparency": 100 
+					"transparency": 0
 				}]
 			}
 		}

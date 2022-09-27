@@ -14,6 +14,13 @@ https://wtwbrandcentral.com/content/charts-and-graphs
 
 https://ux.wtwco.com
 
+
+# To do
+
+Chris script amend
+
+Mike quote for jquery website https://www.marinepandirev.willistowerswatson.com/2019/club-financial-home.html
+
 # Points for first call
 
 
