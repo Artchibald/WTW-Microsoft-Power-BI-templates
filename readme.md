@@ -28,6 +28,7 @@ Once you are happy with your amends on the individual WTW prefixed module (we do
 
 It is a little fiddly but not too complex!
 
+The end goal: We are trying to replicate every module in one master WTW theme file for brand consistency across all Power Bi usages. 
 
 # To do
  
