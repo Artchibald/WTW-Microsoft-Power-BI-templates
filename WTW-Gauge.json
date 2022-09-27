@@ -1,7 +1,7 @@
 {
-	"name": "WTWAzureMapTemplate",
-	"dataColors": [
-        "#48086f",
+	"name": "GaugeTemplate",
+    "dataColors": [
+        "#d124b8",
         "#c900ac",
         "#f6517f",
         "#ff8204",
@@ -19,30 +19,40 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"azureMap": {
+		"gauge": {
 			"*": {
 				"general": [{
 					"responsive": true,
-					"keepLayerOrder": true 
+					"keepLayerOrder": true
 				}],
 				"background": [{
-					"show": true
+					"show": true,
+					"transparency": 0
 				}],
 				"border": [{
-					"show": true,
+					"show": false,
 					"radius": 0
 				}],
 				"title": [{
 					"show": true,
 					"alignment": "center"
 				}],
-				"legend": [{
+				"labels": [{
 					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW Azure Map info goes here"
-				}]
-            }
-        }
-    }
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1
+				}],	
+				"target": [{
+					"show": true,
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1
+				}],
+				"calloutValue": [{
+					"show": true,
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1
+				}]					
+			}
+		}
+	}
 }
