@@ -16,7 +16,7 @@ https://ux.wtwco.com
 
 
 # To do
-
+ 
 Chris script amend
 
 Mike quote for jquery website https://www.marinepandirev.willistowerswatson.com/2019/club-financial-home.html
@@ -189,7 +189,11 @@ Hardware compatibility issues, 1/2 day no charge
 
 Day 1 : Set up repo, research, experiment with Power Bi, tutorials and docs on theming
 
-Day 2: Strategy in place, more experimmentation, created a global theme json file and 2 modules.
+Day 2: Strategy in place, more experimentation, created a global theme json file and 2 modules.
+
+Day 3: call at 3pm, spent morning trialling different solutions, pushed next stage to Wednesday 28 Sept, rewrote Illustrator Icon Script for Chris Mc Dermott for 2 hours
+
+Day 4: Extensive review of UX, amends from call around typography, extensive trials with JSON and styling throughout the day
 
 # Power BI Theme Templates
 [![Validate JSONs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml/badge.svg?branch=master)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml)

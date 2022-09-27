@@ -1,0 +1,35 @@
+{
+	"name": "CardTemplate",
+	"visualStyles": {
+		"card": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"labels": [{
+					"labelDisplayUnits": "0",
+					"labelPrecision": 0
+				}],
+				"categoryLabels": [{
+					"show": true
+				}],
+				"wordWrap": [{
+					"show": true
+				}],
+				"background": [{
+						"show": true,
+						"transparency": 0
+				}],
+				  "title": [{
+				    "show": true,
+				    "alignment": "left"
+				  }],
+				  "border": [{
+				    "show": true,
+					"radius": 0
+				  }]
+			}
+		}
+	}
+}

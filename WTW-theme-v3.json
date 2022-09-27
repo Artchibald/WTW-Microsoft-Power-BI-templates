@@ -354,6 +354,61 @@
 				}]
 			}
 		},
+        "azureMap": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true 
+				}],
+				"background": [{
+					"show": true
+				}],
+				"border": [{
+					"show": true,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"alignment": "center"
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW Azure Map info goes here"
+				}]
+            }
+        },
+        "card": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"labels": [{
+					"labelDisplayUnits": "0",
+					"labelPrecision": 0
+				}],
+				"categoryLabels": [{
+					"show": true
+				}],
+				"wordWrap": [{
+					"show": true
+				}],
+				"background": [{
+						"show": true,
+						"transparency": 0
+				}],
+				  "title": [{
+				    "show": true,
+				    "alignment": "left"
+				  }],
+				  "border": [{
+				    "show": true,
+					"radius": 0
+				  }]
+			}
+		},
         "page": {
             "*": {
                 "background": [
