@@ -1145,7 +1145,7 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line chart categrory axis"
+                        "titleText": "WTW line chart category axis"
                     }
                 ],
                 "valueAxis": [
