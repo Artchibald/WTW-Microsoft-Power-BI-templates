@@ -1,0 +1,83 @@
+{
+	"name": "LineStackedColumnComboTemplate",
+    "dataColors": [
+        "#d124b8",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
+	"visualStyles": {
+		"lineStackedColumnComboChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW line Stacked column legend"
+				}],
+				"categoryAxis": [{
+					"show": true,
+					"position": "Right",
+					"concatenateLabels": true,
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "WTW line Stacked column category axis"
+				}],
+				"valueAxis": [{
+					"show": true,
+					"position": "Right",
+					"axisScale": "Linear",
+					"labelDisplayUnits": "0",
+					"labelPrecision": "Auto",
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "WTW line Stacked column value axis",
+					"gridlineShow": true,
+					"gridlineStyle": "solid",
+					"secShow": true,
+					"alignZeros": true,
+					"secAxisLabel": "WTW line Stacked column value axis",
+					"secPosition": "Left",
+					"secAxisScale": "Log",
+					"secLabelDisplayUnits": "0",
+					"secLabelPrecision":  2,
+					"secShowAxisTitle": true,
+					"secAxisStyle": "showTitleOnly",
+					"secTitleText": "WTW line Stacked column sec title"
+				}],
+				"labels": [{
+					"show": false,
+					"labelOrientation": "vertical",
+					"labelPosition": "OutsideEnd",
+					"enableBackground": false
+				}],	
+				"lineStyles": [{
+					"shadeArea": true,
+					"strokeWidth": 4,
+					"strokeLineJoin": "bevel",
+					"showMarker": true,
+					"markerShape": "square",
+					"markerSize": 3,
+					"lineStyle" : "solid",
+					"stepped" : true
+				}]
+			}
+		}
+	}
+}
