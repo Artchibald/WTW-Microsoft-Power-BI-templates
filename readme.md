@@ -30,6 +30,36 @@ It is a little fiddly but not too complex!
 
 The end goal: We are trying to replicate every module in one master WTW theme file for brand consistency across all Power Bi usages. 
 
+# Call notes 28 Sept
+
+
+choose inside or out onn labels
+
+Special effects
+
+black text on white inn labels
+
+accessibility is key
+
+see some options available
+
+see microsfot visual impairements settings, to be considered
+
+theyve donne mathematical tests, this  wont pass
+
+export as pdf or screenshot
+
+get specs for bg image
+
+-wtw footer area
+-logo up top option
+
+Think about instructions
+
+sample dashboard ideas? white space?
+
+Make suggestions for usability
+
 # To do
  
 Chris script amend
