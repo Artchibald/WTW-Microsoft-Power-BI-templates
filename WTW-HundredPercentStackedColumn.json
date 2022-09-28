@@ -29,7 +29,7 @@
 					"show": true,
 					"position": "Top",
 					"showTitle": true,
-					"titleText": "Hundred percent stacked column legend"
+					"titleText": "WTW Hundred percent stacked column legend"
 					}],
 				"categoryAxis": [{
 					"show": true,
@@ -37,7 +37,7 @@
 					"concatenateLabels": true,
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
-					"titleText": "Hundred percent stacked column category axis"
+					"titleText": "WTW Hundred percent stacked column category axis"
 					}],
 				"valueAxis": [{
 					"show": true,
@@ -46,7 +46,7 @@
 					"labelPrecision": "Auto",
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
-					"titleText": "Hundred percent stacked column value axis",
+					"titleText": "WTW Hundred percent stacked column value axis",
 					"gridlineShow": true,
 					"gridlineThickness": 2,
 					"gridlineStyle": "solid"
@@ -54,12 +54,14 @@
 				"dataPoint": [{
 				}],
 				"labels": [{
-					"show": false,
+					"show": true,
+					"color": { "solid": { "color": "#2f2c31"}},
 					"labelDisplayUnits": "0",
 					"labelPrecision": 1,
-					"labelOrientation": "vertical",
+					"labelOrientation": "horizontal",
 					"labelPosition": "OutsideEnd",
-					"enableBackground": false,
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
 					"backgroundTransparency": 0
 				}],		
 				"plotArea": [{

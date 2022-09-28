@@ -57,7 +57,11 @@
 				"dataPoint": [{
 				}],
 				"labels": [{
-					"show": true
+					"show": true,
+					"color": { "solid": { "color": "#2f2c31"}},
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
 				}],	
 				"lineStyles": [{
 					"strokeWidth": 4,

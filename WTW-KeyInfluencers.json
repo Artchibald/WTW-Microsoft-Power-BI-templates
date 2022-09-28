@@ -1,5 +1,5 @@
 {
-	"name": "KeyInfluencersTemplate",
+    "name": "KeyInfluencersTemplate",
     "dataColors": [
         "#d124b8",
         "#c900ac",
@@ -18,31 +18,56 @@
     "good": "#007d61",
     "neutral": "#ffb92a",
     "bad": "#b1232d",
-	"visualStyles": {
-		"keyDriversVisual": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"background": [{
-					"show": true,
-					"transparency": 0
-				}],
-				"border": [{
-					"show": false,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "left"
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW key driers visual legend"
-				}]
+    "visualStyles": {
+        "keyDriversVisual": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "alignment": "left"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW Key influencer legend",
+                        "legendColor": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

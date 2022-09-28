@@ -6,7 +6,6 @@
         "#f6517f",
         "#ff8204",
         "#ffb92a",
-        "#3adcc9",
         "#327fef",
         "#808080",
         "#c2a8f0",
@@ -21,7 +20,7 @@
     "thirdLevelElements": "#2f2c31",
     "fourthLevelElements": "#2f2c31",
     "background": "#FFFFFF",
-    "foreground": "#3adcc9",
+    "foreground": "#2f2c31",
     "secondaryBackground": "#FFFFFF",
     "tableAccent": "#327fef",
     "good": "#007d61",
@@ -38,7 +37,7 @@
             "color": "#2f2c31"
         },
         "title": {
-            "fontSize": 36,
+            "fontSize": 18,
             "fontFace": "Segoe UI",
             "color": "#2f2c31"
         },
@@ -348,11 +347,13 @@
                 "dataPoint": [
                     {}
                 ],
-                "labels": [
-                    {
-                        "show": true
-                    }
-                ],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#2f2c31"}},
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}}, 
+					"backgroundTransparency": 0
+				}],	
                 "lineStyles": [
                     {
                         "strokeWidth": 4,
@@ -383,7 +384,7 @@
                 ],
                 "border": [
                     {
-                        "show": true,
+                        "show": false,
                         "radius": 0
                     }
                 ],
@@ -489,7 +490,7 @@
                 ],
                 "border": [
                     {
-                        "show": true,
+                        "show": false,
                         "radius": 0
                     }
                 ]
@@ -575,16 +576,17 @@
                 "dataPoint": [
                     {}
                 ],
-                "labels": [
-                    {
-                        "show": false,
-                        "labelDisplayUnits": "0",
-                        "labelOrientation": "vertical",
-                        "labelPosition": "OutsideEnd",
-                        "enableBackground": false,
-                        "backgroundTransparency": 0
-                    }
-                ],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#2f2c31"}},
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1,
+					"labelOrientation": "horizontal",
+					"labelPosition": "OutsideEnd",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
+				}],		
                 "plotArea": [
                     {
                         "transparency": 0
@@ -680,7 +682,7 @@
                     {
                         "show": true,
                         "labelStyle": "Data",
-                        "position": "inside"
+                        "position": "outside"
                     }
                 ]
             }
@@ -737,7 +739,7 @@
                 ],
                 "border": [
                     {
-                        "show": true,
+                        "show": false,
                         "radius": 0
                     }
                 ],
@@ -816,7 +818,7 @@
                         "show": true,
                         "labelDisplayUnits": "0",
                         "labelPrecision": 1,
-                        "labelPosition": "OutsideEnd"
+                        "labelPosition": "Outside"
                     }
                 ],
                 "percentBarLabel": [
@@ -939,7 +941,7 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "Hundred percent stacked column legend"
+                        "titleText": "WTW Hundred percent stacked column legend"
                     }
                 ],
                 "categoryAxis": [
@@ -949,7 +951,7 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "Hundred percent stacked column category axis"
+                        "titleText": "WTW Hundred percent stacked column category axis"
                     }
                 ],
                 "valueAxis": [
@@ -960,7 +962,7 @@
                         "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "Hundred percent stacked column value axis",
+                        "titleText": "WTW Hundred percent stacked column value axis",
                         "gridlineShow": true,
                         "gridlineThickness": 2,
                         "gridlineStyle": "solid"
@@ -969,17 +971,17 @@
                 "dataPoint": [
                     {}
                 ],
-                "labels": [
-                    {
-                        "show": true,
-                        "labelDisplayUnits": "0",
-                        "labelPrecision": 1,
-                        "labelOrientation": "vertical",
-                        "labelPosition": "OutsideEnd",
-                        "enableBackground": false,
-                        "backgroundTransparency": 0
-                    }
-                ],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#2f2c31"}},
+					"labelDisplayUnits": "0", 
+					"labelPrecision": 1,
+					"labelOrientation": "horizontal",
+					"labelPosition": "OutsideEnd",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
+				}],	
                 "plotArea": [
                     {
                         "transparency": 0
@@ -1043,6 +1045,16 @@
                 "title": [
                     {
                         "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
                         "alignment": "left"
                     }
                 ],
@@ -1051,7 +1063,12 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW key drivers visual legend"
+                        "titleText": "WTW Key influencer legend",
+                        "legendColor": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
                     }
                 ]
             }
@@ -1805,7 +1822,7 @@
 					"keepLayerOrder": true
 				}],
 				"border": [{
-					"show": true,
+					"show": false,
 					"radius": 0
 				}],
 				"title": [{
@@ -1828,7 +1845,7 @@
 					"transparency": 0
 				}],
 				"border": [{
-					"show": true,
+					"show": false,
 					"radius": 0
 				}],
 				"title": [{
