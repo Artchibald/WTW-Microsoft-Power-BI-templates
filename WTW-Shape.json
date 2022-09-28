@@ -1,0 +1,44 @@
+{
+	"name": "ShapeTemplate",
+    "dataColors": [
+        "#d124b8",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
+	"visualStyles": {
+		"shape": {
+			"*": {
+				"general": [{
+					"keepLayerOrder": true
+				}],
+				"line": [{
+					"weight": 3,
+					"roundEdge": 0
+				}],
+				"fill": [{
+					"show": true,
+					"transparency": 0
+				}],
+				"rotation": [{
+					"angle": 0
+				}],
+				"visualHeader": [{
+					"show": false
+				}]
+			}
+		}
+	}
+}

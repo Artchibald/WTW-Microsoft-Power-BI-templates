@@ -1,0 +1,65 @@
+{
+	"name": "SlicerTemplate",
+    "dataColors": [
+        "#d124b8",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
+	"visualStyles": {
+		"slicer": {
+			"*": {
+				"general": [{
+					"outlineWeight": 1,
+					"orientation": "vertical",
+					"keepLayerOrder": true
+				}],
+				"data": [{
+					"mode": "Basic",
+					"relativeRange": "",
+					"relativePeriod": ""
+				}],
+				"selection": [{
+					"selectAllCheckboxEnabled": false,
+					"singleSelect": true
+				}],
+				"header": [{
+					"show": true,
+					"outline": "None"
+				}],
+				"items": [{
+					"outline": "None"
+				}],
+				"visualHeader": [{
+					"show": true,
+					"showVisualInformationButton": true,
+					"showVisualWarningButton": true,
+					"showVisualErrorButton": true,
+					"showDrillRoleSelector": true,
+					"showDrillUpButton": true,
+					"showDrillToggleButton": true,
+					"showDrillDownLevelButton": true,
+					"showDrillDownExpandButton": true,
+					"showPinButton": true,
+					"showFocusModeButton": true,
+					"showFilterRestatementButton": true,
+					"showSeeDataLayoutToggleButton": true,
+					"showOptionsMenu": true,
+					"showTooltipButton": true
+				}]
+			}
+		}
+	}
+}

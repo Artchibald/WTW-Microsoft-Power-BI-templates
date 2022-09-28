@@ -403,6 +403,54 @@
                 ]
             }
         },
+        "barChart": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW stacked bar chart legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW stacked bar chart cat axis"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW stacked bar chart value axis",
+                        "gridlineShow": true,
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelDisplayUnits": "0",
+                        "enableBackground": true
+                    }
+                ]
+            }
+        },
         "card": {
             "*": {
                 "general": [
@@ -1379,6 +1427,336 @@
                 ]
             }
         },
+        "qnaVisual": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW QNA legend"
+                    }
+                ]
+            }
+        },
+        "ribbonChart": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW Ribbon template legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW ribbon template cat axis"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelOrientation": "vertical",
+                        "labelPosition": "InsideEnd",
+                        "enableBackground": true
+                    }
+                ],
+                "ribbonChart": [
+                    {
+                        "seriesGapRatio": 15,
+                        "colorBands": true,
+                        "bandsTransparency": 20,
+                        "showBorder": true
+                    }
+                ]
+            }
+        },
+        "scatterChart": {
+            "*": {
+                "general": [
+                    {
+                        "dataVolume": 10000,
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW scater chart legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW scater chart cat axis",
+                        "gridlineShow": true,
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW scater chart value axis",
+                        "gridlineShow": true,
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "shapes": [
+                    {
+                        "markerSize": 3,
+                        "markerStyle": "square",
+                        "customizeSeries": true
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "enableBackground": false
+                    }
+                ],
+                "fillPoint": [
+                    {
+                        "show": false
+                    }
+                ],
+                "colorByCategory": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "shape": {
+            "*": {
+                "general": [
+                    {
+                        "keepLayerOrder": true
+                    }
+                ],
+                "line": [
+                    {
+                        "weight": 3,
+                        "roundEdge": 0
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "rotation": [
+                    {
+                        "angle": 0
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "general": [
+                    {
+                        "outlineWeight": 1,
+                        "orientation": "vertical",
+                        "keepLayerOrder": true
+                    }
+                ],
+                "data": [
+                    {
+                        "mode": "Basic",
+                        "relativeRange": "",
+                        "relativePeriod": ""
+                    }
+                ],
+                "selection": [
+                    {
+                        "selectAllCheckboxEnabled": false,
+                        "singleSelect": true
+                    }
+                ],
+                "header": [
+                    {
+                        "show": true,
+                        "outline": "None"
+                    }
+                ],
+                "items": [
+                    {
+                        "outline": "None"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true,
+                        "showVisualInformationButton": true,
+                        "showVisualWarningButton": true,
+                        "showVisualErrorButton": true,
+                        "showDrillRoleSelector": true,
+                        "showDrillUpButton": true,
+                        "showDrillToggleButton": true,
+                        "showDrillDownLevelButton": true,
+                        "showDrillDownExpandButton": true,
+                        "showPinButton": true,
+                        "showFocusModeButton": true,
+                        "showFilterRestatementButton": true,
+                        "showSeeDataLayoutToggleButton": true,
+                        "showOptionsMenu": true,
+                        "showTooltipButton": true
+                    }
+                ]
+            }
+        },
+        "stackedAreaChart": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "axisType": "categorical",
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW stacked area chart legend"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW stacked area chart legend",
+                        "gridlineShow": true,
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "enableBackground": true
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "strokeWidth": 4,
+                        "strokeLineJoin": "bevel",
+                        "lineStyle": "solid",
+                        "showMarker": true,
+                        "markerShape": "square",
+                        "markerSize": 10,
+                        "showSeries": true
+                    }
+                ]
+            }
+        },
+		"columnChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW Column chart legend"
+				}],
+				"categoryAxis": [{
+					"show": true,
+					"position": "Right",
+					"concatenateLabels": true,
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "WTW Column chart cat axis",
+					"gridlineShow": true,
+					"gridlineThickness": 2,
+					"gridlineStyle": "solid"
+				}],
+				"valueAxis": [{
+					"show": true,
+					"position": "Right",
+					"axisScale": "Linear",
+					"labelDisplayUnits": "0",
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "WTW Column chart legend",
+					"gridlineShow": true,
+					"gridlineThickness": 2,
+					"gridlineStyle": "solid"
+				}],
+				"labels": [{
+					"show": true,
+					"labelDisplayUnits": "0",
+					"labelOrientation": "vertical",
+					"labelPosition": "OutsideEnd",
+					"enableBackground": true
+				}]		
+			}
+		},
+
         "page": {
             "*": {
                 "background": [

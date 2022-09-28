@@ -1,0 +1,67 @@
+{
+	"name": "StackedColumnTemplate",
+    "dataColors": [
+        "#d124b8",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
+	"visualStyles": {
+		"columnChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "WTW Column chart legend"
+				}],
+				"categoryAxis": [{
+					"show": true,
+					"position": "Right",
+					"concatenateLabels": true,
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "WTW Column chart cat axis",
+					"gridlineShow": true,
+					"gridlineThickness": 2,
+					"gridlineStyle": "solid"
+				}],
+				"valueAxis": [{
+					"show": true,
+					"position": "Right",
+					"axisScale": "Linear",
+					"labelDisplayUnits": "0",
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleText": "WTW Column chart legend",
+					"gridlineShow": true,
+					"gridlineThickness": 2,
+					"gridlineStyle": "solid"
+				}],
+				"labels": [{
+					"show": true,
+					"labelDisplayUnits": "0",
+					"labelOrientation": "vertical",
+					"labelPosition": "OutsideEnd",
+					"enableBackground": true
+				}]		
+			}
+		}
+	}
+}
