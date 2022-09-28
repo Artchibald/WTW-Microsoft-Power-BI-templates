@@ -1,7 +1,25 @@
 {
-	"name": "QandATemplate",
+	"name": "KeyInfluencersTemplate",
+    "dataColors": [
+        "#d124b8",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
 	"visualStyles": {
-		"qnaVisual": {
+		"keyDriversVisual": {
 			"*": {
 				"general": [{
 					"responsive": true,
@@ -9,25 +27,21 @@
 				}],
 				"background": [{
 					"show": true,
-					"color": { "solid": { "color": "#FFFFFF"}},
 					"transparency": 0
 				}],
 				"border": [{
-					"color": { "solid": { "color": "#808080"}},
 					"show": true,
 					"radius": 0
 				}],
 				"title": [{
 					"show": true,
-					"fontColor": { "solid": { "color": "#000000" } },
-					"background": { "solid": { "color": "#FFFFFF" } },
-					"alignment": "center"
+					"alignment": "left"
 				}],
 				"legend": [{
 					"show": true,
 					"position": "Top",
 					"showTitle": true,
-					"titleText": "",
+					"titleText": "WTW key driers visual legend",
 					"legendColor": { "solid": { "color": "#3adcc9"}},
 					"fontFamily": "Segoe UI",
 					"fontSize": 12

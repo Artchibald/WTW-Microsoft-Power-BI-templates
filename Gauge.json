@@ -28,7 +28,7 @@
 					"target": 101
 				}],
 				"dataPoint": [{
-					"fill": { "solid": { "color": "#01B8AA"}},
+					"fill": { "solid": { "color": "#3adcc9"}},
 					"target": { "solid": { "color": "#FFB8DD"}}
 				}],
 				"labels": [{

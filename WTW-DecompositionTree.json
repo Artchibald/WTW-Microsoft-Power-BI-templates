@@ -1,5 +1,23 @@
 {
 	"name": "DecompositionTreeTemplate",
+    "dataColors": [
+        "#d124b8",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
 	"visualStyles": {
 		"decompositionTreeVisual": {
 			"*": {
@@ -9,58 +27,33 @@
 				}],
 				"background": [{
 					"show": true,
-					"color": { "solid": { "color": "#FFFFFF"}},
 					"transparency": 0
 				}],
 				"border": [{
-					"color": { "solid": { "color": "#808080"}},
 					"show": true,
 					"radius": 0
 				}],
 				"title": [{
 					"show": true,
-					"fontColor": { "solid": { "color": "#000000" } },
-					"background": { "solid": { "color": "#FFFFFF" } },
 					"alignment": "center"
-				}],
-				"categoryLabels": [{
-					"categoryLabelFontColor": { "solid": { "color": "#0100AA"}},
-					"categoryLabelFontFamily": "Verdana",
-					"categoryLabelFontSize": 13
 				}],
 				"analysis": [{
 					"aiEnabled": true,
 					"aiMode": "relative"
 				}],
 				"tree": [{
-					"accentColor": { "solid": { "color": "#ABCDEF"}},
 					"barsPerLevel": 20,
-					"connectorDefaultColor": { "solid": { "color": "#0100AA"}},
 					"connectorType": "round",
 					"density": "sparse"
 				}],
 				"dataBars": [{
-					"dataBarBackgroundColor": { "solid": { "color": "#AFB5B6"}},
 					"dataBarScalingType": "parentNode",
-					"dataBarWidthPercent": 120,
-					"negativeBarColor": { "solid": { "color": "#FF0F12"}},
-					"positiveBarColor": { "solid": { "color": "#00FF2E"}}
+					"dataBarWidthPercent": 120
 				}],
 				"dataLabels": [{
-					"dataLabelDisplayUnits": "0",
-					"dataLabelFontColor": { "solid": { "color": "#0100AA"}},
-					"dataLabelFontFamily": "Verdana",
-					"dataLabelFontSize": 15
-				}],
-				"levelHeader": [{
-					"levelHeaderBackgroundColor": { "solid": { "color": "#000000"}},
-					"levelSubtitleFontColor": { "solid": { "color": "#FFFFFF"}},
-					"levelSubtitleFontFamily": "Arial",
-					"levelSubtitleFontSize": 18,
-					"levelTitleFontColor": { "solid": { "color": "#ABCDEF"}},
-					"levelTitleFontFamily": "ArialBlack",
-					"levelTitleFontSize": 20
+					"dataLabelDisplayUnits": "0"
 				}]
+			
 			}
 		}
 	}

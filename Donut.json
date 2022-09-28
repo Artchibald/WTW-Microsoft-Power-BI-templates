@@ -28,14 +28,14 @@
 					"position": "Top",
 					"showTitle": true,
 					"titleText": "",
-					"labelColor": { "solid": { "color": "#01B8AA"}},
+					"labelColor": { "solid": { "color": "#3adcc9"}},
 					"fontFamily": "Segoe UI",
 					"fontSize": 12
 				}],
 				"labels": [{
 					"show": true,
 					"labelStyle": "Data",
-					"color": { "solid": { "color": "#01B8AA"}},
+					"color": { "solid": { "color": "#3adcc9"}},
 					"labelDisplayUnits": "0",
 					"labelPrecision": 0,
 					"fontSize": 10,

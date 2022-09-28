@@ -24,7 +24,7 @@
 					"alignment": "center"
 				}],
 				"dataPoint": [{
-					"defaultColor": { "solid": { "color": "#01B8AA"}},
+					"defaultColor": { "solid": { "color": "#3adcc9"}},
 					"showAllDataPoints": true
 				}],
 				"legend": [{
@@ -32,7 +32,7 @@
 					"position": "Top",
 					"showTitle": true,
 					"titleText": "",
-					"legendColor": { "solid": { "color": "#01B8AA"}},
+					"legendColor": { "solid": { "color": "#3adcc9"}},
 					"fontFamily": "Segoe UI",
 					"fontSize": 12
 				}],

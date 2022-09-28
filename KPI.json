@@ -42,7 +42,7 @@
 				}],
 				"status": [{
 					"direction": "Negative",
-					"goodColor": { "solid": { "color": "#01B8AA"}},
+					"goodColor": { "solid": { "color": "#3adcc9"}},
 					"neutralColor": { "solid": { "color": "#FFB8DD"}},
 					"badColor": { "solid": { "color": "#018866"}}
 				}]

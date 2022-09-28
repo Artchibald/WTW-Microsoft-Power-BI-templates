@@ -24,7 +24,7 @@
 					"alignment": "center"
 				}],
 				"dataLabels": [{
-					"color": { "solid": { "color": "#01B8AA"}},
+					"color": { "solid": { "color": "#3adcc9"}},
 					"fontSize": 10,
 					"fontFamily": "Verdana"
 				}],
@@ -35,7 +35,7 @@
 					"fontFamily": "Verdana"
 				}],
 				"cardTitle": [{
-					"color": { "solid": { "color": "#01B8AA"}},
+					"color": { "solid": { "color": "#3adcc9"}},
 					"fontSize": 10,
 					"fontFamily": "Verdana"
 				}],
@@ -44,7 +44,7 @@
 					"outlineColor": { "solid": { "color": "#000000"}},
 					"outlineWeight": 2,
 					"barShow": true,
-					"barColor": { "solid": { "color": "#01B8AA"}},
+					"barColor": { "solid": { "color": "#3adcc9"}},
 					"barWeight": 2,
 					"cardPadding": 20,
 					"cardBackground": { "solid": { "color": "#EEEEEE"}}
