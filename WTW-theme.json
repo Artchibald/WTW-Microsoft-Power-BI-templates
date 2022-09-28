@@ -949,6 +949,74 @@
 				}]
 			}
 		},
+        "keyDriversVisual": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW key drivers visual legend"
+                    }
+                ]
+            }
+        },
+        "kpi": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"transparency": 0
+				}],
+				"border": [{
+					"show": false,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"alignment": "center"
+				}],
+				"indicator": [{
+					"showIcon": true,
+					"horizontalAlignment": "left",
+					"verticalAlignment": "top"
+				}],
+				"trendline": [{
+					"show": true
+				}],
+				"goals": [{
+					"showGoal": true,
+					"showDistance": true
+					}]
+			}
+		},
         "page": {
             "*": {
                 "background": [

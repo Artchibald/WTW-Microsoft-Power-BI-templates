@@ -1,6 +1,6 @@
 {
-	"name": "KeyInfluencersTemplate",
-    "dataColors": [
+	"name": "KPITemplate",
+      "dataColors": [
         "#d124b8",
         "#c900ac",
         "#f6517f",
@@ -19,7 +19,7 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"keyDriversVisual": {
+		"kpi": {
 			"*": {
 				"general": [{
 					"responsive": true,
@@ -35,15 +35,21 @@
 				}],
 				"title": [{
 					"show": true,
-					"alignment": "left"
+					"alignment": "center"
 				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW key driers visual legend"
-				}]
-            }
-        }
-    }
+				"indicator": [{
+					"showIcon": true,
+					"horizontalAlignment": "left",
+					"verticalAlignment": "top"
+				}],
+				"trendline": [{
+					"show": true
+				}],
+				"goals": [{
+					"showGoal": true,
+					"showDistance": true
+					}]
+			}
+		}
+	}
 }
