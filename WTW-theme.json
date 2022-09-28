@@ -22,7 +22,7 @@
     "fourthLevelElements": "#2f2c31",
     "background": "#FFFFFF",
     "foreground": "#3adcc9",
-    "secondaryBackground": "#e2e2e2",
+    "secondaryBackground": "#FFFFFF",
     "tableAccent": "#327fef",
     "good": "#007d61",
     "neutral": "#ffb92a",
@@ -99,7 +99,7 @@
                     {
                         "color": {
                             "solid": {
-                                "color": "#E2E2E2"
+                                "color": "#FFFFFF"
                             }
                         },
                         "transparency": 0
@@ -683,7 +683,7 @@
                 ],
                 "background": [
                     {
-                        "show": true,
+                        "show": false,
                         "transparency": 0
                     }
                 ],
@@ -710,14 +710,6 @@
                 "dataPoint": [
                     {
                         "showAllDataPoints": true
-                    }
-                ],
-                "mapControls": [
-                    {
-                        "autoZoom": true,
-                        "zoomLevel": 4,
-                        "centerLatitude": 43,
-                        "centerLongitude": -83
                     }
                 ],
                 "mapStyles": [
@@ -1012,7 +1004,7 @@
 					"show": true
 				}],
 				"goals": [{
-					"showGoal": true,
+					"showGoal": true, 
 					"showDistance": true
 					}]
 			}
@@ -1023,7 +1015,7 @@
                     {
                         "color": {
                             "solid": {
-                                "color": "#e2e2e2"
+                                "color": "#FFFFFF"
                             }
                         },
                         "transparency": 0
