@@ -347,13 +347,23 @@
                 "dataPoint": [
                     {}
                 ],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}}, 
-					"backgroundTransparency": 0
-				}],	
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
                 "lineStyles": [
                     {
                         "strokeWidth": 4,
@@ -576,17 +586,27 @@
                 "dataPoint": [
                     {}
                 ],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1,
-					"labelOrientation": "horizontal",
-					"labelPosition": "OutsideEnd",
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
-					"backgroundTransparency": 0
-				}],		
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
                 "plotArea": [
                     {
                         "transparency": 0
@@ -971,17 +991,27 @@
                 "dataPoint": [
                     {}
                 ],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"labelDisplayUnits": "0", 
-					"labelPrecision": 1,
-					"labelOrientation": "horizontal",
-					"labelPosition": "OutsideEnd",
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
-					"backgroundTransparency": 0
-				}],	
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
                 "plotArea": [
                     {
                         "transparency": 0
@@ -1169,7 +1199,20 @@
                 "labels": [
                     {
                         "show": true,
-                        "enableBackground": false
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
                     }
                 ],
                 "lineStyles": [
@@ -1234,10 +1277,19 @@
                 ],
                 "labels": [
                     {
-                        "show": false,
-                        "labelOrientation": "vertical",
-                        "labelPosition": "OutsideEnd",
-                        "enableBackground": true
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
                     }
                 ],
                 "lineStyles": [
@@ -1302,14 +1354,15 @@
                         "secTitleText": "WTW line Stacked column sec title"
                     }
                 ],
-                "labels": [
-                    {
-                        "show": false,
-                        "labelOrientation": "vertical",
-                        "labelPosition": "OutsideEnd",
-                        "enableBackground": false
-                    }
-                ],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#2f2c31"}},
+					"labelOrientation": "horizontal",
+					"labelPosition": "OutsideEnd",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
+				}],	
                 "lineStyles": [
                     {
                         "shadeArea": true,
@@ -1729,146 +1782,194 @@
                 ]
             }
         },
-		"columnChart": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW Column chart legend"
-				}],
-				"categoryAxis": [{
-					"show": true,
-					"position": "Right",
-					"concatenateLabels": true,
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW Column chart cat axis",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"valueAxis": [{
-					"show": true,
-					"position": "Right",
-					"axisScale": "Linear",
-					"labelDisplayUnits": "0",
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW Column chart legend",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"labels": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"labelOrientation": "vertical",
-					"labelPosition": "OutsideEnd",
-					"enableBackground": true
-				}]		
-			}
-		},
-		"tableEx": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "left"
-				}],
-				"grid": [{
-					"gridVertical": true,
-					"gridVerticalWeight": 2,
-					"gridHorizontal": true,
-					"gridHorizontalWeight": 2,
-					"rowPadding": 2,
-					"outlineWeight": 2,
-					"imageHeight": 100
-				}],
-				"columnHeaders": [{
-					"outline": "Frame",
-					"autoSizeColumnWidth": true,
-					"alignment": "Left",
-					"wordWrap": true
-				}],
-				"values": [{
-					"outline": "Frame",
-					"urlIcon": true,
-					"wordWrap": true
-				}],
-				"total": [{
-					"totals": true,
-					"outline": "Frame"
-				}],
-				"stylePreset": [{ 
-					"name": "BoldHeader"
-				}]
-			}
-		},
+        "columnChart": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW Column chart legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Column chart cat axis",
+                        "gridlineShow": true,
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Column chart legend",
+                        "gridlineShow": true,
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelDisplayUnits": "0",
+                        "labelOrientation": "vertical",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true
+                    }
+                ]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "grid": [
+                    {
+                        "gridVertical": true,
+                        "gridVerticalWeight": 2,
+                        "gridHorizontal": true,
+                        "gridHorizontalWeight": 2,
+                        "rowPadding": 2,
+                        "outlineWeight": 2,
+                        "imageHeight": 100
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "outline": "Frame",
+                        "autoSizeColumnWidth": true,
+                        "alignment": "Left",
+                        "wordWrap": true
+                    }
+                ],
+                "values": [
+                    {
+                        "outline": "Frame",
+                        "urlIcon": true,
+                        "wordWrap": true
+                    }
+                ],
+                "total": [
+                    {
+                        "totals": true,
+                        "outline": "Frame"
+                    }
+                ],
+                "stylePreset": [
+                    {
+                        "name": "BoldHeader"
+                    }
+                ]
+            }
+        },
         "textbox": {
-			"*": {
-				"*": [{
-					"wordWrap": true
-				}],
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"border": [{
-					"show": false,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "left"
-				}],
-				"visualHeader": [{
-					"show": true
-				}]
-			}
-		},
+            "*": {
+                "*": [
+                    {
+                        "wordWrap": true
+                    }
+                ],
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        },
         "treemap": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"background": [{
-					"show": true,
-					"transparency": 0
-				}],
-				"border": [{
-					"show": false,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "left"
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW treemap legend"
-				}],
-				"labels": [{
-					"show": true,
-					"labelStyle": "Data",
-					"labelDisplayUnits": "0",
-					"labelPrecision": 0
-				}],
-				"categoryLabels": [{
-					"show": true
-				}]
-			}
-		},
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW treemap legend"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelStyle": "Data",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 0
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        },
         "page": {
             "*": {
                 "background": [
