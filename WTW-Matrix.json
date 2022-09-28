@@ -1,0 +1,82 @@
+{
+	"name": "MatrixTemplate",
+        "dataColors": [
+        "#d124b8",
+        "#c900ac",
+        "#f6517f",
+        "#ff8204",
+        "#ffb92a",
+        "#3adcc9",
+        "#327fef",
+        "#808080",
+        "#c2a8f0",
+        "#e377dc"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#e2e2e2",
+    "tableAccent": "#fe6db6",
+    "good": "#007d61",
+    "neutral": "#ffb92a",
+    "bad": "#b1232d",
+	"visualStyles": {
+		"pivotTable": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"title": [{
+					"show": true,
+					"alignment": "left"
+				}],	
+				"stylePreset":[{
+                    			"name":"Condensed"
+                			}],
+					"grid": [{
+					"gridVertical": true,
+					"gridVerticalWeight": 2,
+					"gridHorizontal": true,
+					"gridHorizontalWeight": 2,
+					"rowPadding": 2,
+					"outlineWeight": 2,
+					"imageHeight": 100
+				}],
+				"columnHeaders": [{
+					"outline": "Frame",
+					"autoSizeColumnWidth": true,
+					"alignment": "Left",
+					"titleAlignment": "Right",
+					"urlIcon": true,
+					"wordWrap": true
+				}],
+				"rowHeaders": [{
+					"outline": "Frame",
+					"stepped": true,
+					"steppedLayoutIndentation": 12,					
+					"urlIcon": true,
+					"wordWrap": true,
+					"alignment": "Left", 
+					"showExpandCollapseButtons":true
+				}],
+				"values": [{
+					"bandedRowHeaders": true,
+					"valuesOnRow": true,
+					"outline": "Frame",
+					"urlIcon": true,
+					"wordWrap": true
+				}],
+				"subTotals": [{
+					"rowSubtotals": true,
+					"columnSubtotals": true,
+					"applyToHeaders": true,
+					"rowSubtotalsPosition": "Bottom",
+					"perRowLevel": true,
+					"perColumnLevel": true					
+				}],
+				"total": [{
+					"applyToHeaders": true
+				}]
+			}
+		}
+	}
+}
