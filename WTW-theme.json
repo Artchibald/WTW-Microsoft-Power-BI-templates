@@ -1393,7 +1393,7 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "center"
+                        "alignment": "left"
                     }
                 ],
                 "legend": [
