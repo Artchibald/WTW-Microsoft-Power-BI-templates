@@ -14,6 +14,10 @@ https://wtwbrandcentral.com/content/charts-and-graphs
 
 https://ux.wtwco.com
 
+# Test accessibility
+
+https://app.powerbi.com
+
 # About amending this repo
 
 Tricky Tricky Tricky! Power Bi desktop only works on Windows.
@@ -33,9 +37,9 @@ The end goal: We are trying to replicate every module in one master WTW theme fi
 # Call notes 28 Sept
 
 
-choose inside or out onn labels
+choose inside or out on labels
 
-Special effects
+Special effects exploration
 
 black text on white inn labels
 
@@ -59,6 +63,13 @@ Think about instructions
 sample dashboard ideas? white space?
 
 Make suggestions for usability
+
+From an accessibility stand point I think we are in a good place, I await feedback on that.
+
+Default display is 16:9. So the dimensions for a potential branded background image would be 1920px x 1080px png (png for block colors), ideally size optimized at tinypng.com. Branding can be placed in header or footer as per Katie's recommendation.
+
+
+
 
 # To do
  

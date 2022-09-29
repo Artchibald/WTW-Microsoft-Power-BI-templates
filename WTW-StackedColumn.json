@@ -56,10 +56,10 @@
 				}],
 				"labels": [{
 					"show": true,
-					"labelDisplayUnits": "0",
-					"labelOrientation": "vertical",
-					"labelPosition": "OutsideEnd",
-					"enableBackground": true
+					"color": { "solid": { "color": "#2f2c31"}},
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
 				}]		
 			}
 		}

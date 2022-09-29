@@ -40,9 +40,14 @@
 				}],
 				"labels": [{
 					"show": true,
-					"labelOrientation": "vertical",
+					"color": { "solid": { "color": "#2f2c31"}},
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1,
+					"labelOrientation": "horizontal",
 					"labelPosition": "InsideEnd",
-					"enableBackground": true
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
 				}],		
 				"ribbonChart": [{
 					"seriesGapRatio": 15,

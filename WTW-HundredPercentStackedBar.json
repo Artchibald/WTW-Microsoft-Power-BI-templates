@@ -61,13 +61,13 @@
 				}],
 				"labels": [{
 					"show": true,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1,
+					"color": { "solid": { "color": "#2f2c31"}},
 					"labelOrientation": "vertical",
 					"labelPosition": "OutsideEnd",
 					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
 					"backgroundTransparency": 0
-				}],		
+				}],			
 				"plotArea": [{
 					"transparency": 0
 				}]

@@ -38,9 +38,10 @@
 				"labels": [{
 					"show": true,
 					"labelStyle": "Data",
+					"color": { "solid": { "color": "#2f2c31"}},
 					"labelDisplayUnits": "0",
 					"labelPrecision": 0,
-					"position": "inside"
+					"position": "outside"
 				}]
 			}
 		}

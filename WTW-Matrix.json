@@ -30,7 +30,7 @@
 					"alignment": "left"
 				}],	
 				"stylePreset":[{
-                    			"name":"Condensed"
+                    			"name":"Bold header"
                 			}],
 					"grid": [{
 					"gridVertical": true,

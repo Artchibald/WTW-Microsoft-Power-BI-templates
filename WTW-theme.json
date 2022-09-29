@@ -408,6 +408,7 @@
                     {
                         "show": true,
                         "position": "Top",
+                        "legendColor": { "solid": { "color": "#ffffff"}},
                         "showTitle": true,
                         "titleText": "WTW Azure Map info goes here"
                     }
@@ -932,15 +933,15 @@
                 "dataPoint": [
                     {}
                 ],
-                "labels": [
-                    {
-                        "show": false,
-                        "labelOrientation": "vertical",
-                        "labelPosition": "OutsideEnd",
-                        "enableBackground": false,
-                        "backgroundTransparency": 0
-                    }
-                ],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#2f2c31"}},
+					"labelOrientation": "vertical",
+					"labelPosition": "OutsideEnd",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
+				}],	
                 "plotArea": [
                     {
                         "transparency": 0
@@ -1354,15 +1355,25 @@
                         "secTitleText": "WTW line Stacked column sec title"
                     }
                 ],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"labelOrientation": "horizontal",
-					"labelPosition": "OutsideEnd",
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
-					"backgroundTransparency": 0
-				}],	
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
                 "lineStyles": [
                     {
                         "shadeArea": true,
@@ -1490,9 +1501,91 @@
                     {
                         "show": true,
                         "labelStyle": "Data",
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
                         "labelDisplayUnits": "0",
                         "labelPrecision": 0,
-                        "position": "inside"
+                        "position": "outside"
+                    }
+                ]
+            }
+        },
+        "pivotTable": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "stylePreset": [
+                    {
+                        "name": "Bold header"
+                    }
+                ],
+                "grid": [
+                    {
+                        "gridVertical": true,
+                        "gridVerticalWeight": 2,
+                        "gridHorizontal": true,
+                        "gridHorizontalWeight": 2,
+                        "rowPadding": 2,
+                        "outlineWeight": 2,
+                        "imageHeight": 100
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "outline": "Frame",
+                        "autoSizeColumnWidth": true,
+                        "alignment": "Left",
+                        "titleAlignment": "Right",
+                        "urlIcon": true,
+                        "wordWrap": true
+                    }
+                ],
+                "rowHeaders": [
+                    {
+                        "outline": "Frame",
+                        "stepped": true,
+                        "steppedLayoutIndentation": 12,
+                        "urlIcon": true,
+                        "wordWrap": true,
+                        "alignment": "Left",
+                        "showExpandCollapseButtons": true
+                    }
+                ],
+                "values": [
+                    {
+                        "bandedRowHeaders": true,
+                        "valuesOnRow": true,
+                        "outline": "Frame",
+                        "urlIcon": true,
+                        "wordWrap": true
+                    }
+                ],
+                "subTotals": [
+                    {
+                        "rowSubtotals": true,
+                        "columnSubtotals": true,
+                        "applyToHeaders": true,
+                        "rowSubtotalsPosition": "Bottom",
+                        "perRowLevel": true,
+                        "perColumnLevel": true
+                    }
+                ],
+                "total": [
+                    {
+                        "applyToHeaders": true
                     }
                 ]
             }
@@ -1549,9 +1642,19 @@
                 "labels": [
                     {
                         "show": true,
-                        "labelOrientation": "vertical",
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
                         "labelPosition": "InsideEnd",
-                        "enableBackground": true
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
                     }
                 ],
                 "ribbonChart": [
@@ -1764,9 +1867,18 @@
                 "labels": [
                     {
                         "show": true,
-                        "labelDisplayUnits": "0",
-                        "labelPrecision": 1,
-                        "enableBackground": true
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
                     }
                 ],
                 "lineStyles": [
@@ -1828,10 +1940,18 @@
                 "labels": [
                     {
                         "show": true,
-                        "labelDisplayUnits": "0",
-                        "labelOrientation": "vertical",
-                        "labelPosition": "OutsideEnd",
-                        "enableBackground": true
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
                     }
                 ]
             }
