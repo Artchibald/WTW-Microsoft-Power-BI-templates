@@ -2,6 +2,10 @@
 
 https://github.com/Artchibald/WTW-Microsoft-Power-BI-templates
 
+# Original Power Bi template repo used in this project
+
+https://github.com/MattRudy/PowerBI-ThemeTemplates/
+
 # Power bi docs
 
 https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
@@ -18,24 +22,29 @@ https://ux.wtwco.com
 
 https://app.powerbi.com
 
+# When ready publish report to:
+
+https://app.powerbi.com/
+
 # About amending this repo
 
-Tricky Tricky Tricky! Power Bi desktop only works on Windows.
+A bit fiddly! Power Bi desktop only works on Windows.
 
 To amend a theme file:
 
-Look at the module or global theme file with all options included. The ones without the WTW prefix.
+Look at the module or global theme file with all options included. The json files without the WTW prefix.
 
 Compare that to the WTW prefixed equivalent. 
 
-Once you are happy with your amends on the individual WTW prefixed module (we don't want to edit the originals that don't have prefixes), you should copy the module across from the individual json file into the correct position in WTW-theme.json and test it in Power Bi.
+Once you are happy with your amends on the individual WTW prefixed module (we don't want to edit the originals that don't have prefixes, they are references), you should copy the module across from the individual json file into the correct position in WTW-theme.json and test it in Power Bi.
 
 It is a little fiddly but not too complex!
 
-The end goal: We are trying to replicate every module in one master WTW theme file for brand consistency across all Power Bi usages. 
+# The end goal 
+
+We are trying to replicate every module in one master WTW theme file for brand consistency across all Power Bi usages. 
 
 # Call notes 28 Sept
-
 
 choose inside or out on labels
 
@@ -68,17 +77,17 @@ From an accessibility stand point I think we are in a good place, I await feedba
 
 Default display is 16:9. So the dimensions for a potential branded background image would be 1920px x 1080px png (png for block colors), ideally size optimized at tinypng.com. Branding can be placed in header or footer as per Katie's recommendation.
 
-
-
+Power BI isn't responsive on app.powerbi.com, see attched pdf of screenshots.
 
 # To do
  
+Suzie change all labels to horizontal 30 Sept
+
 Chris script amend
 
 Mike quote for jquery website https://www.marinepandirev.willistowerswatson.com/2019/club-financial-home.html
 
 # Points for first call
-
 
 USE SEGOE UI
 
@@ -91,8 +100,6 @@ Power Bi doesn't support custom padding/margin
 
 Do we have templates to work from
 
-
-
 # Cool options:
 
 Background image creation?
@@ -104,8 +111,6 @@ Tooltips
 Drill through maybe
 
 add buttons
-
-
 
 # Notes first call
 
@@ -251,7 +256,12 @@ Day 3: call at 3pm, spent morning trialling different solutions, pushed next sta
 
 Day 4: Extensive review of UX, amends from yesterday call around typography, extensive trials with JSON and styling throughout the day
 
-# Power BI Theme Templates
+Day 5: Nearly finished adding every module into a master template pbix file. Had call at 3pm, edited all modules in json and pbix interface to hit accessibility standards.
+
+Day 6: Finished accessibility implementation aand sent for review at 1230. Looking at accessibility checks, publishing to online app, looking at using other data. Mixed templates and data in the afternoon, nioticed custom modules arent getting styled.
+
+# other notes from reference repo below
+
 [![Validate JSONs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml/badge.svg?branch=master)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml)
 [![Monitor Document Links](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-monitor-docs.yml/badge.svg?branch=master)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-monitor-docs.yml)
 ### Snippets for assembling Power BI Themes

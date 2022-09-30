@@ -1,6 +1,0 @@
-  git config --global user.email "archie@archibaldbutler.com"
-  git config --global user.name "Archibald Butler"
-
-
-
-1R3v3nv3r1.
