@@ -19,58 +19,74 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"clusteredColumnChart": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW Clustered Column Chart Category Axis"
-				}],
-				"categoryAxis": [{
-					"show": true,
-					"preferredCategoryWidth": 30,
-					"maxMarginFactor": 28,
-					"innerPadding": 22,
-					"concatenateLabels": true,
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW Clustered Column Chart Category Axis"
-				}],
-				"valueAxis": [{
-					"show": true,
-					"position": "Right",
-					"axisScale": "Linear",
-					"labelDisplayUnits": "0",
-					"labelPrecision": "Auto",
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW Clustered Column Chart Value Axis",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"dataPoint": [{
-				}],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1,
-					"labelOrientation": "horizontal",
-					"labelPosition": "OutsideEnd",
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
-					"backgroundTransparency": 0
-				}],		
-				"plotArea": [{
-					"transparency": 0
-				}]
-			}
-		}
+        "clusteredColumnChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW Clustered Column Chart Category Axis"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Clustered Column Chart Category Axis"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Clustered Column Chart Value Axis"
+                    }
+                ],
+                "dataPoint": [
+                    {}
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "plotArea": [
+                    {
+                        "transparency": 0
+                    }
+                ]
+            }
+        }
 	}
 }

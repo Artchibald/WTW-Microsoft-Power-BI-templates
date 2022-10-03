@@ -23,6 +23,7 @@
             "*": {
                 "general": [
                     {
+                        "WTWcomment": "Test file comments",
                         "responsive": true,
                         "keepLayerOrder": true
                     }
@@ -54,19 +55,27 @@
                         "axisScale": "Linear",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW stacked area chart legend",
-                        "gridlineShow": true,
-                        "gridlineThickness": 2,
-                        "gridlineStyle": "solid"
+                        "titleText": "WTW stacked area chart legend"
                     }
                 ],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
-					"backgroundTransparency": 0
-				}],	
+                "labels": [
+                    {
+                        "show": true,
+                        "labelOrientation": "horizontal",
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
                 "lineStyles": [
                     {
                         "strokeWidth": 4,

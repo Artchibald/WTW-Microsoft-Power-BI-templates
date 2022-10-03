@@ -19,47 +19,59 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"slicer": {
-			"*": {
-				"general": [{
-					"outlineWeight": 1,
-					"orientation": "vertical",
-					"keepLayerOrder": true
-				}],
-				"data": [{
-					"mode": "Basic",
-					"relativeRange": "",
-					"relativePeriod": ""
-				}],
-				"selection": [{
-					"selectAllCheckboxEnabled": false,
-					"singleSelect": true
-				}],
-				"header": [{
-					"show": true,
-					"outline": "None"
-				}],
-				"items": [{
-					"outline": "None"
-				}],
-				"visualHeader": [{
-					"show": true,
-					"showVisualInformationButton": true,
-					"showVisualWarningButton": true,
-					"showVisualErrorButton": true,
-					"showDrillRoleSelector": true,
-					"showDrillUpButton": true,
-					"showDrillToggleButton": true,
-					"showDrillDownLevelButton": true,
-					"showDrillDownExpandButton": true,
-					"showPinButton": true,
-					"showFocusModeButton": true,
-					"showFilterRestatementButton": true,
-					"showSeeDataLayoutToggleButton": true,
-					"showOptionsMenu": true,
-					"showTooltipButton": true
-				}]
-			}
-		}
+        "slicer": {
+            "*": {
+                "general": [
+                    {
+                        "outlineWeight": 1,
+                        "orientation": "horizontal",
+                        "keepLayerOrder": true
+                    }
+                ],
+                "data": [
+                    {
+                        "mode": "Basic",
+                        "relativeRange": "",
+                        "relativePeriod": ""
+                    }
+                ],
+                "selection": [
+                    {
+                        "selectAllCheckboxEnabled": false,
+                        "singleSelect": true
+                    }
+                ],
+                "header": [
+                    {
+                        "show": true,
+                        "outline": "None"
+                    }
+                ],
+                "items": [
+                    {
+                        "outline": "None"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true,
+                        "showVisualInformationButton": true,
+                        "showVisualWarningButton": true,
+                        "showVisualErrorButton": true,
+                        "showDrillRoleSelector": true,
+                        "showDrillUpButton": true,
+                        "showDrillToggleButton": true,
+                        "showDrillDownLevelButton": true,
+                        "showDrillDownExpandButton": true,
+                        "showPinButton": true,
+                        "showFocusModeButton": true,
+                        "showFilterRestatementButton": true,
+                        "showSeeDataLayoutToggleButton": true,
+                        "showOptionsMenu": true,
+                        "showTooltipButton": true
+                    }
+                ]
+            }
+        }
 	}
 }

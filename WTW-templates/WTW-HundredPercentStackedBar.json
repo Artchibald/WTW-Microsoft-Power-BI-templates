@@ -19,59 +19,70 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"hundredPercentStackedBarChart": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW 100% Stacked Bar Chart Legend"
-				}],
-				"categoryAxis": [{
-					"show": true,
-					"position": "Right",
-					"preferredCategoryWidth": 30,
-					"maxMarginFactor": 28,
-					"innerPadding": 22,
-					"concatenateLabels": true,
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW 100% Stacked Bar Chart Legend"
-				}],
-				"valueAxis": [{
-					"show": true,
-					"position": "Right",
-					"axisScale": "Linear",
-					"start": 0,
-					"end": 10,
-                    "labelDisplayUnits": "0",
-					"labelPrecision": "Auto",
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW 100% Stacked Bar Chart Value Axis",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"dataPoint": [{
-				}],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"labelOrientation": "vertical",
-					"labelPosition": "OutsideEnd",
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
-					"backgroundTransparency": 0
-				}],			
-				"plotArea": [{
-					"transparency": 0
-				}]
-			}
-		}
+        "hundredPercentStackedBarChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW 100% Stacked Bar Chart Legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW 100% Stacked Bar Chart Legend"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW 100% Stacked Bar Chart Value Axis"
+                    }
+                ],
+                "dataPoint": [
+                    {}
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "plotArea": [
+                    {
+                        "transparency": 0
+                    }
+                ]
+            }
+        }
 	}
 }

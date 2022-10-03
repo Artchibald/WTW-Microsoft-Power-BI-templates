@@ -19,44 +19,60 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"filledMap": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"background": [{
-					"show": true,
-					"transparency": 0
-				}],
-				"border": [{
-					"show": true,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "center"
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW Filled Map legend"
-				}],
-				"dataPoint": [{
-					"showAllDataPoints": true
-					
-				}],
-				"mapControls": [{
-					"autoZoom": true,
-					"zoomLevel": 4,
-					"centerLatitude": 43,
-					"centerLongitude": -83
-				}],
-				"mapStyles": [{
-					"mapTheme": "road"
-				}]
-			}
-		}
+        "filledMap": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": false,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW Filled Map legend"
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "showAllDataPoints": true
+                    }
+                ],
+                "mapControls": [
+                    {
+                        "autoZoom": true,
+                        "zoomLevel": 4,
+                        "centerLatitude": 43,
+                        "centerLongitude": -83
+                    }
+                ],
+                "mapStyles": [
+                    {
+                        "mapTheme": "road"
+                    }
+                ]
+            }
+        }
 	}
 }

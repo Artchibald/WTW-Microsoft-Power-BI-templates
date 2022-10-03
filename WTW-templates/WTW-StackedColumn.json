@@ -19,49 +19,63 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"columnChart": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW Column chart legend"
-				}],
-				"categoryAxis": [{
-					"show": true,
-					"position": "Right",
-					"concatenateLabels": true,
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW Column chart cat axis",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"valueAxis": [{
-					"show": true,
-					"position": "Right",
-					"axisScale": "Linear",
-					"labelDisplayUnits": "0",
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW Column chart legend",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
-					"backgroundTransparency": 0
-				}]		
-			}
-		}
+        "columnChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW Column chart legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Column chart cat axis"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Column chart legend"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelOrientation": "horizontal",
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ]
+            }
+        }
 	}
 }

@@ -19,35 +19,50 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"card": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"labels": [{
-					"labelDisplayUnits": "0",
-					"labelPrecision": 0
-				}],
-				"categoryLabels": [{
-					"show": true
-				}],
-				"wordWrap": [{
-					"show": true
-				}],
-				"background": [{
-						"show": true,
-						"transparency": 0
-				}],
-				  "title": [{
-				    "show": true,
-				    "alignment": "left"
-				  }],
-				  "border": [{
-				    "show": true,
-					"radius": 0
-				  }]
-			}
-		}
+        "card": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 0
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true
+                    }
+                ],
+                "wordWrap": [
+                    {
+                        "show": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ]
+            }
+        }
 	}
 }

@@ -23,6 +23,7 @@
             "*": {
                 "general": [
                     {
+                        "WTWcomment": "Test file comments",
                         "responsive": true,
                         "keepLayerOrder": true
                     }
@@ -69,10 +70,20 @@
                 ],
                 "labels": [
                     {
-                        "show": false,
+                        "show": true,
                         "labelOrientation": "horizontal",
-                        "labelPosition": "OutsideEnd",
-                        "enableBackground": true
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
                     }
                 ],
                 "lineStyles": [

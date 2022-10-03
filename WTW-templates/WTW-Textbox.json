@@ -19,27 +19,38 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"textbox": {
-			"*": {
-				"*": [{
-					"wordWrap": true
-				}],
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"border": [{
-					"show": true,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "left"
-				}],
-				"visualHeader": [{
-					"show": true
-				}]
-			}
-		}
+        "textbox": {
+            "*": {
+                "*": [
+                    {
+                        "wordWrap": true
+                    }
+                ],
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        }
 	}
 }

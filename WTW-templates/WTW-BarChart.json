@@ -19,43 +19,52 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"barChart": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW stacked bar chart legend"
-				}],
-				"categoryAxis": [{
-					"show": true,
-					"position": "Right",
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW stacked bar chart cat axis"
-				}],
-				"valueAxis": [{
-					"show": true,
-					"axisScale": "Linear",
-					"labelDisplayUnits": "0",
-					"labelPrecision": "Auto",
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW stacked bar chart value axis",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"labels": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"enableBackground": true
-				}]
-			}
-		}
+        "barChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW stacked bar chart legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW stacked bar chart cat axis"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW stacked bar chart value axis"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelDisplayUnits": "0",
+                        "labelOrientation": "horizontal",
+                        "enableBackground": true
+                    }
+                ]
+            }
+        }
 	}
 }

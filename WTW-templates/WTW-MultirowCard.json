@@ -19,33 +19,43 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"multiRowCard": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"background": [{
-					"show": true,
-					"transparency": 0
-				}],
-				"border": [{
-					"show": true,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "left"
-				}],
-				"categoryLabels": [{
-					"show": true
-				}],
-				"card": [{
-					"outline": "TopOnly",
-					"outlineWeight": 2,
-					"barShow": true
-				}]
-			}
-		}
+        "multiRowCard": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true
+                    }
+                ],
+                "card": [
+                    {
+                        "outline": "TopOnly",
+                        "outlineWeight": 2,
+                        "barShow": true,
+                        "barColor": { "solid": { "color": "#c900ac"}},
+                        "barWeight": 2,
+                        "cardPadding": 20
+                    }
+                ]
+            }
+        }
 	}
 }

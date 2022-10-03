@@ -19,26 +19,36 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"shape": {
-			"*": {
-				"general": [{
-					"keepLayerOrder": true
-				}],
-				"line": [{
-					"weight": 3,
-					"roundEdge": 0
-				}],
-				"fill": [{
-					"show": true,
-					"transparency": 0
-				}],
-				"rotation": [{
-					"angle": 0
-				}],
-				"visualHeader": [{
-					"show": false
-				}]
-			}
-		}
+        "shape": {
+            "*": {
+                "general": [
+                    {
+                        "keepLayerOrder": true
+                    }
+                ],
+                "line": [
+                    {
+                        "weight": 3,
+                        "roundEdge": 0
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "rotation": [
+                    {
+                        "angle": 0
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        }
 	}
 }

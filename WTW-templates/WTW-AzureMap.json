@@ -19,29 +19,54 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"azureMap": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true 
-				}],
-				"background": [{
-					"show": true
-				}],
-				"border": [{
+        "azureMap": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "legendColor": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "backgroundColor": { "solid": { "color": "#FFFFFF"}},
+                        "showTitle": true,
+                        "titleText": "WTW Azure Map info goes here"
+                    }
+                ],
+                "labels": [{
 					"show": true,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "center"
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"legendColor": { "solid": { "color": "#ffffff"}},
-					"showTitle": true,
-					"titleText": "WTW Azure Map info goes here"
+					"color": { "solid": { "color": "#2f2c31"}},
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1,
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
 				}]
             }
         }

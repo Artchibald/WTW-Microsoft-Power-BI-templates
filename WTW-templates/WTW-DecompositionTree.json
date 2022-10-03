@@ -19,42 +19,56 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"decompositionTreeVisual": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"background": [{
-					"show": true,
-					"transparency": 0
-				}],
-				"border": [{
-					"show": true,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "center"
-				}],
-				"analysis": [{
-					"aiEnabled": true,
-					"aiMode": "relative"
-				}],
-				"tree": [{
-					"barsPerLevel": 20,
-					"connectorType": "round",
-					"density": "sparse"
-				}],
-				"dataBars": [{
-					"dataBarScalingType": "parentNode",
-					"dataBarWidthPercent": 120
-				}],
-				"dataLabels": [{
-					"dataLabelDisplayUnits": "0"
-				}]
-			
-			}
-		}
+        "decompositionTreeVisual": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "analysis": [
+                    {
+                        "aiEnabled": true,
+                        "aiMode": "relative"
+                    }
+                ],
+                "tree": [
+                    {
+                        "connectorType": "round",
+                        "density": "sparse"
+                    }
+                ],
+                "dataBars": [
+                    {
+                        "dataBarScalingType": "parentNode"
+                    }
+                ],
+                "dataLabels": [
+                    {
+                        "dataLabelDisplayUnits": "0"
+                    }
+                ]
+            }
+        }
 	}
 }

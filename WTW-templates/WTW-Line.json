@@ -20,82 +20,83 @@
 	"bad": "#b1232d",
 	"visualStyles": {
 		"lineChart": {
-			"*": {
-				"general": [
-					{
-						"responsive": true,
-						"keepLayerOrder": true
-					}
-				],
-				"legend": [
-					{
-						"show": true,
-						"position": "Top",
-						"showTitle": true,
-						"titleText": "WTW line chart legend",
-						"legendMarkerRendering": "markerOnly",
-						"matchLineColor": false,
-						"defaultToCircle": false
-					}
-				],
-				"categoryAxis": [
-					{
-						"show": true,
-						"axisType": "categorical",
-						"concatenateLabels": true,
-						"showAxisTitle": true,
-						"axisStyle": "showTitleOnly",
-						"titleText": "WTW line chart categrory axis"
-					}
-				],
-				"valueAxis": [
-					{
-						"show": true,
-						"position": "Right",
-						"axisScale": "Linear",
-						"showAxisTitle": true,
-						"axisStyle": "showTitleOnly",
-						"titleText": "WTW line chart value axis",
-						"gridlineShow": true,
-						"gridlineStyle": "solid"
-					}
-				],
-				"y2Axis": [
-					{
-						"secShowAxisTitle": true,
-						"secTitleText": "WTW line chart y2 axis"
-					}
-				],
-				"labels": [
-					{
-						"show": true,
-						"color": {
-							"solid": {
-								"color": "#2f2c31"
-							}
-						},
-						"labelDisplayUnits": "0",
-						"labelPrecision": 1,
-						"enableBackground": true,
-						"backgroundColor": {
-							"solid": {
-								"color": "#FFFFFF"
-							}
-						},
-						"backgroundTransparency": 0
-					}
-				],
-				"lineStyles": [
-					{
-						"strokeWidth": 4,
-						"strokeLineJoin": "bevel",
-						"lineStyle": "solid",
-						"showMarker": true,
-						"markerShape": "square",
-						"markerSize": 10
-					}
-				]
-			}
-		}
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW line chart legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "defaultToCircle": false
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "axisType": "categorical",
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW line chart category axis"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW line chart value axis",
+                        "gridlineShow": true,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "y2Axis": [
+                    {
+                        "secShowAxisTitle": true,
+                        "secTitleText": "WTW line chart y2 axis"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "strokeWidth": 4,
+                        "strokeLineJoin": "bevel",
+                        "lineStyle": "solid",
+                        "showMarker": true,
+                        "markerShape": "square",
+                        "markerSize": 10
+                    }
+                ]
+            }
+        }
 	}
 }

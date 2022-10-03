@@ -20,39 +20,48 @@
     "bad": "#b1232d",
 	"visualStyles": {
 		"gauge": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"background": [{
-					"show": true,
-					"transparency": 0
-				}],
-				"border": [{
-					"show": false,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "center"
-				}],
-				"labels": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1
-				}],	
-				"target": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1
-				}],
-				"calloutValue": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1
-				}]					
-			}
-		}
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true
+                    }
+                ],
+                "target": [
+                    {
+                        "show": false
+                    }
+                ],
+                "calloutValue": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        }
 	}
 }

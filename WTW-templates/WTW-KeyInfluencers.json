@@ -23,6 +23,7 @@
             "*": {
                 "general": [
                     {
+                        "WTWcomment": "Test file comments",
                         "responsive": true,
                         "keepLayerOrder": true
                     }
@@ -44,7 +45,7 @@
                         "show": true,
                         "fontColor": {
                             "solid": {
-                                "color": "#000000"
+                                "color": "#2f2c31"
                             }
                         },
                         "background": {

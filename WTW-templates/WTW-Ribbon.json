@@ -20,42 +20,61 @@
     "bad": "#b1232d",
 	"visualStyles": {
 		"ribbonChart": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW Ribbon template legend"
-				}],
-				"categoryAxis": [{
-					"show": true,
-					"concatenateLabels": true,
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW ribbon template cat axis"
-				}],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1,
-					"labelOrientation": "horizontal",
-					"labelPosition": "InsideEnd",
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
-					"backgroundTransparency": 0
-				}],		
-				"ribbonChart": [{
-					"seriesGapRatio": 15,
-					"colorBands": true,
-					"bandsTransparency": 20,
-					"showBorder": true
-				}]
-			}
-		}
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW Ribbon template legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW ribbon template cat axis"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "InsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "ribbonChart": [
+                    {
+                        "seriesGapRatio": 15,
+                        "colorBands": true,
+                        "bandsTransparency": 30,
+                        "showBorder": true
+                    }
+                ]
+            }
+        }
 	}
 }

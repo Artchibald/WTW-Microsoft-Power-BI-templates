@@ -19,60 +19,71 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"scatterChart": {
-			"*": {
-				"general": [{
-					"dataVolume": 10000,
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW scater chart legend"
-				}],
-				"categoryAxis": [{
-					"show": true,
-					"axisScale": "Linear",
-					"labelDisplayUnits": "0",
-					"labelPrecision": "Auto",
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW scater chart cat axis",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"valueAxis": [{
-					"show": true,
-					"position": "Right",
-					"axisScale": "Linear",
-					"labelDisplayUnits": "0",
-					"labelPrecision": "Auto",
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW scater chart value axis",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"shapes": [{
-					"markerSize": 3,
-					"markerStyle": "square",
-					"customizeSeries": true
-				}],
-				"categoryLabels": [{
-					"show": true,
-					"enableBackground": false
-				}],	
-				"fillPoint": [{
-					"show": false
-				}],
-				"colorByCategory": [{
-					"show": false
-				}]
-			}
-		}
+        "scatterChart": {
+            "*": {
+                "general": [
+                    {
+                        "dataVolume": 10000,
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW scater chart legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW scater chart cat axis"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW scater chart value axis"
+                    }
+                ],
+                "shapes": [
+                    {
+                        "markerSize": 3,
+                        "markerStyle": "square",
+                        "customizeSeries": true
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "enableBackground": false
+                    }
+                ],
+                "fillPoint": [
+                    {
+                        "show": false
+                    }
+                ],
+                "colorByCategory": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        }
 	}
 }

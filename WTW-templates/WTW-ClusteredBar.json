@@ -21,55 +21,40 @@
     "visualStyles": {
         "clusteredBarChart": {
             "*": {
-                "general": [{
-                    "responsive": true,
-                    "keepLayerOrder": true
-                }],
-                "legend": [{
-                    "show": true,
-                    "position": "Top",
-                    "showTitle": true,
-                    "titleText": "WTW Clustered Bar chart legend goes here"
-                }],
-                "categoryAxis": [{
-                    "show": true,
-                    "position": "Right",
-                    "preferredCategoryWidth": 30,
-                    "maxMarginFactor": 28,
-                    "innerPadding": 22,
-                    "concatenateLabels": true,
-                    "showAxisTitle": true,
-                    "axisStyle": "showTitleOnly",
-                    "titleText": "WTW Clustered Bar chart category Axis info goes here"
-                }],
-                "valueAxis": [{
-                    "show": true,
-                    "position": "Right",
-                    "axisScale": "Linear",
-                    "start": 0,
-                    "end": 10,
-                    "labelDisplayUnits": "0",
-                    "labelPrecision": "Auto",
-                    "showAxisTitle": true,
-                    "axisStyle": "showTitleOnly",
-                    "titleText": "WTW Clustered Bar chart value axis info goes here",
-                    "gridlineShow": true,
-                    "gridlineThickness": 2,
-                    "gridlineStyle": "dashed"
-                }],
-                "dataPoint": [{
-                }],
-                "labels": [{
-                    "show": true,
-                    "labelDisplayUnits": "0",
-                    "labelPrecision": 1,
-                    "labelPosition": "OutsideEnd",
-                    "enableBackground": true,
-                    "backgroundTransparency": 0
-                }],
-                "plotArea": [{
-                    "transparency": 0
-                }]
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW Clustered Bar chart legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Clustered Bar chart category Axis"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Clustered Bar chart value axis"
+                    }
+                ]
             }
         }
     }

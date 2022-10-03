@@ -19,31 +19,44 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"pieChart": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "left"
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW Pie chart legend"
-				}],
-				"labels": [{
-					"show": true,
-					"labelStyle": "Data",
-					"color": { "solid": { "color": "#2f2c31"}},
-					"labelDisplayUnits": "0",
-					"labelPrecision": 0,
-					"position": "outside"
-				}]
-			}
-		}
+        "pieChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW Pie chart legend"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelStyle": "Data",
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 0,
+                        "position": "outside"
+                    }
+                ]
+            }
+        }
 	}
 }

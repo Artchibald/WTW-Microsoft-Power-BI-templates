@@ -36,7 +36,8 @@
 					"gridHorizontalWeight": 1,
 					"rowPadding": 1,
 					"outlineWeight": 1,
-					"imageHeight": 100
+					"imageHeight": 100,
+                    "outlineColor": { "solid": { "color": "#48086f"}}
 				}],
 				"columnHeaders": [{
 					"outline": "Frame",

@@ -20,39 +20,56 @@
     "bad": "#b1232d",
 	"visualStyles": {
 		"funnel": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"background": [{
-					"show": true,
-					"transparency": 0
-				}],
-				"border": [{
-					"show": true,
-					"radius": 0
-				}],
-				"title": [{
-					"show": true,
-					"alignment": "center"
-				}],
-				"categoryAxis": [{
-					"show": true
-                    }],
-				"dataPoint": [{
-					"showAllDataPoints": true
-				}],
-				"labels": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1,
-					"labelPosition": "OutsideEnd"
-				}],
-				"percentBarLabel": [{
-					"show": true
-				}]
-			}
-		}
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "showAllDataPoints": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "labelPosition": "Outside"
+                    }
+                ],
+                "percentBarLabel": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        }
 	}
 }

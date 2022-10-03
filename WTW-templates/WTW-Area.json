@@ -20,60 +20,84 @@
     "bad": "#b1232d",
 	"visualStyles": {
 		"areaChart": {
-			"*": {
-				"general": [{
-					"responsive": true,
-					"keepLayerOrder": true
-				}],
-				"legend": [{
-					"show": true,
-					"position": "Top",
-					"showTitle": true,
-					"titleText": "WTW legend",
-					"legendMarkerRendering": "markerOnly",
-					"matchLineColor": false
-				}],
-				"categoryAxis": [{
-					"show": true,
-					"axisType": "categorical",
-					"concatenateLabels": true,
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW Cat Ax"
-				}],
-				"valueAxis": [{
-					"show": true,
-					"position": "Right",
-					"axisScale": "Linear",
-					"labelDisplayUnits": "0",
-					"labelPrecision": "Auto",
-					"showAxisTitle": true,
-					"axisStyle": "showTitleOnly",
-					"titleText": "WTW Val Ax",
-					"gridlineShow": true,
-					"gridlineThickness": 2,
-					"gridlineStyle": "solid"
-				}],
-				"dataPoint": [{
-				}],
-				"labels": [{
-					"show": true,
-					"color": { "solid": { "color": "#2f2c31"}},
-					"enableBackground": true,
-					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
-					"backgroundTransparency": 0
-				}],	
-				"lineStyles": [{
-					"strokeWidth": 4,
-					"strokeLineJoin": "bevel",
-					"lineStyle": "solid",
-					"showMarker": true,
-					"markerShape": "square",
-					"markerSize": 10
-				}],
-				"plotArea": [{
-				}]
-			}
-		}
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": true,
+                        "titleText": "WTW area chart legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": true,
+                        "titleBold": true
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "axisType": "categorical",
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW area chart category axis"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW area chart value axis"
+                    }
+                ],
+                "dataPoint": [
+                    {}
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "bold": true,
+                        "titleBold": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "strokeWidth": 4,
+                        "strokeLineJoin": "bevel",
+                        "lineStyle": "solid",
+                        "showMarker": true,
+                        "markerShape": "square",
+                        "markerSize": 10
+                    }
+                ],
+                "plotArea": [
+                    {}
+                ]
+            }
+        }
 	}
 }
