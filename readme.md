@@ -260,6 +260,10 @@ Day 5: Nearly finished adding every module into a master template pbix file. Had
 
 Day 6: Finished accessibility implementation aand sent for review at 1230. Looking at accessibility checks, publishing to online app, looking at using other data. Mixed templates and data in the afternoon, nioticed custom modules arent getting styled.
 
+Day 7, 30 Sept: Spent more than half of day fixing the Marine Pandl jquery
+by updating it using global search and replace. Worked on typography and
+amends from Suzie for Power BI json templates.
+
 # other notes from reference repo below
 
 [![Validate JSONs](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml/badge.svg?branch=master)](https://github.com/MattRudy/PowerBI-ThemeTemplates/actions/workflows/tests-validate-json.yml)
