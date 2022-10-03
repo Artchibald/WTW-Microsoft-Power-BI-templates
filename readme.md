@@ -85,7 +85,6 @@ Suzie change all labels to horizontal 30 Sept
 
 Chris script amend
 
-Mike quote for jquery website https://www.marinepandirev.willistowerswatson.com/2019/club-financial-home.html
 
 # Points for first call
 
