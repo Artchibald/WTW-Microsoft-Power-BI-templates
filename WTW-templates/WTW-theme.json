@@ -1532,12 +1532,13 @@
                         "showAllDataPoints": true
                     }
                 ],
-                "categoryLabels": [
-                    {
-                        "show": true,
-                        "enableBackground": true
-                    }
-                ],
+				"categoryLabels": [{
+					"show": true,
+					"color": { "solid": { "color": "#2f2c31"}},
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
+				}],
                 "mapControls": [
                     {
                         "autoZoom": true,
