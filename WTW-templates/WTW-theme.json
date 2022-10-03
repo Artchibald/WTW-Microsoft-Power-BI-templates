@@ -813,7 +813,7 @@
                 ],
                 "background": [
                     {
-                        "show": true,
+                        "show": false,
                         "transparency": 0
                     }
                 ],
@@ -834,6 +834,7 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
+                        "legendColor": { "solid": { "color": "#2f2c31"}},
                         "titleText": "WTW Esri Visual Legend"
                     }
                 ]
@@ -1584,7 +1585,10 @@
                     {
                         "outline": "TopOnly",
                         "outlineWeight": 2,
-                        "barShow": true
+                        "barShow": true,
+                        "barColor": { "solid": { "color": "#c900ac"}},
+                        "barWeight": 2,
+                        "cardPadding": 20
                     }
                 ]
             }
