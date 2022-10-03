@@ -75,15 +75,11 @@ Make suggestions for usability
 
 From an accessibility stand point I think we are in a good place, I await feedback on that.
 
-Default display is 16:9. So the dimensions for a potential branded background image would be 1920px x 1080px png (png for block colors), ideally size optimized at tinypng.com. Branding can be placed in header or footer as per Katie's recommendation.
+Default display is 16:9. So the dimensions for a potential branded background image would be 2880px x 1620px png (png for block colors), ideally size optimized at tinypng.com. Branding can be placed in header or footer as per Katie's recommendation.
 
 Power BI isn't responsive on app.powerbi.com, see attched pdf of screenshots.
 
 # To do
- 
-Suzie change all labels to horizontal 30 Sept
-
-Chris script amend
 
 
 # Points for first call
@@ -262,6 +258,8 @@ Day 6: Finished accessibility implementation aand sent for review at 1230. Looki
 Day 7, 30 Sept: Spent more than half of day fixing the Marine Pandl jquery
 by updating it using global search and replace. Worked on typography and
 amends from Suzie for Power BI json templates.
+
+Day 8, 3 Oct: Reviewed and sent latest Power BI work. Spent the afternoon tweaking and researchibg new features we can include.
 
 # other notes from reference repo below
 
