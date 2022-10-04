@@ -55,9 +55,9 @@
             "titleBold": true
         },
         "title": {
-            "fontSize": 14,
+            "fontSize": 24,
             "fontFace": "Segoe UI",
-            "color": "#2f2c31",
+            "color": "#2f2c31", 
             "bold": true,
             "titleBold": true
         },
@@ -371,7 +371,10 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW area chart category axis"
+                        "titleText": "WTW area chart category axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30
                     }
                 ],
                 "valueAxis": [
@@ -383,7 +386,10 @@
                         "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW area chart value axis"
+                        "titleText": "WTW area chart value axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30
                     }
                 ],
                 "dataPoint": [
@@ -511,7 +517,10 @@
                         "position": "Right",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW stacked bar chart cat axis"
+                        "titleText": "WTW stacked bar chart cat axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -522,7 +531,10 @@
                         "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW stacked bar chart value axis"
+                        "titleText": "WTW stacked bar chart value axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "labels": [
@@ -604,7 +616,10 @@
                         "concatenateLabels": false,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Clustered Bar chart category Axis"
+                        "titleText": "WTW Clustered Bar chart category Axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30
                     }
                 ],
                 "valueAxis": [
@@ -613,7 +628,10 @@
                         "position": "Right",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Clustered Bar chart value axis"
+                        "titleText": "WTW Clustered Bar chart value axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30
                     }
                 ]
             }
@@ -641,7 +659,10 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Clustered Column Chart Category Axis"
+                        "titleText": "WTW Clustered Column Chart Category Axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -653,7 +674,10 @@
                         "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Clustered Column Chart Value Axis"
+                        "titleText": "WTW Clustered Column Chart Value Axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30
                     }
                 ],
                 "dataPoint": [
@@ -711,7 +735,10 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Column chart cat axis"
+                        "titleText": "WTW Column chart cat axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -722,7 +749,10 @@
                         "labelDisplayUnits": "0",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Column chart legend"
+                        "titleText": "WTW Column chart legend",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "labels": [
@@ -1057,7 +1087,10 @@
                         "concatenateLabels": false,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW 100% Stacked Bar Chart Legend"
+                        "titleText": "WTW 100% Stacked Bar Chart Legend",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -1066,7 +1099,10 @@
                         "position": "Right",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW 100% Stacked Bar Chart Value Axis"
+                        "titleText": "WTW 100% Stacked Bar Chart Value Axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "dataPoint": [
@@ -1122,7 +1158,10 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Hundred percent stacked column category axis"
+                        "titleText": "WTW Hundred percent stacked column category axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -1133,7 +1172,10 @@
                         "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Hundred percent stacked column value axis"
+                        "titleText": "WTW Hundred percent stacked column value axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "dataPoint": [
@@ -1327,7 +1369,10 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line chart category axis"
+                        "titleText": "WTW line chart category axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -1339,7 +1384,10 @@
                         "axisStyle": "showTitleOnly",
                         "titleText": "WTW line chart value axis",
                         "gridlineShow": true,
-                        "gridlineStyle": "solid"
+                        "gridlineStyle": "solid",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "y2Axis": [
@@ -1403,7 +1451,10 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line clustered category axis"
+                        "titleText": "WTW line clustered category axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -1425,7 +1476,10 @@
                         "secAxisScale": "Log",
                         "secShowAxisTitle": true,
                         "secAxisStyle": "showTitleOnly",
-                        "secTitleText": "WTW line clustered sec value axis"
+                        "secTitleText": "WTW line clustered sec value axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "labels": [
@@ -1482,7 +1536,10 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line Stacked column category axis"
+                        "titleText": "WTW line Stacked column category axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -1506,7 +1563,10 @@
                         "secLabelPrecision": 2,
                         "secShowAxisTitle": true,
                         "secAxisStyle": "showTitleOnly",
-                        "secTitleText": "WTW line Stacked column sec title"
+                        "secTitleText": "WTW line Stacked column sec title",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "labels": [
@@ -1814,7 +1874,10 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW ribbon template cat axis"
+                        "titleText": "WTW ribbon template cat axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "labels": [
@@ -1874,7 +1937,10 @@
                         "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW scater chart cat axis"
+                        "titleText": "WTW scater chart cat axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -1886,7 +1952,10 @@
                         "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW scater chart value axis"
+                        "titleText": "WTW scater chart value axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "shapes": [
@@ -2025,7 +2094,10 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW stacked area chart legend"
+                        "titleText": "WTW stacked area chart legend",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -2035,7 +2107,10 @@
                         "axisScale": "Linear",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW stacked area chart legend"
+                        "titleText": "WTW stacked area chart legend",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "labels": [

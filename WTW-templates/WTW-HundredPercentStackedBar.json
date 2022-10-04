@@ -38,12 +38,15 @@
                 ],
                 "categoryAxis": [
                     {
-                        "show": true,
+                        "show": true, 
                         "position": "Right",
                         "concatenateLabels": false,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW 100% Stacked Bar Chart Legend"
+                        "titleText": "WTW 100% Stacked Bar Chart Legend",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "valueAxis": [
@@ -52,7 +55,10 @@
                         "position": "Right",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW 100% Stacked Bar Chart Value Axis"
+                        "titleText": "WTW 100% Stacked Bar Chart Value Axis",
+                        "bold": true,
+                        "titleBold": true,
+                        "weight": 30 
                     }
                 ],
                 "dataPoint": [
