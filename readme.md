@@ -26,6 +26,10 @@ https://app.powerbi.com
 
 https://app.powerbi.com/
 
+# Next call
+
+More control over lines: use BG image
+
 # About amending this repo
 
 A bit fiddly! Power Bi desktop only works on Windows.
