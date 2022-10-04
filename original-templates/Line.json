@@ -48,7 +48,7 @@
 					"labelPrecision": "Auto",
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
-					"color": { "solid": { "color": "3adcc9"}},
+					"color": { "solid": { "color": "#3adcc9"}},
 					"titleText": "asdf",
 					"titleFontSize": 12,
 					"titleFontFamily": "Courier New",

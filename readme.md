@@ -28,7 +28,37 @@ https://app.powerbi.com/
 
 # Next call
 
-More control over lines: use BG image
+More control over lines: use BG image on charts
+
+Amended bgs in
+
+Resized canvas to 1920
+
+
+
+# Dimensions and coordinates of elements
+
+text 1
+
+height 70 width 767 horiz 128 vert 100
+
+chart 1
+
+w h 767 horiz 128 vert 155
+
+text 2
+height 70 width 767 horiz 1024 vert 100
+
+chart 2
+
+767x767 horiz 1024 vert 155
+
+last text 1 
+
+100x767 horiz 128 vert 940 
+last text 2 
+
+100x767 1024 940 
 
 # About amending this repo
 
@@ -264,6 +294,8 @@ by updating it using global search and replace. Worked on typography and
 amends from Suzie for Power BI json templates.
 
 Day 8, 3 Oct: Reviewed and sent latest Power BI work. Spent the afternoon tweaking and researchibg new features we can include.
+
+Day 9 : Changed all dimensions iof canvases and rearanged charts. Received, reviewing and implementing feedback. 
 
 # other notes from reference repo below
 
