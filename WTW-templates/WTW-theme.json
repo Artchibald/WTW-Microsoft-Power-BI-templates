@@ -49,27 +49,27 @@
     "textClasses": {
         "callout": {
             "fontSize": 24,
-            "fontFace": "Segoe UI",
+            "fontFace": "Segoe UI Bold",
             "color": "#2f2c31",
             "bold": true,
-            "titleBold": true
+            "titleBold": true 
         },
         "title": {
             "fontSize": 24,
-            "fontFace": "Segoe UI",
+            "fontFace": "Segoe UI Bold",
             "color": "#2f2c31", 
             "bold": true,
             "titleBold": true
         },
         "header": {
-            "fontSize": 14,
-            "fontFace": "Segoe UI",
+            "fontSize": 24,
+            "fontFace": "Segoe UI Bold",
             "color": "#2f2c31",
             "bold": true,
             "titleBold": true
         },
         "label": {
-            "fontSize": 8,
+            "fontSize": 18,
             "fontFace": "Segoe UI",
             "color": "#2f2c31",
             "bold": true,
@@ -361,6 +361,15 @@
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
                         "bold": true,
+                        "titleBold": true,
+                        "fontSize": 18
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontSize": 24,
                         "titleBold": true
                     }
                 ],
@@ -372,9 +381,10 @@
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
                         "titleText": "WTW area chart category axis",
-                        "bold": true,
                         "titleBold": true,
-                        "weight": 30
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "valueAxis": [
@@ -387,9 +397,10 @@
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
                         "titleText": "WTW area chart value axis",
-                        "bold": true,
+                        "titleFontSize": 24,
                         "titleBold": true,
-                        "weight": 30
+                        "weight": 30,
+                        "fontSize": 18
                     }
                 ],
                 "dataPoint": [
@@ -398,8 +409,7 @@
                 "labels": [
                     {
                         "show": true,
-                        "bold": true,
-                        "titleBold": true,
+                        "fontSize": 14,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
@@ -452,7 +462,9 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true
                     }
                 ],
                 "legend": [
@@ -601,12 +613,39 @@
                         "keepLayerOrder": true
                     }
                 ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true
+                    }
+                ],
                 "legend": [
                     {
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW Clustered Bar chart legend"
+                        "fontSize": 18,
+                        "titleText": "Clustered Bar"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
                     }
                 ],
                 "categoryAxis": [
@@ -617,7 +656,7 @@
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
                         "titleText": "WTW Clustered Bar chart category Axis",
-                        "bold": true,
+                        "bold": false,
                         "titleBold": true,
                         "weight": 30,
                         "gridlineShow": true,
@@ -627,7 +666,9 @@
                             }
                         },
                         "gridlineThickness": 1,
-                        "gridlineStyle": "solid"
+                        "gridlineStyle": "solid",
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "valueAxis": [
@@ -637,7 +678,7 @@
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
                         "titleText": "WTW Clustered Bar chart value axis",
-                        "bold": true,
+                        "bold": false,
                         "titleBold": true,
                         "weight": 30,
                         "gridlineShow": true,
@@ -647,7 +688,9 @@
                             }
                         },
                         "gridlineThickness": 2,
-                        "gridlineStyle": "solid"
+                        "gridlineStyle": "solid",
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ]
             }
@@ -659,6 +702,14 @@
                         "WTWcomment": "Test file comments",
                         "responsive": true,
                         "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true
                     }
                 ],
                 "legend": [
@@ -676,9 +727,10 @@
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
                         "titleText": "WTW Clustered Column Chart Category Axis",
-                        "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "valueAxis": [
@@ -691,9 +743,10 @@
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
                         "titleText": "WTW Clustered Column Chart Value Axis",
-                        "bold": true,
                         "titleBold": true,
-                        "weight": 30
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "dataPoint": [
@@ -717,7 +770,8 @@
                                 "color": "#FFFFFF"
                             }
                         },
-                        "backgroundTransparency": 0
+                        "backgroundTransparency": 0,
+                        "fontSize": 14
                     }
                 ],
                 "plotArea": [
@@ -812,10 +866,16 @@
                         "radius": 0
                     }
                 ],
+                "categoryLabels": [{
+					"categoryLabelFontSize": 14
+				}],
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Decompoition chart title"
                     }
                 ],
                 "analysis": [
@@ -828,7 +888,7 @@
 					"accentColor": { "solid": { "color": "#2f2c31"}},
 					"barsPerLevel": 20,
 					"connectorDefaultColor": { "solid": { "color": "#48086F"}},
-					"connectorType": "round",
+					"connectorType": "round", 
 					"density": "sparse"
 				}],
                 "dataBars": [
@@ -836,11 +896,14 @@
                         "dataBarScalingType": "parentNode"
                     }
                 ],
-                "dataLabels": [
-                    {
-                        "dataLabelDisplayUnits": "0"
-                    }
-                ]
+				"dataLabels": [{
+					"dataLabelDisplayUnits": "0",
+					"dataLabelFontSize": 14
+				}],
+                "levelHeader": [{
+					"levelSubtitleFontSize": 14,
+					"levelTitleFontSize": 12
+				}]
             }
         },
         "donutChart": {
@@ -867,7 +930,10 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Donut chart title"
                     }
                 ],
                 "legend": [
@@ -875,14 +941,18 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW Donut Chart legend"
+                        "fontSize": 18,
+                        "titleBold": true,
+                        "bold": false,
+                        "titleText": "Donut legend"
                     }
                 ],
                 "labels": [
                     {
                         "show": true,
                         "labelStyle": "Data",
-                        "position": "outside"
+                        "position": "outside",
+                        "fontSize": 18
                     }
                 ]
             }
@@ -1070,12 +1140,13 @@
                 ],
                 "target": [
                     {
-                        "show": false
+                        "show": true
                     }
                 ],
                 "calloutValue": [
                     {
-                        "show": false
+                        "show": true,
+                        "fontFamily": "Segoe UI" 
                     }
                 ]
             }
@@ -1656,7 +1727,9 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true
                     }
                 ],
                 "legend": [
@@ -1686,7 +1759,8 @@
                                 "color": "#FFFFFF"
                             }
                         },
-                        "backgroundTransparency": 0
+                        "backgroundTransparency": 0,
+                        "fontSize": 14
                     }
                 ],
                 "mapControls": [

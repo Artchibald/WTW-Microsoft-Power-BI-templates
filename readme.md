@@ -38,11 +38,11 @@ Amends are quite slow and fiddly, rabbit hole effect
 
 Please confirm:
 
-Horizontal axises are 2px grey matter BFBFBF
-Vertical axis are 1px dark matter 808080
-All labels
-All category titles
-All chart top main titles
+Horizontal axis lines are 2px solid grey matter BFBFBF
+Vertical axis lines are 1px solid dark matter 808080
+All labels - weight, color, size, bg
+All category titles - weight, color, size
+All chart top main titles(currently tiny) - weight, color, size
 
 
 # Dimensions and coordinates of elements
