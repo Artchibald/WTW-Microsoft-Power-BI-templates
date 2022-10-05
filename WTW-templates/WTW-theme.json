@@ -824,12 +824,13 @@
                         "aiMode": "relative"
                     }
                 ],
-                "tree": [
-                    {
-                        "connectorType": "round",
-                        "density": "sparse"
-                    }
-                ],
+				"tree": [{
+					"accentColor": { "solid": { "color": "#2f2c31"}},
+					"barsPerLevel": 20,
+					"connectorDefaultColor": { "solid": { "color": "#48086F"}},
+					"connectorType": "round",
+					"density": "sparse"
+				}],
                 "dataBars": [
                     {
                         "dataBarScalingType": "parentNode"

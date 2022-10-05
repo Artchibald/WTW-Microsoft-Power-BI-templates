@@ -34,7 +34,16 @@ Amended bgs in
 
 Resized canvas to 1920
 
-Amends are quite slow and fiddly
+Amends are quite slow and fiddly, rabbit hole effect 
+
+Please confirm:
+
+Horizontal axises are 2px grey matter BFBFBF
+Vertical axis are 1px dark matter 808080
+All labels
+All category titles
+All chart top main titles
+
 
 # Dimensions and coordinates of elements
 
