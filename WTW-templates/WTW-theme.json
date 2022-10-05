@@ -49,21 +49,21 @@
     "textClasses": {
         "callout": {
             "fontSize": 24,
-            "fontFace": "Segoe UI Bold",
+            "fontFace": "Segoe UI",
             "color": "#2f2c31",
             "bold": true,
             "titleBold": true 
         },
         "title": {
             "fontSize": 24,
-            "fontFace": "Segoe UI Bold",
+            "fontFace": "Segoe UI",
             "color": "#2f2c31", 
             "bold": true,
             "titleBold": true
         },
         "header": {
             "fontSize": 24,
-            "fontFace": "Segoe UI Bold",
+            "fontFace": "Segoe UI",
             "color": "#2f2c31",
             "bold": true,
             "titleBold": true
@@ -370,7 +370,8 @@
                         "show": true,
                         "alignment": "left",
                         "fontSize": 24,
-                        "titleBold": true
+                        "titleBold": true,
+                        "bold": true
                     }
                 ],
                 "categoryAxis": [
@@ -464,7 +465,8 @@
                         "show": true,
                         "alignment": "left",
                         "fontSize": 24,
-                        "titleBold": true
+                        "titleBold": true,
+                        "bold": true
                     }
                 ],
                 "legend": [
@@ -618,7 +620,8 @@
                         "show": true,
                         "alignment": "left",
                         "fontSize": 24,
-                        "titleBold": true
+                        "titleBold": true,
+                        "bold": true
                     }
                 ],
                 "legend": [
@@ -709,7 +712,8 @@
                         "show": true,
                         "alignment": "left",
                         "fontSize": 24,
-                        "titleBold": true
+                        "titleBold": true,
+                        "bold": true
                     }
                 ],
                 "legend": [
@@ -875,7 +879,8 @@
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
-                        "titleText": "Decompoition chart title"
+                        "titleText": "Decompoition chart title",
+                        "bold": true
                     }
                 ],
                 "analysis": [
@@ -925,7 +930,7 @@
                     {
                         "show": false,
                         "radius": 0
-                    }
+                    } 
                 ],
                 "title": [
                     {
@@ -933,7 +938,8 @@
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
-                        "titleText": "Donut chart title"
+                        "titleText": "Donut chart title",
+                        "bold": true
                     }
                 ],
                 "legend": [
@@ -1023,7 +1029,11 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "bold": true,
+                        "titleText": "Donut chart title"
                     }
                 ],
                 "legend": [
@@ -1031,7 +1041,10 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW Filled Map legend"
+                        "fontSize": 18,
+                        "titleBold": true,
+                        "bold": false,
+                        "titleText": "Filled map legend"
                     }
                 ],
                 "dataPoint": [
@@ -1078,12 +1091,17 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Funnel title",
+                        "bold": true
                     }
                 ],
                 "categoryAxis": [
                     {
-                        "show": true
+                        "show": true,
+                        "fontSize": 18
                     }
                 ],
                 "dataPoint": [
@@ -1094,8 +1112,9 @@
                 "labels": [
                     {
                         "show": true,
+                        "fontSize": 14,
                         "labelDisplayUnits": "0",
-                        "labelPrecision": 1,
+                        "labelPrecision": 0,
                         "labelPosition": "Outside"
                     }
                 ],
@@ -1130,17 +1149,23 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Gauge title",
+                        "bold": true
                     }
                 ],
                 "labels": [
                     {
-                        "show": true
+                        "show": true,
+                         "fontSize": 14
                     }
                 ],
                 "target": [
                     {
-                        "show": true
+                        "show": true,
+                        "fontSize": 14
                     }
                 ],
                 "calloutValue": [
@@ -1729,7 +1754,8 @@
                         "show": true,
                         "alignment": "left",
                         "fontSize": 24,
-                        "titleBold": true
+                        "titleBold": true,
+                        "bold": true
                     }
                 ],
                 "legend": [
@@ -1737,7 +1763,10 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW map legend"
+                        "fontSize": 18,
+                        "titleBold": true,
+                        "bold": false,
+                        "titleText": "Map legend"
                     }
                 ],
                 "dataPoint": [
