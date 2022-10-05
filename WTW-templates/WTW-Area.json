@@ -47,7 +47,15 @@
                         "concatenateLabels": true,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW area chart category axis"
+                        "titleText": "WTW area chart category axis",
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid"
                     }
                 ],
                 "valueAxis": [
@@ -59,7 +67,15 @@
                         "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW area chart value axis"
+                        "titleText": "WTW area chart value axis",
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
                     }
                 ],
                 "dataPoint": [

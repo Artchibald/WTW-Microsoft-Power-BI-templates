@@ -69,7 +69,7 @@
             "titleBold": true
         },
         "label": {
-            "fontSize": 10,
+            "fontSize": 8,
             "fontFace": "Segoe UI",
             "color": "#2f2c31",
             "bold": true,
@@ -109,7 +109,7 @@
                         "gridlineShow": true,
                         "gridlineColor": {
                             "solid": {
-                                "color": "#2f2c31"
+                                "color": "#808080"
                             }
                         },
                         "gridlineThickness": 1,
@@ -122,10 +122,10 @@
                         "gridlineShow": true,
                         "gridlineColor": {
                             "solid": {
-                                "color": "#2f2c31"
+                                "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 1,
+                        "gridlineThickness": 2,
                         "gridlineStyle": "solid"
                     }
                 ],
@@ -419,9 +419,9 @@
                         "strokeWidth": 4,
                         "strokeLineJoin": "bevel",
                         "lineStyle": "solid",
-                        "showMarker": true,
+                        "showMarker": true, 
                         "markerShape": "square",
-                        "markerSize": 10
+                        "markerSize": 8
                     }
                 ],
                 "plotArea": [
@@ -619,7 +619,15 @@
                         "titleText": "WTW Clustered Bar chart category Axis",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30
+                        "weight": 30,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid"
                     }
                 ],
                 "valueAxis": [
@@ -631,7 +639,15 @@
                         "titleText": "WTW Clustered Bar chart value axis",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30
+                        "weight": 30,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
                     }
                 ]
             }
@@ -1090,7 +1106,16 @@
                         "titleText": "WTW 100% Stacked Bar Chart Legend",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid"
+                     
                     }
                 ],
                 "valueAxis": [
@@ -1102,8 +1127,18 @@
                         "titleText": "WTW 100% Stacked Bar Chart Value Axis",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30 ,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid"
                     }
+                    
+                    
                 ],
                 "dataPoint": [
                     {}
@@ -1609,11 +1644,12 @@
                         "WTWcomment": "Test file comments",
                         "responsive": true,
                         "keepLayerOrder": true
-                    }
+                    } 
                 ],
                 "border": [
                     {
-                        "show": false
+                        "show": false,
+                        "radius": 0
                     }
                 ],
                 "title": [
@@ -1666,7 +1702,7 @@
                     }
                 ]
             }
-        },
+        }, 
         "multiRowCard": {
             "*": {
                 "general": [

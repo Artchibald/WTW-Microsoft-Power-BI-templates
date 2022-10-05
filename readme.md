@@ -34,7 +34,7 @@ Amended bgs in
 
 Resized canvas to 1920
 
-
+Amends are quite slow and fiddly
 
 # Dimensions and coordinates of elements
 
@@ -296,6 +296,8 @@ amends from Suzie for Power BI json templates.
 Day 8, 3 Oct: Reviewed and sent latest Power BI work. Spent the afternoon tweaking and researchibg new features we can include.
 
 Day 9 : Changed all dimensions iof canvases and rearanged charts. Received, reviewing and implementing feedback. 
+
+Day 10: Doing feedback, quite slow and fiddly,
 
 # other notes from reference repo below
 
