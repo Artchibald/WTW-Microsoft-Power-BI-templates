@@ -52,12 +52,12 @@
             "fontFace": "Segoe UI",
             "color": "#2f2c31",
             "bold": true,
-            "titleBold": true 
+            "titleBold": true
         },
         "title": {
             "fontSize": 24,
             "fontFace": "Segoe UI",
-            "color": "#2f2c31", 
+            "color": "#2f2c31",
             "bold": true,
             "titleBold": true
         },
@@ -357,10 +357,10 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW area chart legend",
+                        "titleText": "Area chart legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
-                        "bold": true,
+                        "bold": false,
                         "titleBold": true,
                         "fontSize": 18
                     }
@@ -430,7 +430,7 @@
                         "strokeWidth": 4,
                         "strokeLineJoin": "bevel",
                         "lineStyle": "solid",
-                        "showMarker": true, 
+                        "showMarker": true,
                         "markerShape": "square",
                         "markerSize": 8
                     }
@@ -534,7 +534,7 @@
                         "titleText": "WTW stacked bar chart cat axis",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30
                     }
                 ],
                 "valueAxis": [
@@ -548,7 +548,7 @@
                         "titleText": "WTW stacked bar chart value axis",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30
                     }
                 ],
                 "labels": [
@@ -812,7 +812,7 @@
                         "titleText": "WTW Column chart cat axis",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30
                     }
                 ],
                 "valueAxis": [
@@ -826,7 +826,7 @@
                         "titleText": "WTW Column chart legend",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30
                     }
                 ],
                 "labels": [
@@ -870,9 +870,11 @@
                         "radius": 0
                     }
                 ],
-                "categoryLabels": [{
-					"categoryLabelFontSize": 14
-				}],
+                "categoryLabels": [
+                    {
+                        "categoryLabelFontSize": 14
+                    }
+                ],
                 "title": [
                     {
                         "show": true,
@@ -889,26 +891,40 @@
                         "aiMode": "relative"
                     }
                 ],
-				"tree": [{
-					"accentColor": { "solid": { "color": "#2f2c31"}},
-					"barsPerLevel": 20,
-					"connectorDefaultColor": { "solid": { "color": "#48086F"}},
-					"connectorType": "round", 
-					"density": "sparse"
-				}],
+                "tree": [
+                    {
+                        "accentColor": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "barsPerLevel": 20,
+                        "connectorDefaultColor": {
+                            "solid": {
+                                "color": "#48086F"
+                            }
+                        },
+                        "connectorType": "round",
+                        "density": "sparse"
+                    }
+                ],
                 "dataBars": [
                     {
                         "dataBarScalingType": "parentNode"
                     }
                 ],
-				"dataLabels": [{
-					"dataLabelDisplayUnits": "0",
-					"dataLabelFontSize": 14
-				}],
-                "levelHeader": [{
-					"levelSubtitleFontSize": 14,
-					"levelTitleFontSize": 12
-				}]
+                "dataLabels": [
+                    {
+                        "dataLabelDisplayUnits": "0",
+                        "dataLabelFontSize": 14
+                    }
+                ],
+                "levelHeader": [
+                    {
+                        "levelSubtitleFontSize": 14,
+                        "levelTitleFontSize": 12
+                    }
+                ]
             }
         },
         "donutChart": {
@@ -930,7 +946,7 @@
                     {
                         "show": false,
                         "radius": 0
-                    } 
+                    }
                 ],
                 "title": [
                     {
@@ -1159,7 +1175,7 @@
                 "labels": [
                     {
                         "show": true,
-                         "fontSize": 14
+                        "fontSize": 14
                     }
                 ],
                 "target": [
@@ -1171,7 +1187,7 @@
                 "calloutValue": [
                     {
                         "show": true,
-                        "fontFamily": "Segoe UI" 
+                        "fontFamily": "Segoe UI"
                     }
                 ]
             }
@@ -1185,12 +1201,27 @@
                         "keepLayerOrder": true
                     }
                 ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "100% Stacked title",
+                        "bold": true
+                    }
+                ],
                 "legend": [
                     {
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW 100% Stacked Bar Chart Legend"
+                        "titleText": "100% Stacked legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 18
                     }
                 ],
                 "categoryAxis": [
@@ -1200,10 +1231,8 @@
                         "concatenateLabels": false,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW 100% Stacked Bar Chart Legend",
-                        "bold": true,
-                        "titleBold": true,
-                        "weight": 30,
+                        "titleText": "100% Stacked Category",
+                        "bold": false,
                         "gridlineShow": true,
                         "gridlineColor": {
                             "solid": {
@@ -1211,8 +1240,11 @@
                             }
                         },
                         "gridlineThickness": 1,
-                        "gridlineStyle": "solid"
-                     
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "valueAxis": [
@@ -1221,10 +1253,8 @@
                         "position": "Right",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW 100% Stacked Bar Chart Value Axis",
-                        "bold": true,
-                        "titleBold": true,
-                        "weight": 30 ,
+                        "titleText": "100% Stacked Bar Value",
+                        "bold": false,
                         "gridlineShow": true,
                         "gridlineColor": {
                             "solid": {
@@ -1232,10 +1262,12 @@
                             }
                         },
                         "gridlineThickness": 2,
-                        "gridlineStyle": "solid"
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
-                    
-                    
                 ],
                 "dataPoint": [
                     {}
@@ -1243,6 +1275,7 @@
                 "labels": [
                     {
                         "show": true,
+                        "fontSize": 14,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
@@ -1275,39 +1308,72 @@
                         "keepLayerOrder": true
                     }
                 ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "100% Stacked title",
+                        "bold": true
+                    }
+                ],
                 "legend": [
                     {
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW Hundred percent stacked column legend"
+                        "titleText": "100% stacked col legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 18
                     }
                 ],
                 "categoryAxis": [
                     {
                         "show": true,
                         "position": "Right",
-                        "concatenateLabels": true,
+                        "concatenateLabels": false,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Hundred percent stacked column category axis",
-                        "bold": true,
+                        "titleText": "100% stacked col category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "valueAxis": [
                     {
                         "show": true,
                         "position": "Right",
-                        "axisScale": "Linear",
-                        "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW Hundred percent stacked column value axis",
-                        "bold": true,
+                        "titleText": "100% stacked col value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 2,
+                        "gridlineStyle": "solid",
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "dataPoint": [
@@ -1316,13 +1382,12 @@
                 "labels": [
                     {
                         "show": true,
+                        "fontSize": 14,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
                             }
                         },
-                        "labelDisplayUnits": "0",
-                        "labelPrecision": 1,
                         "labelOrientation": "horizontal",
                         "labelPosition": "OutsideEnd",
                         "enableBackground": true,
@@ -1399,17 +1464,11 @@
                 "title": [
                     {
                         "show": true,
-                        "fontColor": {
-                            "solid": {
-                                "color": "#2f2c31"
-                            }
-                        },
-                        "background": {
-                            "solid": {
-                                "color": "#FFFFFF"
-                            }
-                        },
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Key influencers title",
+                        "bold": true
                     }
                 ],
                 "legend": [
@@ -1417,12 +1476,12 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW Key influencer legend",
-                        "legendColor": {
-                            "solid": {
-                                "color": "#2f2c31"
-                            }
-                        }
+                        "titleText": "Key influencers legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 18
                     }
                 ]
             }
@@ -1451,23 +1510,50 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "KPI title",
+                        "bold": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
                     }
                 ],
                 "indicator": [
                     {
                         "showIcon": true,
                         "horizontalAlignment": "left",
-                        "verticalAlignment": "top"
+                        "verticalAlignment": "top",
+                        "fontSize": 14
                     }
                 ],
                 "trendline": [
                     {
+                        "fontSize": 14,
                         "show": true
                     }
                 ],
                 "goals": [
                     {
+                        "fontSize": 14,
                         "showGoal": true,
                         "showDistance": true
                     }
@@ -1483,61 +1569,85 @@
                         "keepLayerOrder": true
                     }
                 ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Line chart title",
+                        "bold": true
+                    }
+                ],
                 "legend": [
                     {
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW line chart legend",
+                        "titleText": "Line chart col legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
-                        "defaultToCircle": false
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 18
                     }
                 ],
                 "categoryAxis": [
                     {
                         "show": true,
-                        "axisType": "categorical",
-                        "concatenateLabels": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line chart category axis",
-                        "bold": true,
+                        "titleText": "Line chart col category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "valueAxis": [
                     {
                         "show": true,
                         "position": "Right",
-                        "axisScale": "Linear",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line chart value axis",
+                        "titleText": "Line chart col value",
+                        "bold": false,
                         "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 2,
                         "gridlineStyle": "solid",
-                        "bold": true,
                         "titleBold": true,
-                        "weight": 30 
-                    }
-                ],
-                "y2Axis": [
-                    {
-                        "secShowAxisTitle": true,
-                        "secTitleText": "WTW line chart y2 axis"
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "labels": [
                     {
                         "show": true,
+                        "fontSize": 14,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
                             }
                         },
-                        "labelDisplayUnits": "0",
-                        "labelPrecision": 1,
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
                         "enableBackground": true,
                         "backgroundColor": {
                             "solid": {
@@ -1545,6 +1655,12 @@
                             }
                         },
                         "backgroundTransparency": 0
+                    }
+                ],
+                "y2Axis": [
+                    {
+                        "secShowAxisTitle": true,
+                        "secTitleText": "Line chart y2 axis"
                     }
                 ],
                 "lineStyles": [
@@ -1568,61 +1684,85 @@
                         "keepLayerOrder": true
                     }
                 ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Line clustered chart title",
+                        "bold": true
+                    }
+                ],
                 "legend": [
                     {
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW line clustered legend"
+                        "titleText": "Line clustered chart col legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 18
                     }
                 ],
                 "categoryAxis": [
                     {
                         "show": true,
                         "position": "Right",
-                        "concatenateLabels": true,
+                        "concatenateLabels": false,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line clustered category axis",
-                        "bold": true,
+                        "titleText": "Line clustered chart col category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "valueAxis": [
                     {
                         "show": true,
                         "position": "Right",
-                        "axisScale": "Linear",
-                        "labelDisplayUnits": "0",
-                        "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line clustered value axis",
+                        "titleText": "Line clustered chart col value",
+                        "bold": false,
                         "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 2,
                         "gridlineStyle": "solid",
-                        "secShow": true,
-                        "alignZeros": true,
-                        "secAxisLabel": "WTW line clustered sec axis",
-                        "secPosition": "Left",
-                        "secAxisScale": "Log",
-                        "secShowAxisTitle": true,
-                        "secAxisStyle": "showTitleOnly",
-                        "secTitleText": "WTW line clustered sec value axis",
-                        "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "labels": [
                     {
                         "show": true,
-                        "labelOrientation": "horizontal",
+                        "fontSize": 14,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
                             }
                         },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
                         "enableBackground": true,
                         "backgroundColor": {
                             "solid": {
@@ -1653,57 +1793,78 @@
                         "keepLayerOrder": true
                     }
                 ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Line clustered chart title",
+                        "bold": true
+                    }
+                ],
                 "legend": [
                     {
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW line Stacked column legend"
+                        "titleText": "Line clustered chart col legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 18
                     }
                 ],
                 "categoryAxis": [
                     {
                         "show": true,
                         "position": "Right",
-                        "concatenateLabels": true,
+                        "concatenateLabels": false,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line Stacked column category axis",
-                        "bold": true,
+                        "titleText": "Line clustered chart col category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "valueAxis": [
                     {
                         "show": true,
                         "position": "Right",
-                        "axisScale": "Linear",
-                        "labelDisplayUnits": "0",
-                        "labelPrecision": "Auto",
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW line Stacked column value axis",
+                        "titleText": "Line clustered chart col value",
+                        "bold": false,
                         "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 2,
                         "gridlineStyle": "solid",
-                        "secShow": true,
-                        "alignZeros": true,
-                        "secAxisLabel": "WTW line Stacked column value axis",
-                        "secPosition": "Left",
-                        "secAxisScale": "Log",
-                        "secLabelDisplayUnits": "0",
-                        "secLabelPrecision": 2,
-                        "secShowAxisTitle": true,
-                        "secAxisStyle": "showTitleOnly",
-                        "secTitleText": "WTW line Stacked column sec title",
-                        "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "labels": [
                     {
                         "show": true,
+                        "fontSize": 14,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
@@ -1741,7 +1902,7 @@
                         "WTWcomment": "Test file comments",
                         "responsive": true,
                         "keepLayerOrder": true
-                    } 
+                    }
                 ],
                 "border": [
                     {
@@ -1806,7 +1967,7 @@
                     }
                 ]
             }
-        }, 
+        },
         "multiRowCard": {
             "*": {
                 "general": [
@@ -1897,15 +2058,57 @@
                         "keepLayerOrder": true
                     }
                 ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "100% Stacked title",
+                        "bold": true
                     }
                 ],
                 "stylePreset": [
                     {
-                        "name": "Bold header"
+                        "name": "Bold header",
+                        "stylePreset": [
+                            {
+                                "name": "Condensed"
+                            }
+                        ],
+                        "grid": [
+                            {
+                                "gridVertical": true,
+                                "gridVerticalColor": {
+                                    "solid": {
+                                        "color": "#48086F"
+                                    }
+                                },
+                                "gridVerticalWeight": 2,
+                                "gridHorizontal": true,
+                                "gridHorizontalColor": {
+                                    "solid": {
+                                        "color": "#48086F"
+                                    }
+                                },
+                                "gridHorizontalWeight": 2,
+                                "rowPadding": 2,
+                                "outlineColor": {
+                                    "solid": {
+                                        "color": "#48086F"
+                                    }
+                                },
+                                "outlineWeight": 2,
+                                "textSize": 14,
+                                "imageHeight": 100
+                            }
+                        ]
                     }
                 ],
                 "grid": [
@@ -1926,7 +2129,8 @@
                         "alignment": "Left",
                         "titleAlignment": "Right",
                         "urlIcon": true,
-                        "wordWrap": true
+                        "wordWrap": true,
+                        "fontSize": 18
                     }
                 ],
                 "rowHeaders": [
@@ -1937,7 +2141,8 @@
                         "urlIcon": true,
                         "wordWrap": true,
                         "alignment": "Left",
-                        "showExpandCollapseButtons": true
+                        "showExpandCollapseButtons": true,
+                        "fontSize": 18
                     }
                 ],
                 "values": [
@@ -1946,7 +2151,8 @@
                         "valuesOnRow": true,
                         "outline": "Frame",
                         "urlIcon": true,
-                        "wordWrap": true
+                        "wordWrap": true,
+                        "fontSize": 18
                     }
                 ],
                 "subTotals": [
@@ -1956,12 +2162,14 @@
                         "applyToHeaders": true,
                         "rowSubtotalsPosition": "Bottom",
                         "perRowLevel": true,
-                        "perColumnLevel": true
+                        "perColumnLevel": true,
+                        "fontSize": 18
                     }
                 ],
                 "total": [
                     {
-                        "applyToHeaders": true
+                        "applyToHeaders": true,
+                        "fontSize": 18
                     }
                 ]
             }
@@ -2017,7 +2225,7 @@
                         "titleText": "WTW ribbon template cat axis",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30
                     }
                 ],
                 "labels": [
@@ -2080,7 +2288,7 @@
                         "titleText": "WTW scater chart cat axis",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30
                     }
                 ],
                 "valueAxis": [
@@ -2095,7 +2303,7 @@
                         "titleText": "WTW scater chart value axis",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30
                     }
                 ],
                 "shapes": [
@@ -2237,7 +2445,7 @@
                         "titleText": "WTW stacked area chart legend",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30
                     }
                 ],
                 "valueAxis": [
@@ -2250,7 +2458,7 @@
                         "titleText": "WTW stacked area chart legend",
                         "bold": true,
                         "titleBold": true,
-                        "weight": 30 
+                        "weight": 30
                     }
                 ],
                 "labels": [
@@ -2278,7 +2486,7 @@
                         "lineStyle": "solid",
                         "showMarker": true,
                         "markerShape": "square",
-                        "markerSize": 10,
+                        "markerSize": 3,
                         "showSeries": true
                     }
                 ]
