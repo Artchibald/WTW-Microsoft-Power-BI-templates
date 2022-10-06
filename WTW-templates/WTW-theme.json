@@ -1986,14 +1986,25 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "100% Stacked title",
+                        "bold": true
                     }
                 ],
                 "categoryLabels": [
                     {
-                        "show": true
+                        "show": true,
+                        "fontSize": 18
                     }
                 ],
+                "dataLabels": [{
+					"fontSize": 18
+				}],
+                "cardTitle": [{
+                    "fontSize": 14
+				}],
                 "card": [
                     {
                         "outline": "TopOnly",
@@ -2001,7 +2012,7 @@
                         "barShow": true,
                         "barColor": {
                             "solid": {
-                                "color": "#c900ac"
+                                "color": "#48086F"
                             }
                         },
                         "barWeight": 2,
@@ -2022,7 +2033,11 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Pie chart title",
+                        "bold": true
                     }
                 ],
                 "legend": [
@@ -2030,26 +2045,38 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW Pie chart legend"
+                        "titleText": "Pie chart col legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 18
                     }
                 ],
                 "labels": [
                     {
                         "show": true,
-                        "labelStyle": "Data",
+                        "fontSize": 14,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
                             }
+                        }, 
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
                         },
-                        "labelDisplayUnits": "0",
-                        "labelPrecision": 0,
+                        "backgroundTransparency": 0,
                         "position": "outside"
                     }
                 ]
             }
         },
-        "pivotTable": {
+        "pivotTable": {  
             "*": {
                 "general": [
                     {
@@ -2070,7 +2097,7 @@
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
-                        "titleText": "100% Stacked title",
+                        "titleText": "Pivot table title",
                         "bold": true
                     }
                 ],
@@ -2186,7 +2213,11 @@
                 "title": [
                     {
                         "show": true,
-                        "alignment": "left"
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "QNA chart title",
+                        "bold": true
                     }
                 ],
                 "legend": [
@@ -2194,7 +2225,31 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW QNA legend"
+                        "titleText": "WTW QNA legend",
+                        "fontSize": 18,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "fontSize": 18,
+                        "enableBackground": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
                     }
                 ]
             }
@@ -2213,33 +2268,48 @@
                         "show": true,
                         "position": "Top",
                         "showTitle": true,
-                        "titleText": "WTW Ribbon template legend"
+                        "titleText": "Ribbon chart legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 18
                     }
                 ],
                 "categoryAxis": [
                     {
                         "show": true,
-                        "concatenateLabels": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
                         "showAxisTitle": true,
                         "axisStyle": "showTitleOnly",
-                        "titleText": "WTW ribbon template cat axis",
-                        "bold": true,
+                        "titleText": "100% stacked col category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
                         "titleBold": true,
-                        "weight": 30
+                        "weight": 30,
+                        "fontSize": 18,
+                        "titleFontSize": 24
                     }
                 ],
                 "labels": [
                     {
                         "show": true,
+                        "fontSize": 14,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
                             }
                         },
-                        "labelDisplayUnits": "0",
-                        "labelPrecision": 1,
                         "labelOrientation": "horizontal",
-                        "labelPosition": "InsideEnd",
+                        "labelPosition": "OutsideEnd",
                         "enableBackground": true,
                         "backgroundColor": {
                             "solid": {
