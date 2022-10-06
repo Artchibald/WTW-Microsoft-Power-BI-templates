@@ -32,9 +32,13 @@ More control over lines: use BG image on charts
 
 Amended bgs in
 
-Resized canvas to 1920
+Resized canvas to 1920, used math to align everything horiz and verti.
 
-Amends are quite slow and fiddly, rabbit hole effect 
+Amends are quite slow and fiddly since cavas resize, rabbit hole effect 
+
+Had to add individual styles through every module, took a big day. Theme file size increased a lot.
+
+Show commits if necessary
 
 Please confirm:
 

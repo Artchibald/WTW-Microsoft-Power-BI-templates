@@ -356,7 +356,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Area chart legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -367,7 +367,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -432,7 +432,7 @@
                         "lineStyle": "solid",
                         "showMarker": true,
                         "markerShape": "square",
-                        "markerSize": 8
+                        "markerSize": 6
                     }
                 ],
                 "plotArea": [
@@ -462,7 +462,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -483,7 +483,7 @@
                                 "color": "#FFFFFF"
                             }
                         },
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "WTW Azure Map info goes here"
                     }
                 ],
@@ -519,7 +519,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -531,7 +531,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Bar chart legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -663,7 +663,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -674,7 +674,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "fontSize": 18,
                         "titleText": "Clustered Bar"
                     }
@@ -755,7 +755,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -766,7 +766,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "WTW Clustered Column Chart Category Axis"
                     }
                 ],
@@ -842,7 +842,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -854,7 +854,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Column chart legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -961,7 +961,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1034,7 +1034,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1046,7 +1046,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "fontSize": 18,
                         "titleBold": true,
                         "bold": false,
@@ -1086,7 +1086,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left"
                     }
                 ],
@@ -1094,7 +1094,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "legendColor": {
                             "solid": {
                                 "color": "#2f2c31"
@@ -1128,7 +1128,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1140,7 +1140,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "fontSize": 18,
                         "titleBold": true,
                         "bold": false,
@@ -1190,7 +1190,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1248,7 +1248,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1287,7 +1287,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1299,7 +1299,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "100% Stacked legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -1394,7 +1394,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1406,7 +1406,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "100% stacked col legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -1513,7 +1513,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left"
                     }
                 ],
@@ -1547,7 +1547,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1559,7 +1559,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Key influencers legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -1593,7 +1593,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1604,7 +1604,7 @@
                 "labels": [
                     {
                         "show": true,
-                        "fontSize": 14,
+                        "fontSize": 18,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
@@ -1618,15 +1618,18 @@
                                 "color": "#FFFFFF"
                             }
                         },
-                        "backgroundTransparency": 0
+                        "backgroundTransparency": 0,
+                        "horizontalAlignment": "center",
+                        "verticalAlignment": "center"
                     }
                 ],
                 "indicator": [
                     {
                         "showIcon": true,
-                        "horizontalAlignment": "left",
-                        "verticalAlignment": "top",
-                        "fontSize": 14
+                        "horizontalAlignment": "center",
+                        "verticalAlignment": "center",
+                        "fontSize": 24,
+                        "bold": true
                     }
                 ],
                 "trendline": [
@@ -1637,11 +1640,22 @@
                 ],
                 "goals": [
                     {
-                        "fontSize": 14,
+                        "fontSize": 18,
                         "showGoal": true,
-                        "showDistance": true
+                        "showDistance": true,
+                        "horizontalAlignment": "center",
+                        "verticalAlignment": "center"
                     }
-                ]
+                ],
+                "calloutValue": [{
+					"show": true,
+					"labelDisplayUnits": "0",
+					"labelPrecision": 1,
+                    "fontSize": 24,
+                    "bold": true,
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center"
+				}]	
             }
         },
         "lineChart": {
@@ -1655,7 +1669,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1667,7 +1681,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Line chart col legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -1754,7 +1768,7 @@
                         "lineStyle": "solid",
                         "showMarker": true,
                         "markerShape": "square",
-                        "markerSize": 10
+                        "markerSize": 6
                     }
                 ]
             }
@@ -1770,7 +1784,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1782,7 +1796,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Line clustered chart col legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -1879,7 +1893,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -1891,7 +1905,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Line clustered chart col legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -1996,7 +2010,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2007,7 +2021,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "fontSize": 18,
                         "titleBold": true,
                         "bold": false,
@@ -2069,7 +2083,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2091,7 +2105,7 @@
 				}],
                 "card": [
                     {
-                        "outline": "TopOnly",
+                        "outline": "TopBottom",
                         "outlineWeight": 2,
                         "barShow": true,
                         "barColor": {
@@ -2100,7 +2114,7 @@
                             }
                         },
                         "barWeight": 2,
-                        "cardPadding": 20
+                        "cardPadding": 0
                     }
                 ]
             }
@@ -2116,7 +2130,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2128,7 +2142,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Pie chart col legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -2177,7 +2191,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2296,7 +2310,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2308,7 +2322,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "WTW QNA legend",
                         "fontSize": 18,
                         "color": {
@@ -2328,7 +2342,21 @@
                 "labels": [
                     {
                         "show": true,
-                        "fontSize": 14,
+                        "fontSize": 18,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
+                    }
+                ],
+                "calloutValue": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "bold": true,
                         "color": {
                             "solid": {
                                 "color": "#2f2c31"
@@ -2349,7 +2377,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2361,7 +2389,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Ribbon legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -2435,7 +2463,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2447,7 +2475,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Scater chart legend"
                     }
                 ],
@@ -2597,7 +2625,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2665,7 +2693,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2677,7 +2705,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Stacked Area legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
@@ -2761,7 +2789,7 @@
                         "lineStyle": "solid",
                         "showMarker": true,
                         "markerShape": "square",
-                        "markerSize": 3,
+                        "markerSize": 6,
                         "showSeries": true
                     }
                 ]
@@ -2777,7 +2805,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2907,7 +2935,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left"
                     }
                 ],
@@ -2941,7 +2969,7 @@
                 ],
                 "title": [
                     {
-                        "show": true,
+                        "show": false,
                         "alignment": "left",
                         "fontSize": 24,
                         "titleBold": true,
@@ -2953,7 +2981,7 @@
                     {
                         "show": true,
                         "position": "Top",
-                        "showTitle": true,
+                        "showTitle": false,
                         "titleText": "Treemap legend",
                         "legendMarkerRendering": "markerOnly",
                         "matchLineColor": false,
