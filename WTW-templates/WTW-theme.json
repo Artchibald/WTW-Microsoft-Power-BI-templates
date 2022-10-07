@@ -40,7 +40,7 @@
     "secondaryBackground": "#FFFFFF",
     "tableAccent": "#327fef",
     "good": "#007d61",
-    "neutral": "#ffb92a",
+    "neutral": "#2f2c31",
     "bad": "#b1232d",
     "maximum": "#327fef",
     "center": "#48086f",
@@ -1058,7 +1058,12 @@
                         "show": true,
                         "labelStyle": "Data",
                         "position": "outside",
-                        "fontSize": 18
+                        "fontSize": 18,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }  
                     }
                 ]
             }
@@ -1271,7 +1276,9 @@
                 "calloutValue": [
                     {
                         "show": true,
-                        "fontFamily": "Segoe UI"
+                        "fontFamily": "Segoe UI",
+                        "bold": true,
+                        "titleBold": true
                     }
                 ]
             }
@@ -2094,20 +2101,22 @@
                 "categoryLabels": [
                     {
                         "show": true,
-                        "fontSize": 18
+                        "fontSize": 18,
+                        "color": "#2f2c31"
                     }
                 ],
                 "dataLabels": [{
-					"fontSize": 18
+					"fontSize": 18,
+                    "color": "#2f2c31"
 				}],
                 "cardTitle": [{
                     "fontSize": 14
 				}],
                 "card": [
                     {
-                        "outline": "TopBottom",
+                        "outline": "BottomOnly",
                         "outlineWeight": 2,
-                        "barShow": true,
+                        "barShow": true, 
                         "barColor": {
                             "solid": {
                                 "color": "#48086F"
@@ -2201,7 +2210,7 @@
                 ],
                 "stylePreset": [
                     {
-                        "name": "Bold header",
+                        "name": "Default",
                         "stylePreset": [
                             {
                                 "name": "Condensed"
@@ -2252,7 +2261,7 @@
                         "outline": "Frame",
                         "autoSizeColumnWidth": true,
                         "alignment": "Left",
-                        "titleAlignment": "Right",
+                        "titleAlignment": "Left",
                         "urlIcon": true,
                         "wordWrap": true,
                         "fontSize": 18
@@ -2277,7 +2286,8 @@
                         "outline": "Frame",
                         "urlIcon": true,
                         "wordWrap": true,
-                        "fontSize": 18
+                        "fontSize": 18,
+                        "alignment": "Right"
                     }
                 ],
                 "subTotals": [
@@ -2821,7 +2831,7 @@
                                 "name": "Condensed"
                             }
                         ],
-                        "grid": [
+                        "grid": [ 
                             {
                                 "gridVertical": true,
                                 "gridVerticalColor": {
@@ -2891,7 +2901,8 @@
                         "outline": "Frame",
                         "urlIcon": true,
                         "wordWrap": true,
-                        "fontSize": 18
+                        "fontSize": 18,
+                        "alignment": "Right"
                     }
                 ],
                 "subTotals": [
@@ -2902,13 +2913,15 @@
                         "rowSubtotalsPosition": "Bottom",
                         "perRowLevel": true,
                         "perColumnLevel": true,
-                        "fontSize": 18
+                        "fontSize": 18,
+                        "alignment": "Right"
                     }
                 ],
                 "total": [
                     {
                         "applyToHeaders": true,
-                        "fontSize": 18
+                        "fontSize": 18,
+                        "alignment": "Right"
                     }
                 ]
             }
