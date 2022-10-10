@@ -286,6 +286,8 @@ Initial development estimate:
 
 14 to 18 working days for full project completion.
 
+
+
 # Timescale breakdown
 
 Hardware compatibility issues, 1/2 day no charge
@@ -311,6 +313,19 @@ Day 8, 3 Oct: Reviewed and sent latest Power BI work. Spent the afternoon tweaki
 Day 9 : Changed all dimensions iof canvases and rearanged charts. Received, reviewing and implementing feedback. 
 
 Day 10: Doing feedback, quite slow and fiddly,
+
+
+# Colors for tree and funnel
+
+Here’s our final color palette for Funnel and Tree only. Below is the order:
+
+1. # 934AC6
+2. # C900AC
+3. # D73665
+4. # 1A68D6
+5. # 621895
+6. # AE1698
+7. # 0852AD
 
 # other notes from reference repo below
 

@@ -125,7 +125,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid"
                     }
                 ],
@@ -577,7 +577,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "titleBold": true,
                         "weight": 30,
@@ -736,7 +736,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "fontSize": 18,
                         "titleFontSize": 24
@@ -900,7 +900,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "titleBold": true,
                         "weight": 30,
@@ -1352,7 +1352,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "titleBold": true,
                         "weight": 30,
@@ -1459,7 +1459,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "titleBold": true,
                         "weight": 30,
@@ -1734,7 +1734,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "titleBold": true,
                         "weight": 30,
@@ -1849,7 +1849,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "titleBold": true,
                         "weight": 30,
@@ -1958,7 +1958,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "titleBold": true,
                         "weight": 30,
@@ -2526,7 +2526,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "titleBold": true,
                         "weight": 30,
@@ -2761,7 +2761,7 @@
                                 "color": "#BFBFBF"
                             }
                         },
-                        "gridlineThickness": 2,
+                        "gridlineThickness": 1,
                         "gridlineStyle": "solid",
                         "titleBold": true,
                         "weight": 30,
