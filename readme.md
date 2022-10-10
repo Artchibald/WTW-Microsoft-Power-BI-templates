@@ -26,30 +26,9 @@ https://app.powerbi.com
 
 https://app.powerbi.com/
 
-# Next call
-
-More control over lines: use BG image on charts
-
-Amended bgs in
-
-Resized canvas to 1920, used math to align everything horiz and verti.
-
-Amends are quite slow and fiddly since cavas resize, rabbit hole effect 
-
-Had to add individual styles through every module, took a big day. Theme file size increased a lot.
-
-Show commits if necessary
-
-Please confirm:
-
-Horizontal axis lines are 2px solid grey matter BFBFBF
-Vertical axis lines are 1px solid dark matter 808080
-All labels - weight, color, size, bg
-All category titles - weight, color, size
-All chart top main titles(currently tiny) - weight, color, size
-
-
 # Dimensions and coordinates of elements
+
+We use maths to add elements to the 1920 x 1080 canvas with equal margins on all sides.
 
 text 1
 
@@ -60,6 +39,7 @@ chart 1
 w h 767 horiz 128 vert 155
 
 text 2
+
 height 70 width 767 horiz 1024 vert 100
 
 chart 2
@@ -69,6 +49,7 @@ chart 2
 last text 1 
 
 100x767 horiz 128 vert 940 
+
 last text 2 
 
 100x767 1024 940 
@@ -79,17 +60,23 @@ A bit fiddly! Power Bi desktop only works on Windows.
 
 To amend a theme file:
 
-Look at the module or global theme file with all options included. The json files without the WTW prefix.
+Look at the module or global theme file with all options included. They are in the json files without the WTW prefix.
 
-Compare that to the WTW prefixed equivalent. 
+Compare that to the WTW prefixed equivalent and amend as necessary. 
 
 Once you are happy with your amends on the individual WTW prefixed module (we don't want to edit the originals that don't have prefixes, they are references), you should copy the module across from the individual json file into the correct position in WTW-theme.json and test it in Power Bi.
 
 It is a little fiddly but not too complex!
 
+Some important aspects are not controlled in the theme file. 
+
+Therefore it is wise to supply the JSON theme file and the Power BI template in this repo (.pbix). 
+
+Power BI Json styling is not css. It is specific to this software, many aspects are not editable in the JSON theme file. Therefore we do not have full control over the styling of these templates. This is more of a general guidelines.
+
 # The end goal 
 
-We are trying to replicate every module in one master WTW theme file for brand consistency across all Power Bi usages. 
+We are trying to replicate every module in one master WTW theme file for as much brand consistency as possible across all Power Bi usages. 
 
 # Call notes 28 Sept
 
@@ -97,15 +84,15 @@ choose inside or out on labels
 
 Special effects exploration
 
-black text on white inn labels
+black text on white in labels
 
 accessibility is key
 
 see some options available
 
-see microsfot visual impairements settings, to be considered
+see microsoft visual impairements settings, to be considered
 
-theyve donne mathematical tests, this  wont pass
+they've donne mathematical tests, this  won't pass
 
 export as pdf or screenshot
 
@@ -124,7 +111,7 @@ From an accessibility stand point I think we are in a good place, I await feedba
 
 Default display is 16:9. So the dimensions for a potential branded background image would be 2880px x 1620px png (png for block colors), ideally size optimized at tinypng.com. Branding can be placed in header or footer as per Katie's recommendation.
 
-Power BI isn't responsive on app.powerbi.com, see attched pdf of screenshots.
+Power BI isn't responsive on app.powerbi.com, see attached pdf of screenshots.
 
 # To do
 
@@ -134,7 +121,6 @@ Power BI isn't responsive on app.powerbi.com, see attched pdf of screenshots.
 USE SEGOE UI
 
 see onyx separate branding uxco website
-
 
 Power Bi doesn't support strokes in visuals
 
@@ -204,9 +190,7 @@ no hard deadline
 
 deliverable is a json file that they pull into Power BI
 
-# Estimate for Mike
-
-Power BI theme estimate.
+# Power BI theme estimate.
 
 Brief: Develop a complete set of data visualisations in line with the new WTW 2022 branding.
 
@@ -321,11 +305,11 @@ for consistency, took all day.
 
 Day 12 7 Oct, finished all amends and presented.
 
-Day 13 Monday 10 Oct: More amends to shapes, tables, treemap and funnel.
+Day 13 Monday 10 Oct: More amends to shapes, tables, treemap and funnel. Moved back into .ai script in the afternoon.
 
 # Colors for tree and funnel
 
-Here’s our final color palette for Funnel and Tree only. Below is the order:
+Here’s our final color palette for Funnel and Tree only. Below is the order of the colors used:
 
 1. # 934AC6
 2. # C900AC
