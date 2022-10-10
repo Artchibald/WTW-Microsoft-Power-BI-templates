@@ -308,12 +308,20 @@ Day 7, 30 Sept: Spent more than half of day fixing the Marine Pandl jquery
 by updating it using global search and replace. Worked on typography and
 amends from Suzie for Power BI json templates.
 
-Day 8, 3 Oct: Reviewed and sent latest Power BI work. Spent the afternoon tweaking and researchibg new features we can include.
+Day 8, 3 Oct: Reviewed and sent latest Power BI work. Spent the afternoon
+tweaking and researching new features we can include.
 
-Day 9 : Changed all dimensions iof canvases and rearanged charts. Received, reviewing and implementing feedback. 
+Day 9 4 Oct: Changed all dimensions of canvases and re-arranged charts.
+Received, reviewing and implementing feedback.
 
-Day 10: Doing feedback, quite slow and fiddly,
+Day 10 5 Oct: Doing feedback, quite slow and fiddly
 
+Day 11 6 Oct: had to implement typography declarations across all modules
+for consistency, took all day.
+
+Day 12 7 Oct, finished all amends and presented.
+
+Day 13 Monday 10 Oct: More amends to shapes, tables, treemap and funnel.
 
 # Colors for tree and funnel
 

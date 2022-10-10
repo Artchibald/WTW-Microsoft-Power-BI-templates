@@ -2210,7 +2210,7 @@
                 ],
                 "stylePreset": [
                     {
-                        "name": "Default",
+                        "name": "Minimal",
                         "stylePreset": [
                             {
                                 "name": "Condensed"
@@ -2221,21 +2221,21 @@
                                 "gridVertical": true,
                                 "gridVerticalColor": {
                                     "solid": {
-                                        "color": "#48086F"
+                                        "color": "#2f2c31"
                                     }
                                 },
                                 "gridVerticalWeight": 2,
                                 "gridHorizontal": true,
                                 "gridHorizontalColor": {
                                     "solid": {
-                                        "color": "#48086F"
+                                        "color": "#2f2c31"
                                     }
                                 },
                                 "gridHorizontalWeight": 2,
                                 "rowPadding": 2,
                                 "outlineColor": {
                                     "solid": {
-                                        "color": "#48086F"
+                                        "color": "#2f2c31"
                                     }
                                 },
                                 "outlineWeight": 2,
@@ -2264,7 +2264,9 @@
                         "titleAlignment": "Left",
                         "urlIcon": true,
                         "wordWrap": true,
-                        "fontSize": 18
+                        "fontSize": 18,
+                        "bold": true,
+                        "titleBold": true
                     }
                 ],
                 "rowHeaders": [
@@ -2825,7 +2827,7 @@
                 ],
                 "stylePreset": [
                     {
-                        "name": "Bold header",
+                        "name": "Minimal",
                         "stylePreset": [
                             {
                                 "name": "Condensed"
@@ -2836,21 +2838,21 @@
                                 "gridVertical": true,
                                 "gridVerticalColor": {
                                     "solid": {
-                                        "color": "#48086F"
+                                        "color": "#2f2c31"
                                     }
                                 },
                                 "gridVerticalWeight": 2,
                                 "gridHorizontal": true,
                                 "gridHorizontalColor": {
                                     "solid": {
-                                        "color": "#48086F"
+                                        "color": "#2f2c31"
                                     }
                                 },
                                 "gridHorizontalWeight": 2,
                                 "rowPadding": 2,
                                 "outlineColor": {
                                     "solid": {
-                                        "color": "#48086F"
+                                        "color": "#2f2c31"
                                     }
                                 },
                                 "outlineWeight": 2,
@@ -2876,10 +2878,12 @@
                         "outline": "Frame",
                         "autoSizeColumnWidth": true,
                         "alignment": "Left",
-                        "titleAlignment": "Right",
+                        "titleAlignment": "Left",
                         "urlIcon": true,
                         "wordWrap": true,
-                        "fontSize": 18
+                        "fontSize": 18,
+                        "bold": true,
+                        "titleBold": true
                     }
                 ],
                 "rowHeaders": [
