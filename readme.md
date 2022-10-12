@@ -243,6 +243,7 @@ Received, reviewing and implementing feedback
 for consistency, took all day.
 - Day 12 7 Oct, finished all amends and presented.
 - Day 13 Monday 10 Oct: 1/2  day More amends to shapes, tables, treemap and funnel. Moved back into .ai script in the afternoon. Spent 2 days on .ai script in spearate
+- Day 14 12/10/22 1/2 day, created video tutorial and amended readme with better info.
 
 # Colors for tree and funnel
 
