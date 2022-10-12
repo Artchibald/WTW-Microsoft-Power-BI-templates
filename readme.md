@@ -26,7 +26,13 @@ https://app.powerbi.com
 
 https://app.powerbi.com/
 
+# Support
 
+archie ATSYMBOL archibaldbutler.com
+
+# Video tutorial
+
+https://youtu.be/TCYbCwXjbtg
 
 # About amending this repo
 
