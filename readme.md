@@ -32,7 +32,7 @@ archie ATSYMBOL archibaldbutler.com
 
 # Video tutorial
 
-https://youtu.be/TCYbCwXjbtg
+https://youtu.be/IA7FyoVhigU
 
 # About amending this repo
 
