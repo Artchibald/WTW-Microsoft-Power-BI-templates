@@ -1,4 +1,4 @@
-﻿{
+{
     "name": "WTW-theme3",
     "dataColors": [
         "#48086F",
@@ -32,7 +32,7 @@
         "#ffffff"
     ],
     "firstLevelElements": "#48086F",
-    "secondLevelElements": "#2f2c31",
+    "secondLevelElements": "#C900AC",
     "thirdLevelElements": "#F6517F",
     "fourthLevelElements": "#FF8204",
     "background": "#FFFFFF",
