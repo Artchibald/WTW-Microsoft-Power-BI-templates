@@ -19,7 +19,7 @@
     "neutral": "#ffb92a",
     "bad": "#b1232d",
 	"visualStyles": {
-		"funnel": {
+        "funnel": {
             "*": {
                 "general": [
                     {
@@ -42,33 +42,37 @@
                 ],
                 "title": [
                     {
-                        "show": true,
-                        "alignment": "left"
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 24,
+                        "titleBold": true,
+                        "titleText": "Funnel title",
+                        "bold": true,
+                        "color": { "solid": { "color": "#2f2c31"}}
                     }
                 ],
                 "categoryAxis": [
                     {
-                        "show": true
+                        "show": true,
+                        "fontSize": 18
                     }
                 ],
-                "dataPoint": [
-                    {
-                        "showAllDataPoints": true
-                    }
-                ],
+				"dataPoint": [{
+					"showAllDataPoints": true
+				}],
                 "labels": [
                     {
                         "show": true,
+                        "fontSize": 14,
                         "labelDisplayUnits": "0",
-                        "labelPrecision": 1,
+                        "labelPrecision": 0,
                         "labelPosition": "Outside"
                     }
                 ],
-                "percentBarLabel": [
-                    {
-                        "show": true
-                    }
-                ]
+				"percentBarLabel": [{
+					"show": true,
+					"color": { "solid": { "color": "#3adcc9"}}
+				}]
             }
         }
 	}

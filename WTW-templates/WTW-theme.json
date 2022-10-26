@@ -1,5 +1,5 @@
 ﻿{
-    "name": "WTW-theme3",
+    "name": "WTW-theme",
     "dataColors": [
         "#48086F",
         "#C900AC",
@@ -31,20 +31,20 @@
         "#000000",
         "#ffffff"
     ],
-    "firstLevelElements": "#48086F",
+    "firstLevelElements": "#2f2c31",
     "secondLevelElements": "#2f2c31",
-    "thirdLevelElements": "#F6517F",
-    "fourthLevelElements": "#FF8204",
+    "thirdLevelElements": "#2f2c31",
+    "fourthLevelElements": "#2f2c31",
     "background": "#FFFFFF",
     "foreground": "#2f2c31",
     "secondaryBackground": "#FFFFFF",
-    "tableAccent": "#327fef",
+    "tableAccent": "#48086F",
     "good": "#007d61",
     "neutral": "#2f2c31",
     "bad": "#b1232d",
-    "maximum": "#327fef",
-    "center": "#48086f",
-    "minimum": "#c900ac",
+    "maximum": "#007d61",
+    "center": "#2f2c31",
+    "minimum": "#b1232d",
     "null": "#f6517f",
     "textClasses": {
         "callout": {
@@ -1173,7 +1173,7 @@
             }
         },
         "funnel": {
-            "*": {
+            "*": { 
                 "general": [
                     {
                         "WTWcomment": "Test file comments",
@@ -1200,7 +1200,8 @@
                         "fontSize": 24,
                         "titleBold": true,
                         "titleText": "Funnel title",
-                        "bold": true
+                        "bold": true,
+                        "color": { "solid": { "color": "#2f2c31"}}
                     }
                 ],
                 "categoryAxis": [
@@ -1209,11 +1210,10 @@
                         "fontSize": 18
                     }
                 ],
-                "dataPoint": [
-                    {
-                        "showAllDataPoints": true
-                    }
-                ],
+				"dataPoint": [{
+                    "defaultColor": { "solid": { "color": "#2f2c31"}},
+					"showAllDataPoints": true
+				}],
                 "labels": [
                     {
                         "show": true,
@@ -1223,11 +1223,9 @@
                         "labelPosition": "Outside"
                     }
                 ],
-                "percentBarLabel": [
-                    {
-                        "show": true
-                    }
-                ]
+				"percentBarLabel": [{
+					"show": true
+				}]
             }
         },
         "gauge": {
