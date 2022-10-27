@@ -30,6 +30,10 @@ https://app.powerbi.com/
 
 archie ATSYMBOL archibaldbutler.com
 
+# Info about colour usage
+
+https://www.youtube.com/watch?v=-FG0DSSAr60&ab_channel=RADACAD
+
 # Video tutorial
 
 https://youtu.be/IA7FyoVhigU
@@ -108,7 +112,22 @@ last optional bottom text 2
 
 # To do
 
-...
+table of colors in the styleguide
+write docs well for their toolkit
+
+multi row carsd needs banded grey
+
+tableEx needs banded grey 
+
+if you oevrride any style, dont save. so the theme works.
+
+we need clear guidance
+
+modules interchangeable
+
+use Funnel chart color purple as the base color 7f35b2
+
+Same for treemap use the purple there as base color for all
 
 # Points for first call
 

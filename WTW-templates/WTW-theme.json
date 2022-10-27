@@ -181,6 +181,7 @@
                 "title": [
                     {
                         "fontSize": 14,
+                        "titleText":"Sample button",
                         "weight": 30,
                         "show": true,
                         "fontColor": {
@@ -203,7 +204,7 @@
                 ],
                 "outline": [
                     {
-                        "show": true
+                        "show": false
                     },
                     {
                         "$id": "default",
@@ -263,7 +264,7 @@
                         }
                     }
                 ],
-                "icon": [
+                "icon": [ 
                     {
                         "show": true
                     },
@@ -306,9 +307,13 @@
                     },
                     {
                         "$id": "default",
+                        "text": "WTW Placeholder",
+                        "bold": true,
+                        "titleBold": true,
+                        "fontSize": 18,
                         "fontColor": {
                             "solid": {
-                                "color": "#d124b8"
+                                "color": "#FFFFFF"
                             }
                         },
                         "horizontalAlignment": "center"
@@ -317,7 +322,7 @@
                         "$id": "hover",
                         "fontColor": {
                             "solid": {
-                                "color": "#bc20a6"
+                                "color": "#808080"
                             }
                         },
                         "horizontalAlignment": "center"
@@ -326,7 +331,7 @@
                         "$id": "selected",
                         "fontColor": {
                             "solid": {
-                                "color": "#d124b8"
+                                "color": "#808080"
                             }
                         },
                         "horizontalAlignment": "center"
@@ -335,7 +340,7 @@
                         "$id": "disabled",
                         "fontColor": {
                             "solid": {
-                                "color": "#A71D93"
+                                "color": "#808080"
                             }
                         },
                         "horizontalAlignment": "center"
@@ -800,8 +805,10 @@
                     }
                 ],
                 "dataPoint": [
-                    {}
-                ],
+                    {
+                        "defaultColor": { "solid": { "color": "#C900AC"}}
+                    }
+                ], 
                 "labels": [
                     {
                         "show": true,
@@ -909,7 +916,9 @@
                     }
                 ],
                 "dataPoint": [
-                    {}
+                    {
+                        "defaultColor": { "solid": { "color": "#C900AC"}}
+                    }
                 ],
                 "labels": [
                     {
@@ -1211,7 +1220,7 @@
                     }
                 ],
 				"dataPoint": [{
-                    "defaultColor": { "solid": { "color": "#2f2c31"}},
+                    "defaultColor": { "solid": { "color": "#48086F"}},
 					"showAllDataPoints": true
 				}],
                 "labels": [
