@@ -18,7 +18,7 @@
         "#BF5321",
         "#B68600",
         "#F8E19A",
-        "#007D61",
+        "#007D61", 
         "#A8E8E2",
         "#7f35b2",
         "#1D418E",
@@ -33,17 +33,17 @@
     ],
     "firstLevelElements": "#2f2c31",
     "secondLevelElements": "#2f2c31",
-    "thirdLevelElements": "#2f2c31",
-    "fourthLevelElements": "#2f2c31",
+    "thirdLevelElements": "#C2A8F0",
+    "fourthLevelElements": "#7f35b2",
     "background": "#FFFFFF",
     "foreground": "#2f2c31",
     "secondaryBackground": "#FFFFFF",
     "tableAccent": "#48086F",
     "good": "#007d61",
-    "neutral": "#2f2c31",
+    "neutral": "#db961e",
     "bad": "#b1232d",
     "maximum": "#007d61",
-    "center": "#2f2c31",
+    "center": "#db961e",
     "minimum": "#b1232d",
     "null": "#f6517f",
     "textClasses": {
@@ -181,7 +181,7 @@
                 "title": [
                     {
                         "fontSize": 14,
-                        "titleText":"Sample button",
+                        "titleText": "Sample button",
                         "weight": 30,
                         "show": true,
                         "fontColor": {
@@ -264,7 +264,7 @@
                         }
                     }
                 ],
-                "icon": [ 
+                "icon": [
                     {
                         "show": true
                     },
@@ -272,7 +272,7 @@
                         "$id": "default",
                         "lineColor": {
                             "solid": {
-                                "color": "#d124b8"
+                                "color": "#ffffff"
                             }
                         }
                     },
@@ -314,7 +314,7 @@
                         "fontColor": {
                             "solid": {
                                 "color": "#FFFFFF"
-                            }
+                            }   
                         },
                         "horizontalAlignment": "center"
                     },
@@ -806,9 +806,13 @@
                 ],
                 "dataPoint": [
                     {
-                        "defaultColor": { "solid": { "color": "#C900AC"}}
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#C900AC"
+                            }
+                        }
                     }
-                ], 
+                ],
                 "labels": [
                     {
                         "show": true,
@@ -917,7 +921,11 @@
                 ],
                 "dataPoint": [
                     {
-                        "defaultColor": { "solid": { "color": "#C900AC"}}
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#C900AC"
+                            }
+                        }
                     }
                 ],
                 "labels": [
@@ -1072,7 +1080,7 @@
                             "solid": {
                                 "color": "#2f2c31"
                             }
-                        }  
+                        }
                     }
                 ]
             }
@@ -1182,7 +1190,7 @@
             }
         },
         "funnel": {
-            "*": { 
+            "*": {
                 "general": [
                     {
                         "WTWcomment": "Test file comments",
@@ -1210,7 +1218,11 @@
                         "titleBold": true,
                         "titleText": "Funnel title",
                         "bold": true,
-                        "color": { "solid": { "color": "#2f2c31"}}
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
                     }
                 ],
                 "categoryAxis": [
@@ -1219,10 +1231,16 @@
                         "fontSize": 18
                     }
                 ],
-				"dataPoint": [{
-                    "defaultColor": { "solid": { "color": "#48086F"}},
-					"showAllDataPoints": true
-				}],
+                "dataPoint": [
+                    {
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#48086F"
+                            }
+                        },
+                        "showAllDataPoints": true
+                    }
+                ],
                 "labels": [
                     {
                         "show": true,
@@ -1232,9 +1250,11 @@
                         "labelPosition": "Outside"
                     }
                 ],
-				"percentBarLabel": [{
-					"show": true
-				}]
+                "percentBarLabel": [
+                    {
+                        "show": true
+                    }
+                ]
             }
         },
         "gauge": {
@@ -1661,15 +1681,17 @@
                         "verticalAlignment": "center"
                     }
                 ],
-                "calloutValue": [{
-					"show": true,
-					"labelDisplayUnits": "0",
-					"labelPrecision": 1,
-                    "fontSize": 24,
-                    "bold": true,
-                    "horizontalAlignment": "center",
-                    "verticalAlignment": "center"
-				}]	
+                "calloutValue": [
+                    {
+                        "show": true,
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "fontSize": 24,
+                        "bold": true,
+                        "horizontalAlignment": "center",
+                        "verticalAlignment": "center"
+                    }
+                ]
             }
         },
         "lineChart": {
@@ -2112,18 +2134,22 @@
                         "color": "#2f2c31"
                     }
                 ],
-                "dataLabels": [{
-					"fontSize": 18,
-                    "color": "#2f2c31"
-				}],
-                "cardTitle": [{
-                    "fontSize": 14
-				}],
+                "dataLabels": [
+                    {
+                        "fontSize": 18,
+                        "color": "#2f2c31"
+                    }
+                ],
+                "cardTitle": [
+                    {
+                        "fontSize": 14
+                    }
+                ],
                 "card": [
                     {
                         "outline": "BottomOnly",
                         "outlineWeight": 2,
-                        "barShow": true, 
+                        "barShow": true,
                         "barColor": {
                             "solid": {
                                 "color": "#48086F"
@@ -2175,7 +2201,7 @@
                             "solid": {
                                 "color": "#2f2c31"
                             }
-                        }, 
+                        },
                         "labelOrientation": "horizontal",
                         "labelPosition": "OutsideEnd",
                         "enableBackground": true,
@@ -2190,7 +2216,7 @@
                 ]
             }
         },
-        "pivotTable": {  
+        "pivotTable": {
             "*": {
                 "general": [
                     {
@@ -2489,7 +2515,7 @@
                         "titleText": "Scatter title",
                         "bold": true
                     }
-                ], 
+                ],
                 "legend": [
                     {
                         "show": true,
@@ -2522,7 +2548,7 @@
                     }
                 ],
                 "valueAxis": [
-                    { 
+                    {
                         "show": true,
                         "position": "Right",
                         "showAxisTitle": true,
@@ -2651,7 +2677,7 @@
                         "titleText": "Slicer title",
                         "bold": true
                     }
-                ], 
+                ],
                 "data": [
                     {
                         "mode": "Basic",
@@ -2669,7 +2695,7 @@
                     {
                         "show": true,
                         "alignment": "left",
-                        "fontSize": 24, 
+                        "fontSize": 24,
                         "titleBold": true,
                         "titleText": "Slicer header title",
                         "bold": true
@@ -2677,7 +2703,7 @@
                 ],
                 "items": [
                     {
-                        "outline": "None"
+                        "outline": "BottomOnly"
                     }
                 ],
                 "visualHeader": [
@@ -2840,7 +2866,7 @@
                                 "name": "Condensed"
                             }
                         ],
-                        "grid": [ 
+                        "grid": [
                             {
                                 "gridVertical": true,
                                 "gridVerticalColor": {
@@ -3034,11 +3060,12 @@
                         "backgroundTransparency": 0
                     }
                 ],
-				"categoryLabels": [{
-					"show": true,
-					"fontSize": 18
-				}
-            ]
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "fontSize": 18
+                    }
+                ]
             }
         },
         "page": {

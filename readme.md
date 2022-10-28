@@ -34,6 +34,18 @@ archie ATSYMBOL archibaldbutler.com
 
 https://www.youtube.com/watch?v=-FG0DSSAr60&ab_channel=RADACAD
 
+
+
+Colour formula
+
+Data Color =
+lookupvalue(
+  Color[Color],
+  Color[DataValue],
+  SELECTEDVALUE(SalesOrders[item]),
+  "Light blue"
+)
+
 # Video tutorial
 
 https://youtu.be/IA7FyoVhigU
@@ -128,6 +140,24 @@ modules interchangeable
 use Funnel chart color purple as the base color 7f35b2
 
 Same for treemap use the purple there as base color for all
+
+Katie 's note about Amber not being Onyx, but on amber bg
+
+Black filter issue on filters with suzie
+
+tables need grey rows for legibility
+
+buttons
+
+Table global overriding alternate shading matrix pivot tabo table ex multi row card
+
+If you right click on reset settings you can reset all settings
+
+Do a 16:9 font version size decrease and dot decrease divided by 2 size  title 20px body 14px reduce data point square sizes
+
+Send a budget breakdown
+
+Find out how to erase all styling data in a pbix correctly
 
 # Points for first call
 
@@ -261,8 +291,10 @@ Received, reviewing and implementing feedback
 - Day 11 6 Oct: had to implement typography declarations across all modules
 for consistency, took all day.
 - Day 12 7 Oct, finished all amends and presented.
-- Day 13 Monday 10 Oct: 1/2  day More amends to shapes, tables, treemap and funnel. Moved back into .ai script in the afternoon. Spent 2 days on .ai script in spearate
-- Day 14 12/10/22 1/2 day, created video tutorial and amended readme with better info.
+- Half Day 13 Monday 10 Oct: 1/2  day More amends to shapes, tables, treemap and funnel. Moved back into .ai script in the afternoon. Spent 2 days on .ai script in spearate project.
+- Half Day 14 12/10/22 1/2 day, created video tutorial and amended readme with better info.
+- Day 15 27/10/22 1 whole day tweaking and researching why theme is not working as expected
+- Day 16 28/10/22 (today) Redoing main theme for 16:9 instead of 1920x1080. Looking at buttons and tables.
 
 # Colors for tree and funnel
 
