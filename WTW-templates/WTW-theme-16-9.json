@@ -1,0 +1,3044 @@
+﻿{
+    "name": "WTW-theme",
+    "dataColors": [
+        "#48086F",
+        "#C900AC",
+        "#F6517F",
+        "#FF8204",
+        "#FFB92A",
+        "#3ADCC9",
+        "#327FEF",
+        "#808080",
+        "#C2A8F0",
+        "#E377DC",
+        "#FFA3C2",
+        "#FFBFAC",
+        "#9E0085",
+        "#A61932",
+        "#BF5321",
+        "#B68600",
+        "#F8E19A",
+        "#007D61",
+        "#A8E8E2",
+        "#7f35b2",
+        "#1D418E",
+        "#C3D7FE",
+        "#BFBFBF",
+        "#007d61",
+        "#b1232d",
+        "#2f2c31",
+        "#000000",
+        "#ffffff"
+    ],
+    "firstLevelElements": "#2f2c31",
+    "secondLevelElements": "#2f2c31",
+    "thirdLevelElements": "#C2A8F0",
+    "fourthLevelElements": "#7f35b2",
+    "background": "#FFFFFF",
+    "foreground": "#2f2c31",
+    "secondaryBackground": "#FFFFFF",
+    "tableAccent": "#48086F",
+    "good": "#007d61",
+    "neutral": "#db961e",
+    "bad": "#b1232d",
+    "maximum": "#007d61",
+    "center": "#db961e",
+    "minimum": "#b1232d",
+    "null": "#f6517f",
+    "textClasses": {
+        "callout": {
+            "fontSize": 20,
+            "fontFace": "Segoe UI",
+            "color": "#2f2c31",
+            "bold": true,
+            "titleBold": true
+        },
+        "title": {
+            "fontSize": 20,
+            "fontFace": "Segoe UI",
+            "color": "#2f2c31",
+            "bold": true,
+            "titleBold": true
+        },
+        "header": {
+            "fontSize": 20,
+            "fontFace": "Segoe UI",
+            "color": "#2f2c31",
+            "bold": true,
+            "titleBold": true
+        },
+        "label": {
+            "fontSize": 14,
+            "fontFace": "Segoe UI",
+            "color": "#2f2c31",
+            "bold": true,
+            "titleBold": true
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "wordWrap": true,
+                        "fontSize": 11
+                    }
+                ],
+                "wordWrap": [
+                    {
+                        "show": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelOrientation": "horizontal"
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "showAxisTitle": true,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "showAxisTitle": true,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid"
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "actionButton": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        },
+                        "show": true,
+                        "radius": 30
+                    }
+                ],
+                "title": [
+                    {
+                        "fontSize": 14,
+                        "titleText": "",
+                        "weight": 30,
+                        "show": false,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        },
+                        "alignment": "left"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": false
+                    },
+                    {
+                        "$id": "default",
+                        "weight": 5
+                    },
+                    {
+                        "$id": "hover",
+                        "weight": 5
+                    },
+                    {
+                        "$id": "selected",
+                        "weight": 5
+                    },
+                    {
+                        "$id": "disabled",
+                        "weight": 5
+                    }
+                ],
+                "icon": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#ffffff"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "selected",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#d124b8"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "disabled",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#A71D93"
+                            }
+                        }
+                    }
+                ],
+                "text": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "text": "",
+                        "bold": true,
+                        "titleBold": true,
+                        "fontSize": 14,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "$id": "hover",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "$id": "selected",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "$id": "disabled",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    }
+                ]
+            }
+        },
+        "areaChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Area chart legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "bold": true
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "axisType": "categorical",
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW area chart category axis",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW area chart value axis",
+                        "titleFontSize": 20,
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14
+                    }
+                ],
+                "dataPoint": [
+                    {}
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "strokeWidth": 2,
+                        "strokeLineJoin": "bevel",
+                        "lineStyle": "solid",
+                        "showMarker": true,
+                        "markerShape": "square",
+                        "markerSize": 3
+                    }
+                ],
+                "plotArea": [
+                    {}
+                ]
+            }
+        },
+        "azureMap": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "legendColor": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "showTitle": false,
+                        "titleText": "WTW Azure Map info goes here"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ]
+            }
+        },
+        "barChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Bar chart title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Bar chart legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Bar chart category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Bar chart value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 0
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true
+                    }
+                ],
+                "wordWrap": [
+                    {
+                        "show": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "alignment": "left"
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ]
+            }
+        },
+        "clusteredBarChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "fontSize": 14,
+                        "titleText": "Clustered Bar"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Clustered Bar chart category Axis",
+                        "bold": false,
+                        "titleBold": true,
+                        "weight": 30,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Clustered Bar chart value axis",
+                        "bold": false,
+                        "titleBold": true,
+                        "weight": 30,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ]
+            }
+        },
+        "clusteredColumnChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "WTW Clustered Column Chart Category Axis"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "concatenateLabels": true,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Clustered Column Chart Category Axis",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "axisScale": "Linear",
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": "Auto",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "WTW Clustered Column Chart Value Axis",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#C900AC"
+                            }
+                        }
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0,
+                        "fontSize": 14
+                    }
+                ],
+                "plotArea": [
+                    {
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "columnChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Column chart title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Column chart legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Column chart category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Column chart value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#C900AC"
+                            }
+                        }
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ]
+            }
+        },
+        "decompositionTreeVisual": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "categoryLabelFontSize": 14
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Decompoition chart title",
+                        "bold": true
+                    }
+                ],
+                "analysis": [
+                    {
+                        "aiEnabled": true,
+                        "aiMode": "relative"
+                    }
+                ],
+                "tree": [
+                    {
+                        "accentColor": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "barsPerLevel": 20,
+                        "connectorDefaultColor": {
+                            "solid": {
+                                "color": "#48086F"
+                            }
+                        },
+                        "connectorType": "round",
+                        "density": "sparse"
+                    }
+                ],
+                "dataBars": [
+                    {
+                        "dataBarScalingType": "parentNode"
+                    }
+                ],
+                "dataLabels": [
+                    {
+                        "dataLabelDisplayUnits": "0",
+                        "dataLabelFontSize": 14
+                    }
+                ],
+                "levelHeader": [
+                    {
+                        "levelSubtitleFontSize": 14,
+                        "levelTitleFontSize": 12
+                    }
+                ]
+            }
+        },
+        "donutChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Donut chart title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "fontSize": 14,
+                        "titleBold": true,
+                        "bold": false,
+                        "titleText": "Donut legend"
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelStyle": "Data",
+                        "position": "outside",
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "esriVisual": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": false,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "legendColor": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "titleText": "WTW Esri Visual Legend"
+                    }
+                ]
+            }
+        },
+        "filledMap": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": false,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "bold": true,
+                        "titleText": "Donut chart title"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "fontSize": 14,
+                        "titleBold": true,
+                        "bold": false,
+                        "titleText": "Filled map legend"
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "showAllDataPoints": true
+                    }
+                ],
+                "mapControls": [
+                    {
+                        "autoZoom": true,
+                        "zoomLevel": 4,
+                        "centerLatitude": 43,
+                        "centerLongitude": -83
+                    }
+                ],
+                "mapStyles": [
+                    {
+                        "mapTheme": "road"
+                    }
+                ]
+            }
+        },
+        "funnel": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Funnel title",
+                        "bold": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "fontSize": 14
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "defaultColor": {
+                            "solid": {
+                                "color": "#48086F"
+                            }
+                        },
+                        "showAllDataPoints": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 0,
+                        "labelPosition": "Outside"
+                    }
+                ],
+                "percentBarLabel": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        },
+        "gauge": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Gauge title",
+                        "bold": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14
+                    }
+                ],
+                "target": [
+                    {
+                        "show": true,
+                        "fontSize": 14
+                    }
+                ],
+                "calloutValue": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI",
+                        "bold": true,
+                        "titleBold": true
+                    }
+                ]
+            }
+        },
+        "hundredPercentStackedBarChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "100% Stacked title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "100% Stacked legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "100% Stacked Category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "100% Stacked Bar Value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "dataPoint": [
+                    {}
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "plotArea": [
+                    {
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "hundredPercentStackedColumnChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "100% Stacked title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "100% stacked col legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "100% stacked col category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "100% stacked col value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "dataPoint": [
+                    {}
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "plotArea": [
+                    {
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "image": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left"
+                    }
+                ],
+                "imageScaling": [
+                    {
+                        "imageScalingType": "Normal"
+                    }
+                ]
+            }
+        },
+        "keyDriversVisual": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Key influencers title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Key influencers legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ]
+            }
+        },
+        "kpi": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "KPI title",
+                        "bold": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0,
+                        "horizontalAlignment": "center",
+                        "verticalAlignment": "center"
+                    }
+                ],
+                "indicator": [
+                    {
+                        "showIcon": true,
+                        "horizontalAlignment": "center",
+                        "verticalAlignment": "center",
+                        "fontSize": 20,
+                        "bold": true
+                    }
+                ],
+                "trendline": [
+                    {
+                        "fontSize": 14,
+                        "show": true
+                    }
+                ],
+                "goals": [
+                    {
+                        "fontSize": 14,
+                        "showGoal": true,
+                        "showDistance": true,
+                        "horizontalAlignment": "center",
+                        "verticalAlignment": "center"
+                    }
+                ],
+                "calloutValue": [
+                    {
+                        "show": true,
+                        "labelDisplayUnits": "0",
+                        "labelPrecision": 1,
+                        "fontSize": 20,
+                        "bold": true,
+                        "horizontalAlignment": "center",
+                        "verticalAlignment": "center"
+                    }
+                ]
+            }
+        },
+        "lineChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Line chart title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Line chart col legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Line chart col category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Line chart col value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "y2Axis": [
+                    {
+                        "secShowAxisTitle": true,
+                        "secTitleText": "Line chart y2 axis"
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "strokeWidth": 2,
+                        "strokeLineJoin": "bevel",
+                        "lineStyle": "solid",
+                        "showMarker": true,
+                        "markerShape": "square",
+                        "markerSize": 3
+                    }
+                ]
+            }
+        },
+        "lineClusteredColumnComboChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Line clustered chart title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Line clustered chart col legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Line clustered chart col category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Line clustered chart col value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "shadeArea": true,
+                        "strokeWidth": 2,
+                        "strokeLineJoin": "bevel",
+                        "showMarker": true,
+                        "markerShape": "square",
+                        "markerSize": 3
+                    }
+                ]
+            }
+        },
+        "lineStackedColumnComboChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Line clustered chart title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Line clustered chart col legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Line clustered chart col category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Line clustered chart col value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "shadeArea": true,
+                        "strokeWidth": 2,
+                        "strokeLineJoin": "bevel",
+                        "showMarker": true,
+                        "markerShape": "square",
+                        "markerSize": 3,
+                        "lineStyle": "solid",
+                        "stepped": true
+                    }
+                ]
+            }
+        },
+        "map": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "fontSize": 14,
+                        "titleBold": true,
+                        "bold": false,
+                        "titleText": "Map legend"
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "showAllDataPoints": true
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0,
+                        "fontSize": 14
+                    }
+                ],
+                "mapControls": [
+                    {
+                        "autoZoom": true,
+                        "zoomLevel": 4,
+                        "centerLatitude": 43,
+                        "centerLongitude": -83
+                    }
+                ],
+                "mapStyles": [
+                    {
+                        "mapTheme": "road"
+                    }
+                ]
+            }
+        },
+        "multiRowCard": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "100% Stacked title",
+                        "bold": true
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": "#2f2c31"
+                    }
+                ],
+                "dataLabels": [
+                    {
+                        "fontSize": 14,
+                        "color": "#2f2c31"
+                    }
+                ],
+                "cardTitle": [
+                    {
+                        "fontSize": 14
+                    }
+                ],
+                "card": [
+                    {
+                        "outline": "BottomOnly",
+                        "outlineWeight": 2,
+                        "barShow": true,
+                        "barColor": {
+                            "solid": {
+                                "color": "#48086F"
+                            }
+                        },
+                        "barWeight": 2,
+                        "cardPadding": 0
+                    }
+                ]
+            }
+        },
+        "pieChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Pie chart title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Pie chart col legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0,
+                        "position": "outside"
+                    }
+                ]
+            }
+        },
+        "pivotTable": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 10,
+                        "titleBold": true,
+                        "titleText": "Pivot table title",
+                        "bold": true
+                    }
+                ],
+                "stylePreset": [
+                    {
+                        "name": "Alternating rows",
+                        "stylePreset": [
+                            {
+                                "name": "Alternating rows"
+                            }
+                        ],
+                        "grid": [
+                            {
+                                "gridVertical": true,
+                                "gridVerticalColor": {
+                                    "solid": {
+                                        "color": "#2f2c31"
+                                    }
+                                },
+                                "gridVerticalWeight": 2,
+                                "gridHorizontal": true,
+                                "gridHorizontalColor": {
+                                    "solid": {
+                                        "color": "#2f2c31"
+                                    }
+                                },
+                                "gridHorizontalWeight": 2,
+                                "rowPadding": 2,
+                                "outlineColor": {
+                                    "solid": {
+                                        "color": "#2f2c31"
+                                    }
+                                },
+                                "outlineWeight": 2,
+                                "textSize": 10,
+                                "imageHeight": 100
+                            }
+                        ]
+                    }
+                ],
+                "grid": [
+                    {
+                        "gridVertical": true,
+                        "gridVerticalWeight": 2,
+                        "gridHorizontal": true,
+                        "gridHorizontalWeight": 2,
+                        "rowPadding": 2,
+                        "outlineWeight": 2,
+                        "imageHeight": 100
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "outline": "Frame",
+                        "autoSizeColumnWidth": true,
+                        "alignment": "Left",
+                        "titleAlignment": "Left",
+                        "urlIcon": true,
+                        "wordWrap": true,
+                        "fontSize": 10,
+                        "bold": true,
+                        "titleBold": true
+                    }
+                ],
+                "rowHeaders": [
+                    {
+                        "outline": "Frame",
+                        "stepped": true,
+                        "steppedLayoutIndentation": 10,
+                        "urlIcon": true,
+                        "wordWrap": true,
+                        "alignment": "Left",
+                        "showExpandCollapseButtons": true,
+                        "fontSize": 10
+                    }
+                ],
+                "values": [
+                    {
+                        "bandedRowHeaders": true,
+                        "valuesOnRow": true,
+                        "outline": "Frame",
+                        "urlIcon": true,
+                        "wordWrap": true,
+                        "fontSize": 10,
+                        "alignment": "Right"
+                    }
+                ],
+                "subTotals": [
+                    {
+                        "rowSubtotals": true,
+                        "columnSubtotals": true,
+                        "applyToHeaders": true,
+                        "rowSubtotalsPosition": "Bottom",
+                        "perRowLevel": true,
+                        "perColumnLevel": true,
+                        "fontSize": 10
+                    }
+                ],
+                "total": [
+                    {
+                        "applyToHeaders": true,
+                        "fontSize": 10
+                    }
+                ]
+            }
+        },
+        "qnaVisual": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "QNA chart title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "WTW QNA legend",
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "enableBackground": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
+                    }
+                ],
+                "calloutValue": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "bold": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "ribbonChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Ribbon title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Ribbon legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Ribbon category axis",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "ribbonChart": [
+                    {
+                        "seriesGapRatio": 15,
+                        "colorBands": true,
+                        "bandsTransparency": 30,
+                        "showBorder": true
+                    }
+                ]
+            }
+        },
+        "scatterChart": {
+            "*": {
+                "general": [
+                    {
+                        "dataVolume": 10000,
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Scatter title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Scater chart legend"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Scatter chart category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Scatter chart value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "shapes": [
+                    {
+                        "markerSize": 3,
+                        "markerStyle": "square",
+                        "customizeSeries": true
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "fillPoint": [
+                    {
+                        "show": false
+                    }
+                ],
+                "colorByCategory": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "shape": {
+            "*": {
+                "general": [
+                    {
+                        "keepLayerOrder": true
+                    }
+                ],
+                "line": [
+                    {
+                        "weight": 3,
+                        "roundEdge": 0
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "rotation": [
+                    {
+                        "angle": 0
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "general": [
+                    {
+                        "outlineWeight": 1,
+                        "orientation": "horizontal",
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Slicer title",
+                        "bold": true
+                    }
+                ],
+                "data": [
+                    {
+                        "mode": "Basic",
+                        "relativeRange": "",
+                        "relativePeriod": ""
+                    }
+                ],
+                "selection": [
+                    {
+                        "selectAllCheckboxEnabled": false,
+                        "singleSelect": true
+                    }
+                ],
+                "header": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Slicer header title",
+                        "bold": true
+                    }
+                ],
+                "items": [
+                    {
+                        "outline": "BottomOnly"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true,
+                        "showVisualInformationButton": true,
+                        "showVisualWarningButton": true,
+                        "showVisualErrorButton": true,
+                        "showDrillRoleSelector": true,
+                        "showDrillUpButton": true,
+                        "showDrillToggleButton": true,
+                        "showDrillDownLevelButton": true,
+                        "showDrillDownExpandButton": true,
+                        "showPinButton": true,
+                        "showFocusModeButton": true,
+                        "showFilterRestatementButton": true,
+                        "showSeeDataLayoutToggleButton": true,
+                        "showOptionsMenu": true,
+                        "showTooltipButton": true
+                    }
+                ]
+            }
+        },
+        "stackedAreaChart": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Stacked Area title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Stacked Area legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "concatenateLabels": false,
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Stacked Area category",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#808080"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "position": "Right",
+                        "showAxisTitle": true,
+                        "axisStyle": "showTitleOnly",
+                        "titleText": "Stacked Area value",
+                        "bold": false,
+                        "gridlineShow": true,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#BFBFBF"
+                            }
+                        },
+                        "gridlineThickness": 1,
+                        "gridlineStyle": "solid",
+                        "titleBold": true,
+                        "weight": 30,
+                        "fontSize": 14,
+                        "titleFontSize": 20
+                    }
+                ],
+                "dataPoint": [
+                    {}
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "strokeWidth": 2,
+                        "strokeLineJoin": "bevel",
+                        "lineStyle": "solid",
+                        "showMarker": true,
+                        "markerShape": "square",
+                        "markerSize": 3,
+                        "showSeries": true
+                    }
+                ]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 10,
+                        "titleBold": true,
+                        "titleText": "Pivot table title",
+                        "bold": true
+                    }
+                ],
+                "stylePreset": [
+                    { 
+                        "name": "Alternating rows",
+                        "stylePreset": [
+                            {
+                                "name": "Alternating rows"
+                            }
+                        ],
+                        "grid": [
+                            {
+                                "gridVertical": true,
+                                "gridVerticalColor": {
+                                    "solid": {
+                                        "color": "#2f2c31"
+                                    }
+                                },
+                                "gridVerticalWeight": 2,
+                                "gridHorizontal": true,
+                                "gridHorizontalColor": {
+                                    "solid": {
+                                        "color": "#2f2c31"
+                                    }
+                                },
+                                "gridHorizontalWeight": 2,
+                                "rowPadding": 2,
+                                "outlineColor": {
+                                    "solid": {
+                                        "color": "#2f2c31"
+                                    }
+                                },
+                                "outlineWeight": 2,
+                                "textSize": 10,
+                                "imageHeight": 100
+                            }
+                        ]
+                    }
+                ],
+                "grid": [
+                    {
+                        "gridVertical": true,
+                        "gridVerticalWeight": 2,
+                        "gridHorizontal": true,
+                        "gridHorizontalWeight": 2,
+                        "rowPadding": 2,
+                        "outlineWeight": 2,
+                        "imageHeight": 100
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "outline": "Frame",
+                        "autoSizeColumnWidth": true,
+                        "alignment": "Left",
+                        "titleAlignment": "Left",
+                        "urlIcon": true,
+                        "wordWrap": true,
+                        "fontSize": 10,
+                        "bold": true,
+                        "titleBold": true
+                    }
+                ],
+                "rowHeaders": [
+                    {
+                        "outline": "Frame",
+                        "stepped": true,
+                        "steppedLayoutIndentation": 12,
+                        "urlIcon": true,
+                        "wordWrap": true,
+                        "alignment": "Left",
+                        "showExpandCollapseButtons": true,
+                        "fontSize": 10
+                    }
+                ],
+                "values": [
+                    {
+                        "bandedRowHeaders": true,
+                        "valuesOnRow": true,
+                        "outline": "Frame",
+                        "urlIcon": true,
+                        "wordWrap": true,
+                        "fontSize": 10,
+                        "alignment": "Right"
+                    }
+                ],
+                "subTotals": [
+                    {
+                        "rowSubtotals": true,
+                        "columnSubtotals": true,
+                        "applyToHeaders": true,
+                        "rowSubtotalsPosition": "Bottom",
+                        "perRowLevel": true,
+                        "perColumnLevel": true,
+                        "fontSize": 10,
+                        "alignment": "Right"
+                    }
+                ],
+                "total": [
+                    {
+                        "applyToHeaders": true,
+                        "fontSize": 10,
+                        "alignment": "Right"
+                    }
+                ]
+            }
+        },
+        "textbox": {
+            "*": {
+                "*": [
+                    {
+                        "wordWrap": true
+                    }
+                ],
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        },
+        "treemap": {
+            "*": {
+                "general": [
+                    {
+                        "WTWcomment": "Test file comments",
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false,
+                        "radius": 0
+                    }
+                ],
+                "title": [
+                    {
+                        "show": false,
+                        "alignment": "left",
+                        "fontSize": 20,
+                        "titleBold": true,
+                        "titleText": "Treemap title",
+                        "bold": true
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Top",
+                        "showTitle": false,
+                        "titleText": "Treemap legend",
+                        "legendMarkerRendering": "markerOnly",
+                        "matchLineColor": false,
+                        "bold": false,
+                        "titleBold": true,
+                        "fontSize": 14
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "fontSize": 14,
+                        "color": {
+                            "solid": {
+                                "color": "#2f2c31"
+                            }
+                        },
+                        "labelOrientation": "horizontal",
+                        "labelPosition": "OutsideEnd",
+                        "enableBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundTransparency": 0
+                    }
+                ],
+                "categoryLabels": [
+                    {
+                        "show": true,
+                        "fontSize": 14
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        }
+    }
+}
